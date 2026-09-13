@@ -11,6 +11,8 @@
   @media (prefers-color-scheme: dark) { body { color: #e8e2d6; background: #1d1b18; } a { color: #9cc9ff; } }
   h1 { font-size: 1.6rem; margin: 0 0 4px; }
   h2 { font-size: 1.2rem; margin-top: 36px; }
+  h3 { font-size: 1.02rem; margin: 24px 0 4px; }
+  ul { padding-left: 22px; margin: 6px 0; }
   .muted { opacity: .7; font-size: .95rem; }
   hr { border: 0; border-top: 1px solid rgba(128,128,128,.35); margin: 40px 0; }
   .head { display: flex; gap: 16px; align-items: center; }
@@ -21,28 +23,106 @@
 <div class="head"><img src="icon.png" alt=""><div><h1>Маджонг</h1><div class="muted">Политика конфиденциальности · Privacy Policy</div></div></div>
 
 <h2>Русский</h2>
-<p><strong>Маджонг</strong> — офлайн-игра. Приложение не собирает, не хранит и не передаёт
-персональные данные. Прогресс, настройки и статистика хранятся только на устройстве
-и никуда не отправляются.</p>
-<p>В приложении нет рекламы, аналитики, регистрации и доступа к сети. Единственное
-запрашиваемое разрешение — вибрация (отклик при тапе); его можно выключить в настройках игры.</p>
-<p>Если в будущем появятся сетевые функции (например, синхронизация прогресса) или реклама,
-эта политика будет обновлена до их выхода.</p>
+<p><strong>Маджонг</strong> — игра, в которую можно играть без сети. Ниже — что именно
+приложение отправляет на наш сервер и зачем.</p>
+
+<h3>Что мы храним</h3>
+<p>При первом запуске сервер выдаёт приложению <strong>анонимный идентификатор игрока</strong> —
+случайный номер, не связанный ни с вашим именем, ни с аккаунтом Google, ни с идентификаторами
+устройства. Вместе с ним на сервере хранятся:</p>
+<ul>
+  <li><strong>игровой прогресс</strong>: текущий и максимальный уровень, ходы недоигранной партии,
+      запас подсказок;</li>
+  <li><strong>игровая статистика</strong>: пройденные и проигранные уровни, время в игре, лучшие
+      результаты, очки;</li>
+  <li>платформа (Android/iOS) и версия приложения.</li>
+</ul>
+<p>Это нужно, чтобы прогресс не терялся, а в будущем — для таблиц лидеров. Идентификатор игрока
+показан внизу главного экрана игры.</p>
+<p>Как и любой сервер в интернете, наш видит <strong>IP-адрес</strong> устройства при запросе. Он
+попадает только в технические журналы сервера (для защиты от злоупотреблений и разбора сбоев) и
+удаляется не позднее чем через 30 дней.</p>
+
+<h3>Чего мы не делаем</h3>
+<p>Приложение не запрашивает имя, электронную почту, контакты, местоположение или доступ к файлам.
+В нём нет рекламы, рекламных идентификаторов, аналитики и трекеров. Данные никому не передаются
+и не продаются. Разрешения приложения: доступ в интернет (синхронизация) и вибрация (отклик при
+тапе, выключается в настройках).</p>
+
+<h3>Без сети</h3>
+<p>Игра полностью работает без подключения: прогресс всегда хранится на устройстве, а на сервер
+отправляется копия, когда сеть доступна. Если сервер недоступен, вы этого не заметите.</p>
+
+<h3>Где хранится и кто имеет доступ</h3>
+<p>Данные хранятся на сервере разработчика у хостинг-провайдера Vultr, передаются только по
+зашифрованному соединению (HTTPS). Доступ к серверу есть только у разработчика.</p>
+
+<h3>Срок хранения и удаление</h3>
+<p>Данные хранятся, пока существует ваш идентификатор игрока. Чтобы удалить их, напишите на адрес
+ниже, указав идентификатор игрока с главного экрана, — данные будут удалены в течение 30 дней.
+При удалении приложения идентификатор на устройстве стирается, и связь с сохранением на сервере
+теряется.</p>
+
+<h3>Дети</h3>
+<p>Приложение не собирает персональные данные и не содержит контента, требующего возрастных
+ограничений.</p>
+
+<h3>Изменения</h3>
+<p>Если в приложении появятся новые сетевые функции, вход через аккаунт или реклама, эта политика
+будет обновлена до их выхода; дата последнего обновления указана внизу.</p>
 
 <hr>
 
 <h2>English</h2>
-<p><strong>Mahjong</strong> is an offline game. The app does not collect, store or transmit
-any personal data. Progress, settings and statistics are kept on the device only and are
-never sent anywhere.</p>
-<p>The app contains no ads, no analytics, no sign-up and no network access. The only
-permission requested is vibration (haptic feedback on tap); it can be turned off in the
-game settings.</p>
-<p>If online features (such as progress sync) or ads are added in the future, this policy
-will be updated before they ship.</p>
+<p><strong>Mahjong</strong> is a game you can play without a network connection. Below is exactly
+what the app sends to our server and why.</p>
+
+<h3>What we store</h3>
+<p>On first launch the server issues the app an <strong>anonymous player identifier</strong> — a
+random number not linked to your name, your Google account or any device identifier. Together
+with it, the server stores:</p>
+<ul>
+  <li><strong>game progress</strong>: current and highest level, the moves of an unfinished game,
+      your hint balance;</li>
+  <li><strong>game statistics</strong>: levels completed and failed, time played, best results,
+      score;</li>
+  <li>platform (Android/iOS) and app version.</li>
+</ul>
+<p>This keeps your progress from being lost and, in the future, will power leaderboards. The player
+identifier is shown at the bottom of the game's main screen.</p>
+<p>Like any server on the internet, ours sees your device's <strong>IP address</strong> when it
+makes a request. It is kept only in technical server logs (abuse protection and troubleshooting)
+and deleted within 30 days.</p>
+
+<h3>What we do not do</h3>
+<p>The app does not ask for your name, e-mail, contacts, location or files. It contains no ads,
+advertising identifiers, analytics or trackers. Data is never shared with or sold to anyone. App
+permissions: internet access (sync) and vibration (haptic feedback on tap, can be turned off in
+settings).</p>
+
+<h3>Offline</h3>
+<p>The game works fully offline: progress is always stored on the device, and a copy is sent to
+the server when a connection is available. If the server is unreachable, you will not notice.</p>
+
+<h3>Where data is stored and who can access it</h3>
+<p>Data is stored on the developer's server at the hosting provider Vultr and is transmitted only
+over an encrypted connection (HTTPS). Only the developer has access to the server.</p>
+
+<h3>Retention and deletion</h3>
+<p>Data is kept for as long as your player identifier exists. To delete it, e-mail the address
+below with the player identifier from the main screen — the data will be deleted within 30 days.
+Uninstalling the app erases the identifier on the device, and the link to the server copy is
+lost.</p>
+
+<h3>Children</h3>
+<p>The app collects no personal data and contains no content requiring age restrictions.</p>
+
+<h3>Changes</h3>
+<p>If the app gains new online features, account sign-in or ads, this policy will be updated before
+they ship; the date of the last update is shown below.</p>
 
 <hr>
 <p class="muted">Контакт / Contact: <a href="mailto:stetson@list.ru">stetson@list.ru</a><br>
-Обновлено / Updated: 2026-09-12</p>
+Обновлено / Updated: 2026-09-13</p>
 </body>
 </html>
