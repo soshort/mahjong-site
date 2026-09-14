@@ -35,18 +35,31 @@
       запас подсказок;</li>
   <li><strong>игровая статистика</strong>: пройденные и проигранные уровни, время в игре, лучшие
       результаты, очки;</li>
-  <li>платформа (Android/iOS) и версия приложения.</li>
+  <li>платформа (Android/iOS) и версия приложения;</li>
+  <li>никнейм и аватарка, если вы их выбрали в профиле, — они видны другим игрокам в таблице
+      лидеров и в бегущей строке главного экрана;</li>
+  <li>жёлуди (игровая валюта: заработанные, купленные и потраченные) и покупки в игровом
+      магазине;</li>
+  <li>лайки в таблице лидеров: кому и в какой день вы поставили жёлудь-лайк.</li>
 </ul>
-<p>Это нужно, чтобы прогресс не терялся, а в будущем — для таблиц лидеров. Идентификатор игрока
-показан внизу главного экрана игры.</p>
+<p>Это нужно, чтобы прогресс не терялся, а таблица лидеров, магазин и лайки работали одинаково на
+любом устройстве. Идентификатор игрока показан внизу главного экрана игры.</p>
+<h3>Никнейм и модерация</h3>
+<p>Никнейм — единственное, что вы вводите сами, и его видят все игроки, поэтому он проверяется.
+При сохранении никнейм сверяется со списком запрещённых слов на нашем сервере. Кроме того, новые и
+изменённые никнеймы раз в сутки отправляются на проверку в сервис Anthropic (модель Claude) —
+передаётся только текст никнейма, без идентификатора игрока и каких-либо других данных; Anthropic не
+использует эти запросы для обучения моделей. Никнейм, который проверка сочла оскорбительным,
+заменяется на «Player-XXXX», и сменить его больше нельзя; если вы считаете это ошибкой, напишите
+на адрес ниже.</p>
 <p>Как и любой сервер в интернете, наш видит <strong>IP-адрес</strong> устройства при запросе. Он
 попадает только в технические журналы сервера (для защиты от злоупотреблений и разбора сбоев) и
 удаляется не позднее чем через 30 дней.</p>
 
 <h3>Чего мы не делаем</h3>
 <p>Приложение не запрашивает имя, электронную почту, контакты, местоположение или доступ к файлам.
-В нём нет рекламы, рекламных идентификаторов, аналитики и трекеров. Данные никому не передаются
-и не продаются. Разрешения приложения: доступ в интернет (синхронизация) и вибрация (отклик при
+В нём нет рекламы, рекламных идентификаторов, аналитики и трекеров. Данные не продаются и никому не
+передаются, кроме текста никнейма для проверки (см. выше). Разрешения приложения: доступ в интернет (синхронизация) и вибрация (отклик при
 тапе, выключается в настройках).</p>
 
 <h3>Без сети</h3>
@@ -86,18 +99,30 @@ with it, the server stores:</p>
       your hint balance;</li>
   <li><strong>game statistics</strong>: levels completed and failed, time played, best results,
       score;</li>
-  <li>platform (Android/iOS) and app version.</li>
+  <li>platform (Android/iOS) and app version;</li>
+  <li>your nickname and avatar, if you chose them in the profile — other players see them in the
+      leaderboard and in the ticker on the main screen;</li>
+  <li>acorns (in-game currency: earned, purchased and spent) and purchases in the in-game shop;</li>
+  <li>leaderboard likes: whom you gave an acorn-like to and on which day.</li>
 </ul>
-<p>This keeps your progress from being lost and, in the future, will power leaderboards. The player
-identifier is shown at the bottom of the game's main screen.</p>
+<p>This keeps your progress from being lost and makes the leaderboard, the shop and likes work the
+same on any device. The player identifier is shown at the bottom of the game's main screen.</p>
+<h3>Nickname and moderation</h3>
+<p>The nickname is the only thing you type yourself, and every player can see it, so it is checked.
+When saved, the nickname is compared against a list of banned words on our server. In addition, new
+and changed nicknames are sent once a day for review to the Anthropic service (Claude model) — only
+the nickname text is sent, without the player identifier or any other data; Anthropic does not use
+these requests to train its models. A nickname the review finds offensive is replaced with
+“Player-XXXX” and can no longer be changed; if you believe this is a mistake, e-mail the address
+below.</p>
 <p>Like any server on the internet, ours sees your device's <strong>IP address</strong> when it
 makes a request. It is kept only in technical server logs (abuse protection and troubleshooting)
 and deleted within 30 days.</p>
 
 <h3>What we do not do</h3>
 <p>The app does not ask for your name, e-mail, contacts, location or files. It contains no ads,
-advertising identifiers, analytics or trackers. Data is never shared with or sold to anyone. App
-permissions: internet access (sync) and vibration (haptic feedback on tap, can be turned off in
+advertising identifiers, analytics or trackers. Data is never sold and is not shared with anyone,
+except the nickname text for moderation (see above). App permissions: internet access (sync) and vibration (haptic feedback on tap, can be turned off in
 settings).</p>
 
 <h3>Offline</h3>
@@ -123,6 +148,6 @@ they ship; the date of the last update is shown below.</p>
 
 <hr>
 <p class="muted">Контакт / Contact: <a href="mailto:stetson@list.ru">stetson@list.ru</a><br>
-Обновлено / Updated: 2026-09-13</p>
+Обновлено / Updated: 2026-09-14</p>
 </body>
 </html>
