@@ -56,6 +56,15 @@
 попадает только в технические журналы сервера (для защиты от злоупотреблений и разбора сбоев) и
 удаляется не позднее чем через 30 дней.</p>
 
+<h3>Подлинность приложения (Play Integrity)</h3>
+<p>Чтобы в таблицу лидеров попадали только результаты неизменённой игры, при отправке пройденного
+уровня приложение на Android запрашивает у сервиса Google Play <strong>Play Integrity</strong>
+вердикт о целостности приложения и устройства. Google при этом получает сведения об
+устройстве и установленном приложении по <a href="https://policies.google.com/privacy">правилам
+Google</a>; наш сервер получает только вердикт (узнано ли приложение магазином и цело ли
+устройство), сверяет его с отправленной партией и не хранит. Без вердикта партия принимается, но
+в таблицу лидеров не идёт.</p>
+
 <h3>Чего мы не делаем</h3>
 <p>Приложение не запрашивает имя, электронную почту, контакты, местоположение или доступ к файлам.
 В нём нет рекламы, рекламных идентификаторов, аналитики и трекеров. Данные не продаются и никому не
@@ -119,6 +128,15 @@ below.</p>
 <p>Like any server on the internet, ours sees your device's <strong>IP address</strong> when it
 makes a request. It is kept only in technical server logs (abuse protection and troubleshooting)
 and deleted within 30 days.</p>
+
+<h3>App integrity (Play Integrity)</h3>
+<p>So that only results from an unmodified game reach the leaderboard, when a completed level is
+submitted the Android app asks the Google Play <strong>Play Integrity</strong> service for a verdict
+on the integrity of the app and the device. Google receives information about the device and the
+installed app under <a href="https://policies.google.com/privacy">Google's policies</a>; our server
+receives only the verdict (whether the store recognises the app and the device is intact), checks it
+against the submitted game and does not store it. Without a verdict the game is accepted but does
+not count for the leaderboard.</p>
 
 <h3>What we do not do</h3>
 <p>The app does not ask for your name, e-mail, contacts, location or files. It contains no ads,
