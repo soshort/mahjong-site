@@ -38,8 +38,8 @@
   <li>платформа (Android/iOS) и версия приложения;</li>
   <li>никнейм и аватарка, если вы их выбрали в профиле, — они видны другим игрокам в таблице
       лидеров и в бегущей строке главного экрана;</li>
-  <li>жёлуди (игровая валюта: заработанные, купленные и потраченные) и покупки в игровом
-      магазине;</li>
+  <li>жёлуди (игровая валюта: заработанные и потраченные) и покупки в игровом
+      магазине за жёлуди;</li>
   <li>лайки в таблице лидеров: кому и в какой день вы поставили жёлудь-лайк.</li>
 </ul>
 <p>Это нужно, чтобы прогресс не терялся, а таблица лидеров, магазин и лайки работали одинаково на
@@ -67,20 +67,16 @@ Google</a>; наш сервер получает только вердикт (у
 
 <h3>Вход через Google Play Игры</h3>
 <p>По желанию игру можно связать с аккаунтом Google через <strong>Google Play Игры</strong> —
-чтобы прогресс, жёлуди и покупки остались при смене телефона. Игра получает от Google
+чтобы прогресс, жёлуди и покупки в игровом магазине остались при смене телефона. Игра получает от Google
 только идентификатор игрока Play Games (не имя, не почту) и передаёт его на наш сервер, где он
 хранится рядом с идентификатором игрока; ник и аватарку в Play Games игра не берёт.
 Вход на новом устройстве возвращает ту же запись игрока. Достижения открываются в Google Play
 Играх по правилам Google. Без входа всё работает как раньше, анонимно; связь удаляется вместе с
 данными игрока (см. «Удаление данных»).</p>
 
-<h3>Покупки через Google Play</h3>
-<p>Жёлуди можно купить за деньги («Замажобить разработчика»). Оплату проводит
-<strong>Google Play</strong> по своим правилам и политике конфиденциальности; игра и наш сервер не
-видят ни карту, ни имя, ни адрес. Чтобы зачислить жёлуди, наш сервер получает от Google
-подтверждение покупки: токен покупки и номер заказа Google Play — они хранятся рядом с записью
-игрока, чтобы одна покупка не зачислилась дважды, и удаляются вместе с данными игрока.
-Купленные жёлуди в таблицу лидеров не идут. Возвраты — через Google Play.</p>
+<h3>Покупки за деньги</h3>
+<p>В игре нет покупок за деньги: жёлуди зарабатываются только победами и лайками, а всё в
+игровом магазине продаётся за жёлуди. Платёжные данные игра не запрашивает и не хранит.</p>
 
 <h3>Реклама</h3>
 <p>Единственная реклама в игре — <strong>ролик по вашему выбору</strong>: когда подсказки
@@ -141,7 +137,7 @@ with it, the server stores:</p>
   <li>platform (Android/iOS) and app version;</li>
   <li>your nickname and avatar, if you chose them in the profile — other players see them in the
       leaderboard and in the ticker on the main screen;</li>
-  <li>acorns (in-game currency: earned, purchased and spent) and purchases in the in-game shop;</li>
+  <li>acorns (in-game currency: earned and spent) and in-game shop purchases paid with acorns;</li>
   <li>leaderboard likes: whom you gave an acorn-like to and on which day.</li>
 </ul>
 <p>This keeps your progress from being lost and makes the leaderboard, the shop and likes work the
@@ -169,20 +165,16 @@ not count for the leaderboard.</p>
 
 <h3>Signing in with Google Play Games</h3>
 <p>Optionally the game can be linked to a Google account through <strong>Google Play Games</strong>
-so that progress, acorns and purchases survive a phone change. The game receives from Google only
+so that progress, acorns and in-game shop purchases survive a phone change. The game receives from Google only
 the Play Games player identifier (not your name or e-mail) and sends it to our server, where it is
 stored next to the player identifier; the game does not read your Play Games nickname or avatar.
 Signing in on a new device brings back the same player record. Achievements are unlocked in Google
 Play Games under Google's rules. Without signing in everything works as before, anonymously; the link
 is deleted together with the player's data (see “Data deletion”).</p>
 
-<h3>Purchases through Google Play</h3>
-<p>Acorns can be bought for money (“Mazhobe the developer”). Payment is handled by
-<strong>Google Play</strong> under its own terms and privacy policy; neither the game nor our server
-sees your card, name or address. To credit the acorns our server receives a purchase confirmation
-from Google: the purchase token and the Google Play order number — they are stored next to the player
-record so that one purchase is never credited twice, and are deleted together with the player's data.
-Purchased acorns never count towards the leaderboard. Refunds go through Google Play.</p>
+<h3>Paid purchases</h3>
+<p>There are no purchases for money in the game: acorns are earned only by winning and by likes, and
+everything in the in-game shop is sold for acorns. The game never asks for or stores payment details.</p>
 
 <h3>Advertising</h3>
 <p>The only advertising in the game is an <strong>opt-in video</strong>: when you run out of hints
@@ -225,6 +217,6 @@ they ship; the date of the last update is shown below.</p>
 
 <hr>
 <p class="muted">Контакт / Contact: <a href="mailto:srumblepad@mail.ru">srumblepad@mail.ru</a><br>
-Обновлено / Updated: 2026-09-16</p>
+Обновлено / Updated: 2026-09-19</p>
 </body>
 </html>
