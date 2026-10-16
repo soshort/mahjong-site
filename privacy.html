@@ -89,6 +89,18 @@ Google; изменить выбор можно в настройках игры 
 между уровнями и рекламы без вашего выбора в игре нет. Рекламный идентификатор можно сбросить или
 удалить в настройках Android («Конфиденциальность → Реклама»).</p>
 
+<h3>Отчёты о сбоях и технические журналы</h3>
+<p>Чтобы находить и исправлять ошибки, приложение ведёт на устройстве технический журнал: шаги загрузки,
+какие экраны открывались, какой уровень начат, сворачивание приложения, события соединения при игре
+вдвоём (комната, коды и причины обрыва, задержки). Хранится последний час и начало последнего запуска. Ходов, никнеймов, токенов и других игроков в нём нет.
+Журнал отправляется на наш сервер вместе с вашим идентификатором игрока, только если что-то пошло не
+так: игра вдвоём оборвалась (последний час журнала) или прошлый запуск игры завершился сбоем (журнал
+этого запуска). Отчёт о сбое содержит также причину завершения от системы Android (при зависании — и
+снимок потоков приложения от системы), модель устройства, версию Android и последние строки
+технического лога игры (сообщения об ошибках; длинные коды и идентификаторы в нём заменяются
+многоточием). Без сети отчёт ждёт на устройстве до трёх суток. Отчёты о сбоях можно выключить в настройках игры («Прочее → Отчёты о сбоях»). Журналы
+хранятся 14 дней и используются только для исправления ошибок.</p>
+
 <h3>Чего мы не делаем</h3>
 <p>Приложение не запрашивает имя, электронную почту, контакты, местоположение или доступ к файлам.
 В нём нет аналитики и трекеров, кроме рекламного SDK, описанного выше. Данные не продаются и никому не
@@ -186,6 +198,19 @@ is shown before the first ad; you can change your choice in the game settings (�
 are no banners, no ads between levels and no ads you did not ask for. The advertising ID can be reset or
 deleted in Android settings (“Privacy → Ads”).</p>
 
+<h3>Crash reports and technical logs</h3>
+<p>To find and fix bugs, the app keeps a technical log on the device: loading steps, which screens
+were opened, which level was started, the app going to the background, and connection events during
+two-player games (room, disconnect codes and reasons, delays). It keeps the last hour and the start of
+the latest run. It contains no moves, nicknames, tokens or
+other players. The log is sent to our server together with your player identifier only when something
+went wrong: a two-player game broke off (the last hour of the log) or the previous run of the game ended
+in a crash (the log of that run). A crash report also contains the reason Android gives for the exit (for a
+freeze, also the system's snapshot of the app's threads), the device model, the Android version and the
+last lines of the game's technical log (error messages; long codes and identifiers in it are replaced with
+an ellipsis). Without a connection the report waits on the device for up to three days. Crash reports can be turned off in the game settings (“Other → Crash reports”). Logs are kept
+for 14 days and used only to fix bugs.</p>
+
 <h3>What we do not do</h3>
 <p>The app does not ask for your name, e-mail, contacts, location or files. It contains no analytics
 or trackers apart from the advertising SDK described above. Data is never sold and is not shared with
@@ -217,6 +242,6 @@ they ship; the date of the last update is shown below.</p>
 
 <hr>
 <p class="muted">Контакт / Contact: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a><br>
-Обновлено / Updated: 2026-09-19</p>
+Обновлено / Updated: 2026-10-16</p>
 </body>
 </html>
