@@ -81,3 +81,13 @@ section h2 { font-family: "Philosopher", serif; color: var(--gold); font-size: c
 
 footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 15px; text-align: center; }
 footer a { margin: 0 8px; }
+
+/* Страницы-документы (политика, удаление данных): текст в одну колонку. */
+.doc { max-width: 760px; padding-bottom: 24px; }
+.doc h1 { font-family: "Philosopher", serif; color: var(--gold); font-size: clamp(26px, 4.5vw, 36px);
+  line-height: 1.2; margin: 18px 0 8px; }
+.doc h2 { font-family: "Philosopher", serif; color: var(--gold); font-size: 26px; margin: 36px 0 8px; }
+.doc h3 { font-size: 18px; margin: 24px 0 4px; }
+.doc ul, .doc ol { padding-left: 22px; margin: 6px 0; }
+.doc .muted { color: var(--muted); font-size: 15px; }
+.doc hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
