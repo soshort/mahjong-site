@@ -1,26 +1,89 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Мажобэ Маджонг</title>
-<style>
-  :root { color-scheme: light dark; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px;
-         font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: #222; background: #faf7f0; }
-  @media (prefers-color-scheme: dark) { body { color: #e8e2d6; background: #1d1b18; } a { color: #9cc9ff; } }
-  main { text-align: center; max-width: 520px; }
-  img { width: 128px; height: 128px; border-radius: 28px; }
-  h1 { margin: 16px 0 4px; }
-  .muted { opacity: .7; }
-</style>
+<title>Mazhobe: Mahjong for Two — online mahjong duels for Android</title>
+<meta name="description" content="Free mahjong for two on Android: duel friends online on one board, beat Mazhobe the toad, or team up in Duet. 3000 levels, a 4-tile shelf and a new daily level.">
+<link rel="canonical" href="https://mahjong.stepanz.dev/">
+<link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/">
+<link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/">
+<link rel="alternate" hreflang="x-default" href="https://mahjong.stepanz.dev/">
+<link rel="icon" href="/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mazhobe: Mahjong for Two">
+<meta property="og:description" content="Free mahjong for two on Android: duel friends online on one board, beat Mazhobe the toad, or team up in Duet. 3000 levels, a 4-tile shelf and a new daily level.">
+<meta property="og:url" content="https://mahjong.stepanz.dev/">
+<meta property="og:image" content="https://mahjong.stepanz.dev/img/feature.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mazhobe: Mahjong for Two", "alternateName": "Mazhobe Mahjong", "operatingSystem": "Android", "applicationCategory": "GameApplication", "description": "Free mahjong for two on Android: duel friends online on one board, beat Mazhobe the toad, or team up in Duet. 3000 levels, a 4-tile shelf and a new daily level.", "url": "https://mahjong.stepanz.dev/", "image": "https://mahjong.stepanz.dev/img/feature.jpg", "inLanguage": "en", "installUrl": "https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "sameAs": ["https://play.google.com/store/apps/details?id=dev.stepanz.mahjong", "https://youtu.be/HvKxJ-6F2d4"]}</script>
 </head>
 <body>
+<header class="top">
+  <a class="brand" href="/"><img src="/icon.png" alt="" width="36" height="36">Mazhobe</a>
+  <nav class="lang"><a href="/" hreflang="en" aria-current="page">EN</a><a href="/ru/" hreflang="ru">RU</a></nav>
+</header>
 <main>
-  <img src="icon.png" alt="">
-  <h1>Мажобэ Маджонг</h1>
-  <p class="muted">Пасьянс-маджонг: свободные тайлы, полка на четыре слота, сотни раскладов. Тирлист, жёлуди и лавка Мажобэ.</p>
-  <p><a href="privacy.html">Политика конфиденциальности · Privacy Policy</a><br><a href="delete.html">Удаление данных · Data deletion</a></p>
+  <div class="wrap hero">
+    <img class="banner" src="/img/feature.jpg" width="1024" height="500" alt="Mazhobe: Mahjong for Two">
+    <h1>Mazhobe: Mahjong for Two</h1>
+    <p class="lead">Mahjong duels online — with a friend, a random player or Mazhobe, the grumpy toad. Want some quiet? 3000 solo levels are waiting.</p>
+    <a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Get it on Google Play</a>
+    <span class="free">Free · Android</span>
+  </div>
+  <section class="wrap">
+    <h2>Trailer</h2>
+    <div class="trailer" id="trailer">
+      <button type="button" aria-label="Play the trailer" onclick="this.outerHTML='&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/HvKxJ-6F2d4?autoplay=1&quot; title=&quot;Trailer&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;'"><img src="/img/trailer.jpg" width="1280" height="720" loading="lazy" alt="Play the trailer"></button>
+    </div>
+  </section>
+  <section class="wrap">
+    <h2>What&#x27;s inside</h2>
+    <div class="features">
+    <article class="feature">
+      <img src="/img/en-duel.webp" width="540" height="960" loading="lazy" alt="Screenshot: Online duels">
+      <div class="text"><h3>Online duels</h3><p>One board for two: whoever collects more pairs wins. Invite friends from the leaderboard or let the game find an opponent.</p></div>
+    </article>
+    <article class="feature">
+      <img src="/img/en-mazhobe.webp" width="540" height="960" loading="lazy" alt="Screenshot: Duel Mazhobe">
+      <div class="text"><h3>Duel Mazhobe</h3><p>No opponent around, or no connection? Play Mazhobe himself — Sleepy, Sly or Reckless. The more reckless he is, the more acorns you win.</p></div>
+    </article>
+    <article class="feature">
+      <img src="/img/en-play.webp" width="540" height="960" loading="lazy" alt="Screenshot: A 4-tile shelf">
+      <div class="text"><h3>A 4-tile shelf</h3><p>Tiles don&#x27;t vanish on the board — they go to a shelf with four slots. Two alike make a pair, four different and you lose. Think one move ahead.</p></div>
+    </article>
+    <article class="feature">
+      <img src="/img/en-finisher.webp" width="540" height="960" loading="lazy" alt="Screenshot: Spectacular finishers">
+      <div class="text"><h3>Spectacular finishers</h3><p>14 finishers for the last pair: lightning, a black hole, ink, sakura and more — Mazhobe sells them all for acorns.</p></div>
+    </article>
+    <article class="feature">
+      <img src="/img/en-mechanics.webp" width="540" height="960" loading="lazy" alt="Screenshot: Ice, locks and mysteries">
+      <div class="text"><h3>Ice, locks and mysteries</h3><p>Frozen tiles, bronze, silver and gold locks, and a mystery tile that blows the whole board apart.</p></div>
+    </article>
+    <article class="feature">
+      <img src="/img/en-daily.webp" width="540" height="960" loading="lazy" alt="Screenshot: Daily level">
+      <div class="text"><h3>Daily level</h3><p>One level for everyone each day. The ghost of the day&#x27;s best player plays right beside you — overtake it for a bonus.</p></div>
+    </article>
+    </div>
+  </section>
+  <section class="wrap how">
+    <h2>Also in the game</h2>
+    <ul>
+      <li>Duet: clear one board together with a shared shelf</li>
+      <li>3000 levels, 627 layouts from 22 to 258 tiles</li>
+      <li>Leaderboards, friends, likes and titles from Mazhobe</li>
+      <li>Google Play Games achievements; progress moves to a new phone</li>
+      <li>22 languages; levels and duels with Mazhobe work offline</li>
+    </ul>
+    <p class="center" style="margin-top:26px"><a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Get it on Google Play</a></p>
+  </section>
 </main>
+<footer class="wrap">
+  <a href="/privacy.html">Privacy Policy</a> · <a href="/delete.html">Data deletion</a> · Contact: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a>
+</footer>
 </body>
 </html>
