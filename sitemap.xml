@@ -14,8 +14,26 @@
   </url>
   <url>
     <loc>https://mahjong.stepanz.dev/privacy.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mahjong.stepanz.dev/ru/privacy.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/privacy.html"/>
   </url>
   <url>
     <loc>https://mahjong.stepanz.dev/delete.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/delete.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/delete.html"/>
+  </url>
+  <url>
+    <loc>https://mahjong.stepanz.dev/ru/delete.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/delete.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/delete.html"/>
   </url>
 </urlset>
