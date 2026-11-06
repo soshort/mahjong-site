@@ -276,6 +276,14 @@
     }
   }
 
+  // --- Выбор языка ----------------------------------------------------------------
+  // Список языков (<details>) закрывается кликом мимо него и клавишей Esc.
+  const closeLangs = (except) => document.querySelectorAll("details.langs[open]").forEach((d) => {
+    if (d !== except) d.removeAttribute("open");
+  });
+  document.addEventListener("click", (e) => closeLangs(e.target.closest("details.langs")));
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeLangs(null); });
+
   // --- Появление при прокрутке ------------------------------------------------
   const blocks = document.querySelectorAll(".reveal");
   if (reduce || !("IntersectionObserver" in window)) {

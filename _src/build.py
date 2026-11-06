@@ -245,6 +245,7 @@ def howto(lang: str) -> str:
 <p>{play_button(lang)}</p>
 </main>
 {footer(lang)}
+<script src="/site.js?v={ver('site.js')}" defer></script>
 </body>
 </html>
 '''
