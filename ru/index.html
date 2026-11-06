@@ -20,6 +20,7 @@
 <meta property="og:locale" content="ru_RU">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/style.css">
+<script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Мажобэ: Маджонг на двоих", "alternateName": "Mazhobe Mahjong", "operatingSystem": "Android", "applicationCategory": "GameApplication", "description": "Бесплатный маджонг на двоих для Android: дуэли с друзьями онлайн на одном поле, дуэль с жабой Мажобэ и «Дуэт». 3000 уровней, полка на 4 тайла и уровень дня.", "url": "https://mahjong.stepanz.dev/ru/", "image": "https://mahjong.stepanz.dev/img/feature.jpg", "inLanguage": "ru", "installUrl": "https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=ru", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "sameAs": ["https://play.google.com/store/apps/details?id=dev.stepanz.mahjong", "https://youtu.be/HvKxJ-6F2d4"]}</script>
 </head>
 <body>
@@ -28,49 +29,55 @@
   <nav class="lang"><a href="/" hreflang="en">EN</a><a href="/ru/" hreflang="ru" aria-current="page">RU</a></nav>
 </header>
 <main>
-  <div class="wrap hero">
-    <img class="banner" src="/img/feature.jpg" width="1024" height="500" alt="Мажобэ: Маджонг на двоих">
-    <h1>Мажобэ: Маджонг на двоих</h1>
-    <p class="lead">Дуэли в маджонг онлайн — с другом, случайным игроком или ворчливой жабой Мажобэ. А когда хочется тишины — 3000 уровней в одиночку.</p>
-    <a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=ru"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Скачать в Google Play</a>
-    <span class="free">Бесплатно · Android</span>
+  <div class="hero-wrap">
+    <div class="rain" data-icons='[11, 12, 8, 18, 64, 84, 59, 41, 23, 21, 30, 93]' aria-hidden="true"></div>
+    <div class="wrap hero">
+      <div class="hero-text">
+        <h1>Мажобэ: Маджонг на двоих</h1>
+        <p class="lead">Дуэли в маджонг онлайн — с другом, случайным игроком или ворчливой жабой Мажобэ. А когда хочется тишины — 3000 уровней в одиночку.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=ru"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Скачать в Google Play</a>
+        <span class="free">Бесплатно · Android</span>
+        <p class="try">Попробуй прямо здесь: тапай свободные тайлы, собирай пары на полке. Мажобэ следит.</p>
+      </div>
+      <div class="demo" id="demo" data-demo='{&quot;win&quot;: &quot;Чистая победа!&quot;, &quot;win_text&quot;: &quot;Это была разминка. В игре — 3000 уровней и дуэли онлайн.&quot;, &quot;lose&quot;: &quot;Полка забита!&quot;, &quot;lose_text&quot;: &quot;Четыре разных тайла — Мажобэ очень доволен собой.&quot;, &quot;again&quot;: &quot;Ещё раз&quot;, &quot;hint&quot;: &quot;Тапни свободный тайл&quot;, &quot;icons&quot;: [63, 79, 77, 68, 50, 49], &quot;eyes&quot;: [[0.3091, 0.4727, 0.0503, 0.1184], [0.7422, 0.471, 0.0491, 0.1167]]}'></div>
+    </div>
   </div>
-  <section class="wrap">
+  <section class="wrap reveal">
     <h2>Ролик</h2>
-    <div class="trailer" id="trailer">
+    <div class="trailer">
       <button type="button" aria-label="Смотреть ролик" onclick="this.outerHTML='&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/HvKxJ-6F2d4?autoplay=1&quot; title=&quot;Ролик&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;'"><img src="/img/trailer.jpg" width="1280" height="720" loading="lazy" alt="Смотреть ролик"></button>
     </div>
   </section>
   <section class="wrap">
-    <h2>Что внутри</h2>
+    <h2 class="reveal">Что внутри</h2>
     <div class="features">
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/ru-duel.webp" width="540" height="960" loading="lazy" alt="Скриншот: Дуэль онлайн">
       <div class="text"><h3>Дуэль онлайн</h3><p>Одно поле на двоих: кто собрал больше пар — тот и победил. Зови друзей из таблицы лидеров или жми «Найти соперника».</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/ru-mazhobe.webp" width="540" height="960" loading="lazy" alt="Скриншот: Дуэль с Мажобэ">
       <div class="text"><h3>Дуэль с Мажобэ</h3><p>Нет соперника или нет сети — играй с самим Мажобэ: Сонным, Хитрым или Азартным. Чем азартнее, тем больше жёлудей за победу.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/ru-play.webp" width="540" height="960" loading="lazy" alt="Скриншот: Полка на 4 тайла">
       <div class="text"><h3>Полка на 4 тайла</h3><p>Тайлы не исчезают с поля, а ложатся на полку на четыре места. Две одинаковые — пара, четыре разных — проигрыш. Думай на ход вперёд.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/ru-finisher.webp" width="540" height="960" loading="lazy" alt="Скриншот: Зрелищные добивания">
       <div class="text"><h3>Зрелищные добивания</h3><p>14 добиваний для последней пары: молния, чёрная дыра, тушь, сакура и другие — Мажобэ продаёт их за жёлуди.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/ru-mechanics.webp" width="540" height="960" loading="lazy" alt="Скриншот: Лёд, замки и загадки">
       <div class="text"><h3>Лёд, замки и загадки</h3><p>Вмёрзшие тайлы, бронзовые, серебряные и золотые замки и тайл-загадка, от которого разлетается всё поле.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/ru-daily.webp" width="540" height="960" loading="lazy" alt="Скриншот: Уровень дня">
       <div class="text"><h3>Уровень дня</h3><p>Один уровень на всех в сутки. Рядом играет призрак лучшего игрока дня — обгони его и получи бонус.</p></div>
     </article>
     </div>
   </section>
-  <section class="wrap how">
+  <section class="wrap how reveal">
     <h2>А ещё</h2>
     <ul>
       <li>«Дуэт»: разбирайте одно поле вместе, полка общая</li>
@@ -79,11 +86,16 @@
       <li>Достижения Google Play Игр; прогресс переезжает на новый телефон</li>
       <li>22 языка; уровни и дуэль с Мажобэ работают без сети</li>
     </ul>
-    <p class="center" style="margin-top:26px"><a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=ru"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Скачать в Google Play</a></p>
+    <div class="peek">
+      <div class="peek-head mz-head" data-eyes='[[0.3091, 0.4727, 0.0503, 0.1184], [0.7422, 0.471, 0.0491, 0.1167]]'><img src="/img/watch_head.webp" width="800" height="294" alt=""></div>
+      <div class="peek-pole"></div>
+    </div>
+    <p class="center"><a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=ru"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Скачать в Google Play</a></p>
   </section>
 </main>
 <footer class="wrap">
   <a href="/ru/privacy.html">Политика конфиденциальности</a> · <a href="/ru/delete.html">Удаление данных</a> · Связь: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a>
 </footer>
+<script src="/site.js" defer></script>
 </body>
 </html>

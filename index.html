@@ -20,6 +20,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/style.css">
+<script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Mazhobe: Mahjong for Two", "alternateName": "Mazhobe Mahjong", "operatingSystem": "Android", "applicationCategory": "GameApplication", "description": "Free mahjong for two on Android: duel friends online on one board, beat Mazhobe the toad, or team up in Duet. 3000 levels, a 4-tile shelf and a new daily level.", "url": "https://mahjong.stepanz.dev/", "image": "https://mahjong.stepanz.dev/img/feature.jpg", "inLanguage": "en", "installUrl": "https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "sameAs": ["https://play.google.com/store/apps/details?id=dev.stepanz.mahjong", "https://youtu.be/HvKxJ-6F2d4"]}</script>
 </head>
 <body>
@@ -28,49 +29,55 @@
   <nav class="lang"><a href="/" hreflang="en" aria-current="page">EN</a><a href="/ru/" hreflang="ru">RU</a></nav>
 </header>
 <main>
-  <div class="wrap hero">
-    <img class="banner" src="/img/feature.jpg" width="1024" height="500" alt="Mazhobe: Mahjong for Two">
-    <h1>Mazhobe: Mahjong for Two</h1>
-    <p class="lead">Mahjong duels online — with a friend, a random player or Mazhobe, the grumpy toad. Want some quiet? 3000 solo levels are waiting.</p>
-    <a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Get it on Google Play</a>
-    <span class="free">Free · Android</span>
+  <div class="hero-wrap">
+    <div class="rain" data-icons='[11, 12, 8, 18, 64, 84, 59, 41, 23, 21, 30, 93]' aria-hidden="true"></div>
+    <div class="wrap hero">
+      <div class="hero-text">
+        <h1>Mazhobe: Mahjong for Two</h1>
+        <p class="lead">Mahjong duels online — with a friend, a random player or Mazhobe, the grumpy toad. Want some quiet? 3000 solo levels are waiting.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Get it on Google Play</a>
+        <span class="free">Free · Android</span>
+        <p class="try">Try it right here: tap free tiles, match pairs on the shelf. Mazhobe is watching.</p>
+      </div>
+      <div class="demo" id="demo" data-demo='{&quot;win&quot;: &quot;Clean win!&quot;, &quot;win_text&quot;: &quot;That was a warm-up. The game has 3000 levels and online duels.&quot;, &quot;lose&quot;: &quot;The shelf is full!&quot;, &quot;lose_text&quot;: &quot;Four different tiles — Mazhobe is very pleased with himself.&quot;, &quot;again&quot;: &quot;Play again&quot;, &quot;hint&quot;: &quot;Tap a free tile&quot;, &quot;icons&quot;: [63, 79, 77, 68, 50, 49], &quot;eyes&quot;: [[0.3091, 0.4727, 0.0503, 0.1184], [0.7422, 0.471, 0.0491, 0.1167]]}'></div>
+    </div>
   </div>
-  <section class="wrap">
+  <section class="wrap reveal">
     <h2>Trailer</h2>
-    <div class="trailer" id="trailer">
+    <div class="trailer">
       <button type="button" aria-label="Play the trailer" onclick="this.outerHTML='&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/HvKxJ-6F2d4?autoplay=1&quot; title=&quot;Trailer&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;'"><img src="/img/trailer.jpg" width="1280" height="720" loading="lazy" alt="Play the trailer"></button>
     </div>
   </section>
   <section class="wrap">
-    <h2>What&#x27;s inside</h2>
+    <h2 class="reveal">What&#x27;s inside</h2>
     <div class="features">
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/en-duel.webp" width="540" height="960" loading="lazy" alt="Screenshot: Online duels">
       <div class="text"><h3>Online duels</h3><p>One board for two: whoever collects more pairs wins. Invite friends from the leaderboard or let the game find an opponent.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/en-mazhobe.webp" width="540" height="960" loading="lazy" alt="Screenshot: Duel Mazhobe">
       <div class="text"><h3>Duel Mazhobe</h3><p>No opponent around, or no connection? Play Mazhobe himself — Sleepy, Sly or Reckless. The more reckless he is, the more acorns you win.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/en-play.webp" width="540" height="960" loading="lazy" alt="Screenshot: A 4-tile shelf">
       <div class="text"><h3>A 4-tile shelf</h3><p>Tiles don&#x27;t vanish on the board — they go to a shelf with four slots. Two alike make a pair, four different and you lose. Think one move ahead.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/en-finisher.webp" width="540" height="960" loading="lazy" alt="Screenshot: Spectacular finishers">
       <div class="text"><h3>Spectacular finishers</h3><p>14 finishers for the last pair: lightning, a black hole, ink, sakura and more — Mazhobe sells them all for acorns.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/en-mechanics.webp" width="540" height="960" loading="lazy" alt="Screenshot: Ice, locks and mysteries">
       <div class="text"><h3>Ice, locks and mysteries</h3><p>Frozen tiles, bronze, silver and gold locks, and a mystery tile that blows the whole board apart.</p></div>
     </article>
-    <article class="feature">
+    <article class="feature reveal">
       <img src="/img/en-daily.webp" width="540" height="960" loading="lazy" alt="Screenshot: Daily level">
       <div class="text"><h3>Daily level</h3><p>One level for everyone each day. The ghost of the day&#x27;s best player plays right beside you — overtake it for a bonus.</p></div>
     </article>
     </div>
   </section>
-  <section class="wrap how">
+  <section class="wrap how reveal">
     <h2>Also in the game</h2>
     <ul>
       <li>Duet: clear one board together with a shared shelf</li>
@@ -79,11 +86,16 @@
       <li>Google Play Games achievements; progress moves to a new phone</li>
       <li>22 languages; levels and duels with Mazhobe work offline</li>
     </ul>
-    <p class="center" style="margin-top:26px"><a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Get it on Google Play</a></p>
+    <div class="peek">
+      <div class="peek-head mz-head" data-eyes='[[0.3091, 0.4727, 0.0503, 0.1184], [0.7422, 0.471, 0.0491, 0.1167]]'><img src="/img/watch_head.webp" width="800" height="294" alt=""></div>
+      <div class="peek-pole"></div>
+    </div>
+    <p class="center"><a class="play" href="https://play.google.com/store/apps/details?id=dev.stepanz.mahjong&hl=en"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>Get it on Google Play</a></p>
   </section>
 </main>
 <footer class="wrap">
   <a href="/privacy.html">Privacy Policy</a> · <a href="/delete.html">Data deletion</a> · Contact: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a>
 </footer>
+<script src="/site.js" defer></script>
 </body>
 </html>
