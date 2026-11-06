@@ -1,0 +1,92 @@
+{
+ "code": "id", "hreflang": "id", "og_locale": "id_ID", "play_hl": "id", "native": "Bahasa Indonesia", "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong Berdua — duel mahjong online untuk Android",
+  "desc": "Mahjong berdua gratis di Android: duel online dengan teman di satu papan, lawan kodok Mazhobe, atau main Duet. 3000 level, rak 4 slot, dan level harian baru.",
+  "h1": "Mazhobe: Mahjong Berdua",
+  "lead": "Duel mahjong online — dengan teman, pemain acak, atau Mazhobe si kodok pemarah. Ingin yang tenang? 3000 level solo siap menunggu.",
+  "cta": "Dapatkan di Google Play",
+  "free": "Gratis · Android",
+  "try": "Coba langsung di sini: ketuk ubin yang bebas, cocokkan pasangan di rak. Mazhobe mengawasi.",
+  "demo": {
+   "win": "Menang bersih!",
+   "win_text": "Itu baru pemanasan. Game ini punya 3000 level dan duel online.",
+   "lose": "Rak penuh!",
+   "lose_text": "Empat ubin berbeda — Mazhobe sangat puas dengan dirinya.",
+   "again": "Main lagi",
+   "hint": "Ketuk ubin yang bebas"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "Putar trailer",
+  "video_name": "Mazhobe: Mahjong Berdua — trailer",
+  "feat_h": "Apa saja isinya",
+  "features": [
+   ["duel", "Duel online", "Satu papan untuk berdua: yang mengumpulkan pasangan lebih banyak menang. Undang teman dari papan peringkat atau biarkan game mencarikan lawan."],
+   ["mazhobe", "Duel dengan Mazhobe", "Tidak ada lawan di dekatmu, atau tidak ada koneksi? Main melawan Mazhobe sendiri — Mengantuk, Licik, atau Nekat. Makin nekat dia, makin banyak biji ek yang kamu menangkan."],
+   ["play", "Rak 4 ubin", "Ubin tidak lenyap begitu saja dari papan — ubin masuk ke rak dengan empat slot. Dua yang sama jadi pasangan, empat yang berbeda berarti kalah. Pikirkan satu langkah ke depan."],
+   ["finisher", "Jurus pamungkas yang spektakuler", "14 jurus pamungkas untuk pasangan terakhir: petir, lubang hitam, tinta, sakura, dan lainnya — Mazhobe menjual semuanya dengan imbalan biji ek."],
+   ["mechanics", "Es, gembok, dan misteri", "Ubin beku, gembok perunggu, perak, dan emas, serta ubin misteri yang menerbangkan seluruh papan."],
+   ["daily", "Level harian", "Satu level untuk semua orang setiap hari. Hantu pemain terbaik hari itu bermain tepat di sampingmu — salip dia untuk mendapat bonus."]
+  ],
+  "how_h": "Juga di dalam game",
+  "how": [
+   "Duet: bersihkan satu papan bersama dengan rak yang dipakai bersama",
+   "3000 level, 627 susunan dari 22 hingga 258 ubin",
+   "Papan peringkat, teman, suka, dan gelar dari Mazhobe",
+   "Pencapaian Google Play Game; progres ikut pindah ke ponsel baru",
+   "22 bahasa; level dan duel dengan Mazhobe bisa dimainkan offline"
+  ],
+  "privacy": "Kebijakan Privasi",
+  "delete": "Penghapusan data",
+  "contact": "Kontak",
+  "alt_shot": "Tangkapan layar: "
+ },
+ "faq": {
+  "h": "Tanya jawab",
+  "items": [
+   ["Bagaimana cara main mahjong dengan teman?", "Buka Dua pemain → Duel, lalu undang teman dari papan peringkat atau ketuk “Cari lawan”. Kalian bermain online di satu papan, masing-masing di ponselnya sendiri. Di Duet kalian membersihkan satu papan bersama."],
+   ["Bisakah main offline?", "Bisa: semua level dan duel dengan Mazhobe berjalan tanpa koneksi. Duel online, papan peringkat, dan toko membutuhkan koneksi."],
+   ["Apakah gamenya gratis?", "Ya. Tidak ada pembelian; saat petunjuk atau batal habis, kamu bisa mendapat satu lagi dengan menonton iklan singkat jika mau."],
+   ["Apa bedanya dengan solitaire mahjong klasik?", "Ubin tidak lenyap dari papan secara berpasangan — ubin masuk ke rak dengan empat slot, tempat pasangan bertemu. Kalau rak terisi empat ubin berbeda, kamu kalah, jadi harus berpikir satu langkah ke depan."],
+   ["Apakah progresku akan pindah ke ponsel baru?", "Ya. Progres disimpan secara anonim, tanpa daftar, dan kembali di ponsel baru lewat Google Play Game."],
+   ["Apakah ada versi iPhone?", "Belum — game ini tersedia di Android lewat Google Play."],
+   ["Bahasa apa saja yang didukung?", "22 bahasa, termasuk Inggris, Rusia, Spanyol, Jerman, Prancis, Portugis, Turki, Jepang, Korea, dan Tionghoa."]
+  ]
+ },
+ "howto": {
+  "title": "Cara main Mazhobe: Mahjong Berdua — aturan rak 4 ubin",
+  "desc": "Aturan Mazhobe: Mahjong Berdua: ubin bebas, rak 4 slot, pasangan, es, gembok, dan ubin misteri, duel online, Duet, dan level harian. Tips untuk menang.",
+  "h1": "Cara bermain",
+  "intro": "Mazhobe adalah mahjong solitaire dengan sentuhan berbeda: ubin tidak hilang dari papan secara berpasangan — ubin masuk ke rak dengan empat slot. Berikut aturan, mekanik papan, dan mode untuk dua pemain.",
+  "sections": [
+   ["Tujuan", ["Bersihkan papan: ambil setiap ubin dan pasangkan semuanya di rak."]],
+   ["Ubin bebas", [
+    "Kamu hanya bisa mengambil ubin yang bebas: tidak ada yang menindihnya dan setidaknya satu sisi, kiri atau kanan, terbuka. Ubin yang belum bisa diambil tampak lebih gelap.",
+    "Mulai level 15 sebagian ubin tertelungkup: ketukan pertama membaliknya, ketukan berikutnya mengambilnya."]],
+   ["Rak", [
+    "Ketuk ubin yang bebas dan ubin itu terbang ke rak. Saat dua ubin yang sama bertemu di sana, pasangan itu lenyap dan memberi biji ek.",
+    "Rak hanya punya empat slot. Isi keempatnya dengan ubin berbeda dan level kalah — jadi sebelum mengambil ubin, tahu di mana kembarannya."]],
+   ["Bintang, petunjuk, dan batal", [
+    "Setiap level punya satu sampai lima bintang kesulitan. Setiap pembagian sudah diperiksa: ada solusinya, dan petunjuk mengarah tepat ke sana.",
+    "Petunjuk menunjukkan langkah bagus berikutnya, batal menarik kembali langkah terakhir. Saat habis, kamu bisa mendapat satu lagi dengan menonton iklan singkat — hanya jika mau."]],
+   ["Es, gembok, dan misteri", [
+    "Es: ubin beku tidak bisa diambil sampai tetangganya disingkirkan berpasangan — lalu esnya pecah.",
+    "Gembok: ubin yang digembok terbuka setelah kamu mengumpulkan sepasang kunci dari logam yang sama — perunggu, perak, atau emas.",
+    "Misteri: ubin bertanda tanya menyembunyikan gambarnya. Taruh di rak: kalau bertemu kembarannya, seluruh papan tersapu sekaligus; kalau tidak, ia hanya memakan satu slot."]],
+   ["Duel online", [
+    "Dua pemain, dua ponsel, satu papan, dan satu rak. Keduanya mengetuk bersamaan; pasangan menjadi milik yang menutupnya, dan yang punya pasangan lebih banyak menang.",
+    "Jika ketukanmu akan mengisi rak dengan ubin keempat yang berbeda, ketukan dibatalkan: ubin kembali dan kamu kehilangan satu poin.",
+    "Dalam duel berwaktu kalian bergiliran, dan sebuah bilah menunjukkan giliran siapa.",
+    "Undang teman dari papan peringkat atau ketuk “Cari lawan”. Setelah pertandingan, ucapkan GG."]],
+   ["Duel dengan Mazhobe", ["Duel yang sama melawan kodok Mazhobe — dia duduk di balik rak dan melirik ubinmu. Ada tiga wataknya: Mengantuk, Licik, dan Nekat; makin nekat dia, makin banyak biji ek dari kemenangan. Bisa dimainkan tanpa koneksi."]],
+   ["Duet", ["Bersihkan satu papan bersama dengan rak yang dipakai bersama. Kalian menang — atau memenuhi rak — bersama-sama."]],
+   ["Level harian", ["Satu level untuk semua orang setiap hari. Hantu pemain terbaik hari itu bermain di sampingmu; salip dia untuk mendapat bonus."]],
+   ["Tips", [
+    "Sisakan satu slot kosong: tiga ubin berbeda di rak tidak menyisakan ruang untuk salah.",
+    "Ambil ubin yang kembarannya sudah terlihat.",
+    "Buka lapisan baru hanya saat rak masih punya ruang — kamu tidak tahu apa yang ada di bawahnya."]]
+  ],
+  "image_alt": "Es, gembok, dan misteri di papan"
+ },
+ "ui": {"howto_link": "Cara bermain", "home": "Beranda", "back_cta": "Siap mencoba?"}
+}

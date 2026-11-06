@@ -190,3 +190,16 @@ footer a { margin: 0 8px; }
 .doc .lead { font-size: 19px; }
 .doc-shot { width: min(300px, 70%); margin: 18px auto; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
 .doc .play { margin-top: 6px; }
+
+/* Выбор языка в шапке: свёрнутый список (без скриптов). */
+.langs { position: relative; }
+.langs summary { list-style: none; cursor: pointer; color: var(--gold); padding: 6px 10px; border: 1px solid var(--line);
+  border-radius: 10px; font-size: 15px; }
+.langs summary::-webkit-details-marker { display: none; }
+.langs summary::after { content: " ▾"; color: var(--muted); }
+.langs-list { position: absolute; right: 0; top: calc(100% + 6px); z-index: 1000; display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr)); gap: 2px; padding: 8px; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 40px rgba(0,0,0,.6); }
+.langs-list a { color: var(--text); text-decoration: none; padding: 6px 10px; border-radius: 8px; font-size: 15px; }
+.langs-list a:hover { background: var(--line); }
+.langs-list a[aria-current] { color: var(--gold); }

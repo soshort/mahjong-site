@@ -1,0 +1,92 @@
+{
+ "code": "fil", "hreflang": "fil", "og_locale": "fil_PH", "play_hl": "fil", "native": "Filipino", "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong para sa 2 — online na mahjong duwelo para sa Android",
+  "desc": "Libreng mahjong para sa dalawa sa Android: online na duwelo sa kaibigan, laban sa palakang si Mazhobe o Duet. 3000 level, estante na 4 at level ng araw.",
+  "h1": "Mazhobe: Mahjong para sa 2",
+  "lead": "Mga online na duwelo sa mahjong — kasama ang kaibigan, random na manlalaro o si Mazhobe, ang masungit na palaka. Gusto ng katahimikan? May 3000 solo na level na naghihintay.",
+  "cta": "Kunin sa Google Play",
+  "free": "Libre · Android",
+  "try": "Subukan mo mismo rito: pindutin ang mga libreng tile at mag-pares sa estante. Nakamasid si Mazhobe.",
+  "demo": {
+   "win": "Malinis na panalo!",
+   "win_text": "Pampainit pa lang iyon. May 3000 level at online na duwelo ang laro.",
+   "lose": "Puno na ang estante!",
+   "lose_text": "Apat na magkakaibang tile — tuwang-tuwa si Mazhobe sa sarili niya.",
+   "again": "Maglaro ulit",
+   "hint": "Pindutin ang libreng tile"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "I-play ang trailer",
+  "video_name": "Mazhobe: Mahjong para sa 2 — trailer",
+  "feat_h": "Ano ang nasa loob",
+  "features": [
+   ["duel", "Online na duwelo", "Isang board para sa dalawa: ang makakaipon ng mas maraming pares ang panalo. Mag-imbita ng mga kaibigan mula sa leaderboard o hayaang ang laro ang maghanap ng kalaban."],
+   ["mazhobe", "Duwelo kay Mazhobe", "Walang kalaban sa tabi mo, o walang koneksyon? Makipaglaro mismo kay Mazhobe — Antukin, Tuso o Pusta-lahat. Habang mas pusta-lahat siya, mas maraming acorn ang mapapanalunan mo."],
+   ["play", "Estante na may 4 na tile", "Hindi basta nawawala ang mga tile sa board — napupunta sila sa estanteng may apat na puwesto. Dalawang magkapareho ay isang pares, apat na magkakaiba at talo ka. Mag-isip nang isang galaw pauna."],
+   ["finisher", "Nakakamanghang mga finisher", "14 na finisher para sa huling pares: kidlat, black hole, tinta, sakura at marami pa — ibinebenta lahat ni Mazhobe kapalit ng mga acorn."],
+   ["mechanics", "Yelo, kandado at misteryo", "Mga nagyeyelong tile, kandadong tanso, pilak at ginto, at isang misteryosong tile na nagpapalipad sa buong board."],
+   ["daily", "Level ng araw", "Isang level para sa lahat bawat araw. Ang multo ng pinakamagaling na manlalaro ng araw ay naglalaro mismo sa tabi mo — lampasan ito para sa bonus."]
+  ],
+  "how_h": "Nasa laro rin",
+  "how": [
+   "Duet: magkasamang linisin ang isang board gamit ang iisang estante",
+   "3000 level, 627 ayos mula 22 hanggang 258 tile",
+   "Mga leaderboard, kaibigan, likes at mga titulo mula kay Mazhobe",
+   "Mga achievement ng Google Play Games; lumilipat ang progreso sa bagong phone",
+   "22 wika; gumagana offline ang mga level at ang duwelo kay Mazhobe"
+  ],
+  "privacy": "Patakaran sa Privacy",
+  "delete": "Pagbura ng data",
+  "contact": "Makipag-ugnayan",
+  "alt_shot": "Screenshot: "
+ },
+ "faq": {
+  "h": "Mga tanong at sagot",
+  "items": [
+   ["Paano maglaro ng mahjong kasama ang kaibigan?", "Buksan ang Dalawang manlalaro → Duwelo at mag-imbita ng kaibigan mula sa leaderboard, o pindutin ang “Maghanap ng kalaban”. Maglalaro kayo online sa isang board, bawat isa sa sarili niyang phone. Sa Duet, magkasama ninyong lilinisin ang isang board."],
+   ["Puwede bang maglaro offline?", "Oo: gumagana nang walang koneksyon ang lahat ng level at ang duwelo kay Mazhobe. Kailangan ng koneksyon ang online na duwelo, leaderboard at tindahan."],
+   ["Libre ba ang laro?", "Oo. Walang bilihan; kapag naubos ang hint o undo, makakakuha ka pa ng isa sa panonood ng maikling ad kung gusto mo."],
+   ["Paano ito naiiba sa klasikong mahjong solitaire?", "Hindi nawawala ang mga tile sa board nang magkapares — napupunta sila sa estanteng may apat na puwesto, kung saan nagtatagpo ang mga pares. Kapag napuno ang estante ng apat na magkakaibang tile, talo ka, kaya kailangang mag-isip nang isang galaw pauna."],
+   ["Lilipat ba ang progreso ko sa bagong phone?", "Oo. Anonymous na sine-save ang progreso, walang rehistrasyon, at bumabalik sa bagong phone sa pamamagitan ng Google Play Games."],
+   ["May bersyon ba para sa iPhone?", "Wala pa — available ang laro sa Android sa Google Play."],
+   ["Anong mga wika ang sinusuportahan?", "22 wika, kabilang ang Ingles, Ruso, Espanyol, Aleman, Pranses, Portuges, Turko, Hapones, Koreano at Tsino."]
+  ]
+ },
+ "howto": {
+  "title": "Paano laruin ang Mazhobe: Mahjong para sa 2 — mga patakaran ng estante",
+  "desc": "Mga patakaran ng Mazhobe: Mahjong para sa 2: libreng tile, estanteng may 4 na puwesto, pares, yelo, kandado at misteryo, online na duwelo, Duet at level ng araw. May tips.",
+  "h1": "Paano maglaro",
+  "intro": "Ang Mazhobe ay mahjong solitaire na may twist: hindi nawawala ang mga tile sa board nang magkapares — napupunta sila sa estanteng may apat na puwesto. Narito ang mga patakaran, mekanika ng board at mga mode para sa dalawa.",
+  "sections": [
+   ["Ang layunin", ["Linisin ang board: kunin ang bawat tile at ipares silang lahat sa estante."]],
+   ["Mga libreng tile", [
+    "Libreng tile lang ang puwede mong kunin: walang nakapatong dito at bukas ang kahit isang gilid, kaliwa o kanan. Mas madilim ang itsura ng mga tile na hindi mo pa makukuha.",
+    "Mula level 15, may ilang tile na nakataob: ang unang pindot ay ibabaligtad ito, ang susunod ay kukunin ito."]],
+   ["Ang estante", [
+    "Pindutin ang libreng tile at lilipad ito sa estante. Kapag nagtagpo roon ang dalawang magkapareho, mawawala ang pares at magbibigay ng mga acorn.",
+    "Apat lang ang puwesto ng estante. Punuin ito ng apat na magkakaibang tile at talo ang level — kaya bago kumuha ng tile, alamin kung nasaan ang kambal nito."]],
+   ["Mga bituin, hint at undo", [
+    "May isa hanggang limang bituin ng hirap ang bawat level. Sinuri ang bawat deal: may solusyon ito, at doon mismo dinadala ng hint.",
+    "Ipinapakita ng hint ang susunod na magandang galaw, binabawi ng undo ang huli. Kapag naubos ang mga ito, makakakuha ka pa ng isa sa panonood ng maikling ad — kung gusto mo lang."]],
+   ["Yelo, kandado at misteryo", [
+    "Yelo: hindi makukuha ang nagyeyelong tile hangga't hindi naaalis nang pares ang mga kapitbahay nito — saka mababasag ang yelo.",
+    "Kandado: bubukas ang kinandadong tile kapag nakumpleto mo ang pares ng susi ng parehong metal — tanso, pilak o ginto.",
+    "Misteryo: itinatago ng tile na may tandang pananong ang larawan nito. Ilagay ito sa estante: kapag nakatagpo nito ang kambal, wawalisin nito ang buong board nang sabay-sabay; kung hindi, uukupa lang ito ng isang puwesto."]],
+   ["Online na duwelo", [
+    "Dalawang manlalaro, dalawang phone, isang board at isang estante. Sabay kayong pipindot; mapupunta ang pares sa nakasara nito, at ang may mas maraming pares ang panalo.",
+    "Kung mapupuno ng pindot mo ang estante ng ikaapat na magkakaibang tile, makakansela ito: babalik ang tile at mawawalan ka ng isang puntos.",
+    "Sa duwelo na may oras, salitan kayo, at ipinapakita ng isang bar kung kaninong galaw.",
+    "Mag-imbita ng kaibigan mula sa leaderboard o pindutin ang “Maghanap ng kalaban”. Pagkatapos ng laban, mag-GG."]],
+   ["Duwelo kay Mazhobe", ["Parehong duwelo laban sa palakang si Mazhobe — nakaupo siya sa likod ng estante at sinusulyapan ang mga tile mo. Tatlo ang kanyang mood: Antukin, Tuso at Pusta-lahat; habang mas pusta-lahat siya, mas maraming acorn ang dala ng panalo. Gumagana nang walang koneksyon."]],
+   ["Duet", ["Magkasamang linisin ang isang board gamit ang iisang estante. Magkasama kayong mananalo — o magpupuno ng estante."]],
+   ["Level ng araw", ["Isang level para sa lahat bawat araw. Ang multo ng pinakamagaling na manlalaro ng araw ay naglalaro sa tabi mo; lampasan ito para sa bonus."]],
+   ["Mga tip", [
+    "Magtira ng isang puwesto: kapag tatlong magkakaibang tile ang nasa estante, wala nang puwang para sa pagkakamali.",
+    "Kunin ang mga tile na nakikita mo na ang kambal.",
+    "Magbukas lang ng bagong patong kapag may espasyo ang estante — hindi mo alam kung ano ang nasa ilalim."]]
+  ],
+  "image_alt": "Yelo, kandado at misteryo sa board"
+ },
+ "ui": {"howto_link": "Paano maglaro", "home": "Home", "back_cta": "Handa ka na bang sumubok?"}
+}

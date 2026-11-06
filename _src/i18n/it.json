@@ -1,0 +1,92 @@
+{
+ "code": "it", "hreflang": "it", "og_locale": "it_IT", "play_hl": "it", "native": "Italiano", "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong in due — duelli di mahjong online per Android",
+  "desc": "Mahjong gratis in due su Android: duelli online con gli amici, sfida il rospo Mazhobe o gioca in Duetto. 3000 livelli, mensola da 4 e livello del giorno.",
+  "h1": "Mazhobe: Mahjong in due",
+  "lead": "Duelli di mahjong online: con un amico, un giocatore a caso o Mazhobe, il rospo brontolone. Vuoi un po' di quiete? Ti aspettano 3000 livelli da giocare da solo.",
+  "cta": "Disponibile su Google Play",
+  "free": "Gratis · Android",
+  "try": "Provalo qui: tocca le tessere libere e forma coppie sulla mensola. Mazhobe ti osserva.",
+  "demo": {
+   "win": "Vittoria pulita!",
+   "win_text": "Era solo un riscaldamento. Il gioco ha 3000 livelli e duelli online.",
+   "lose": "La mensola è piena!",
+   "lose_text": "Quattro tessere diverse: Mazhobe è molto soddisfatto di sé.",
+   "again": "Gioca ancora",
+   "hint": "Tocca una tessera libera"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "Guarda il trailer",
+  "video_name": "Mazhobe: Mahjong in due — trailer",
+  "feat_h": "Cosa c'è dentro",
+  "features": [
+   ["duel", "Duelli online", "Un tavolo per due: vince chi raccoglie più coppie. Invita gli amici dalla classifica o lascia che sia il gioco a trovarti un avversario."],
+   ["mazhobe", "Duello con Mazhobe", "Nessun avversario a portata di mano o niente rete? Gioca contro Mazhobe in persona: Assonnato, Furbo o Temerario. Più è temerario, più ghiande vinci."],
+   ["play", "Una mensola da 4 posti", "Le tessere non spariscono dal tavolo: finiscono su una mensola con quattro posti. Due uguali formano una coppia, quattro diverse e perdi. Pensa una mossa avanti."],
+   ["finisher", "Colpi finali spettacolari", "14 colpi finali per l'ultima coppia: fulmine, buco nero, inchiostro, sakura e altri: Mazhobe li vende tutti in cambio di ghiande."],
+   ["mechanics", "Ghiaccio, lucchetti e misteri", "Tessere congelate, lucchetti di bronzo, d'argento e d'oro, e una tessera misteriosa che fa volare via tutto il tavolo."],
+   ["daily", "Livello del giorno", "Un livello per tutti ogni giorno. Il fantasma del miglior giocatore del giorno gioca proprio accanto a te: superalo per ottenere un bonus."]
+  ],
+  "how_h": "Nel gioco c'è anche",
+  "how": [
+   "Duetto: liberate un tavolo insieme con una mensola in comune",
+   "3000 livelli, 627 forme da 22 a 258 tessere",
+   "Classifiche, amici, mi piace e titoli assegnati da Mazhobe",
+   "Obiettivi di Google Play Giochi; i progressi ti seguono su un nuovo telefono",
+   "22 lingue; i livelli e i duelli con Mazhobe funzionano offline"
+  ],
+  "privacy": "Informativa sulla privacy",
+  "delete": "Eliminazione dei dati",
+  "contact": "Contatti",
+  "alt_shot": "Screenshot: "
+ },
+ "faq": {
+  "h": "Domande e risposte",
+  "items": [
+   ["Come si gioca a mahjong con un amico?", "Apri Due giocatori → Duello e invita un amico dalla classifica, oppure tocca «Trova un avversario». Giocate online sullo stesso tavolo, ciascuno sul proprio telefono. In Duetto liberate un tavolo insieme."],
+   ["Posso giocare offline?", "Sì: tutti i livelli e il duello con Mazhobe funzionano senza connessione. I duelli online, le classifiche e la bottega ne hanno bisogno."],
+   ["Il gioco è gratuito?", "Sì. Non ci sono acquisti; quando finiscono i suggerimenti o gli annulla, se vuoi puoi ottenerne un altro guardando una breve pubblicità."],
+   ["In cosa si differenzia dal classico solitario mahjong?", "Le tessere non spariscono dal tavolo a coppie: finiscono su una mensola con quattro posti, dove si incontrano le coppie. Se la mensola si riempie di quattro tessere diverse perdi, quindi bisogna pensare una mossa avanti."],
+   ["I miei progressi passeranno a un nuovo telefono?", "Sì. I progressi sono salvati in modo anonimo, senza registrazione, e tornano su un nuovo telefono tramite Google Play Giochi."],
+   ["Esiste una versione per iPhone?", "Non ancora: il gioco è disponibile su Android, in Google Play."],
+   ["Quali lingue supporta?", "22 lingue, tra cui inglese, russo, spagnolo, tedesco, francese, portoghese, turco, giapponese, coreano e cinese."]
+  ]
+ },
+ "howto": {
+  "title": "Come si gioca a Mazhobe: Mahjong in due — regole della mensola da 4",
+  "desc": "Regole di Mazhobe: Mahjong in due: tessere libere, mensola da 4 posti, coppie, ghiaccio, lucchetti e misteri, duelli online, Duetto e livello del giorno. Consigli per vincere.",
+  "h1": "Come si gioca",
+  "intro": "Mazhobe è un solitario mahjong con una particolarità: le tessere non spariscono dal tavolo a coppie, ma finiscono su una mensola con quattro posti. Ecco le regole, le meccaniche del tavolo e le modalità per due.",
+  "sections": [
+   ["L'obiettivo", ["Liberare il tavolo: prendere ogni tessera e abbinarle tutte a coppie sulla mensola."]],
+   ["Tessere libere", [
+    "Puoi prendere solo una tessera libera: non ha nulla sopra e almeno un lato, sinistro o destro, è scoperto. Le tessere che non puoi ancora prendere sono più scure.",
+    "Dal livello 15 alcune tessere sono coperte: il primo tocco la gira, il successivo la prende."]],
+   ["La mensola", [
+    "Tocca una tessera libera e volerà sulla mensola. Quando lì si incontrano due tessere uguali, la coppia sparisce e porta ghiande.",
+    "La mensola ha solo quattro posti. Riempili con quattro tessere diverse e il livello è perso: prima di prendere una tessera, sappi dov'è la sua gemella."]],
+   ["Stelle, suggerimenti e annulla", [
+    "Ogni livello ha da una a cinque stelle di difficoltà. Ogni distribuzione è verificata: ha una soluzione e il suggerimento porta proprio lì.",
+    "Un suggerimento mostra la prossima buona mossa, annulla riprende l'ultima. Quando finiscono, puoi ottenerne uno in più guardando una breve pubblicità, solo se vuoi."]],
+   ["Ghiaccio, lucchetti e misteri", [
+    "Ghiaccio: una tessera congelata non si può prendere finché le sue vicine non sono state tolte a coppie; allora il ghiaccio si rompe.",
+    "Lucchetti: una tessera con il lucchetto si apre quando riunisci la coppia di chiavi dello stesso metallo: bronzo, argento o oro.",
+    "Mistero: una tessera con il punto interrogativo nasconde il suo disegno. Mettila sulla mensola: se incontra la sua gemella, spazza via tutto il tavolo in un colpo; altrimenti occupa solo un posto."]],
+   ["Duello online", [
+    "Due giocatori, due telefoni, un tavolo e una mensola. Entrambi toccate nello stesso momento; la coppia va a chi la chiude e vince chi ha più coppie.",
+    "Se il tuo tocco riempisse la mensola con una quarta tessera diversa, viene annullato: la tessera torna indietro e perdi un punto.",
+    "Nel duello a tempo si gioca a turni, e una barra mostra a chi tocca.",
+    "Invita un amico dalla classifica o tocca «Trova un avversario». Dopo la partita, scrivi GG."]],
+   ["Duello con Mazhobe", ["Lo stesso duello contro il rospo Mazhobe: sta dietro la mensola e sbircia le tue tessere. Tre caratteri: Assonnato, Furbo e Temerario; più è temerario, più ghiande porta la vittoria. Funziona senza connessione."]],
+   ["Duetto", ["Liberate un tavolo insieme con una mensola in comune. Vincete, o riempite la mensola, insieme."]],
+   ["Livello del giorno", ["Un livello per tutti ogni giorno. Il fantasma del miglior giocatore del giorno gioca accanto a te; superalo per ottenere un bonus."]],
+   ["Consigli", [
+    "Tieni un posto libero: con tre tessere diverse sulla mensola non c'è margine di errore.",
+    "Prendi le tessere di cui vedi già la gemella.",
+    "Apri un nuovo strato solo quando la mensola ha spazio: non sai cosa c'è sotto."]]
+  ],
+  "image_alt": "Ghiaccio, lucchetti e misteri sul tavolo"
+ },
+ "ui": {"howto_link": "Come si gioca", "home": "Home", "back_cta": "Pronto a provare?"}
+}

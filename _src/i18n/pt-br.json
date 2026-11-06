@@ -1,0 +1,190 @@
+{
+ "code": "pt-br",
+ "hreflang": "pt-BR",
+ "og_locale": "pt_BR",
+ "play_hl": "pt-BR",
+ "native": "Português (Brasil)",
+ "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong para dois — duelos de mahjong online para Android",
+  "desc": "Mahjong grátis para dois no Android: duele online com amigos no mesmo tabuleiro, vença o sapo Mazhobe ou jogue o Dueto. 3000 níveis e um nível novo por dia.",
+  "h1": "Mazhobe: Mahjong para dois",
+  "lead": "Duelos de mahjong online — com um amigo, um jogador aleatório ou o Mazhobe, o sapo rabugento. Quer sossego? 3000 níveis solo esperam por você.",
+  "cta": "Disponível no Google Play",
+  "free": "Grátis · Android",
+  "try": "Experimente aqui mesmo: toque nas peças livres e forme pares na prateleira. O Mazhobe está de olho.",
+  "demo": {
+   "win": "Vitória limpa!",
+   "win_text": "Isso foi só o aquecimento. O jogo tem 3000 níveis e duelos online.",
+   "lose": "A prateleira encheu!",
+   "lose_text": "Quatro peças diferentes — o Mazhobe está muito satisfeito consigo mesmo.",
+   "again": "Jogar de novo",
+   "hint": "Toque numa peça livre"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "Assistir ao trailer",
+  "video_name": "Mazhobe: Mahjong para dois — trailer",
+  "feat_h": "O que tem no jogo",
+  "features": [
+   [
+    "duel",
+    "Duelos online",
+    "Um tabuleiro para dois: vence quem juntar mais pares. Convide amigos pelo ranking ou deixe o jogo encontrar um adversário."
+   ],
+   [
+    "mazhobe",
+    "Duelo com o Mazhobe",
+    "Sem adversário por perto, ou sem conexão? Jogue contra o próprio Mazhobe — Sonolento, Astuto ou Ousado. Quanto mais ousado ele é, mais bolotas você ganha."
+   ],
+   [
+    "play",
+    "Prateleira de 4 peças",
+    "As peças não somem do tabuleiro — elas vão para uma prateleira com quatro lugares. Duas iguais formam um par, quatro diferentes e você perde. Pense uma jogada à frente."
+   ],
+   [
+    "finisher",
+    "Golpes finais espetaculares",
+    "14 golpes finais para o último par: raio, buraco negro, tinta, sakura e muito mais — o Mazhobe vende todos por bolotas."
+   ],
+   [
+    "mechanics",
+    "Gelo, cadeados e mistérios",
+    "Peças congeladas, cadeados de bronze, prata e ouro, e uma peça misteriosa que faz o tabuleiro inteiro voar pelos ares."
+   ],
+   [
+    "daily",
+    "Nível do dia",
+    "Um nível para todos por dia. O fantasma do melhor jogador do dia joga bem ao seu lado — ultrapasse-o e ganhe um bônus."
+   ]
+  ],
+  "how_h": "Também no jogo",
+  "how": [
+   "Dueto: limpem um tabuleiro juntos, com a prateleira compartilhada",
+   "3000 níveis, 627 formatos de 22 a 258 peças",
+   "Rankings, amigos, curtidas e títulos dados pelo Mazhobe",
+   "Conquistas do Google Play Games; o progresso vai para um celular novo",
+   "22 idiomas; níveis e duelos com o Mazhobe funcionam offline"
+  ],
+  "privacy": "Política de Privacidade",
+  "delete": "Exclusão de dados",
+  "contact": "Contato",
+  "alt_shot": "Captura de tela: "
+ },
+ "faq": {
+  "h": "Perguntas e respostas",
+  "items": [
+   [
+    "Como jogo mahjong com um amigo?",
+    "Abra Dois jogadores → Duelo e convide um amigo pelo ranking, ou toque em “Encontrar adversário”. Vocês jogam online no mesmo tabuleiro, cada um no seu celular. No Dueto, vocês limpam um tabuleiro juntos."
+   ],
+   [
+    "Posso jogar offline?",
+    "Sim: todos os níveis e o duelo com o Mazhobe funcionam sem conexão. Duelos online, rankings e a loja precisam de uma."
+   ],
+   [
+    "O jogo é grátis?",
+    "Sim. Não há compras; quando as dicas ou os desfazer acabam, você pode ganhar mais um assistindo a um anúncio curto, se quiser."
+   ],
+   [
+    "Qual é a diferença para o mahjong solitaire clássico?",
+    "As peças não somem do tabuleiro em pares — elas vão para uma prateleira com quatro lugares, onde os pares se encontram. Se a prateleira encher com quatro peças diferentes, você perde, então é preciso pensar uma jogada à frente."
+   ],
+   [
+    "Meu progresso vai para um celular novo?",
+    "Sim. O progresso é salvo de forma anônima, sem cadastro, e volta num celular novo pelo Google Play Games."
+   ],
+   [
+    "Existe versão para iPhone?",
+    "Ainda não — o jogo está disponível para Android no Google Play."
+   ],
+   [
+    "Quais idiomas são compatíveis?",
+    "22 idiomas, incluindo inglês, russo, espanhol, alemão, francês, português, turco, japonês, coreano e chinês."
+   ]
+  ]
+ },
+ "howto": {
+  "title": "Como jogar Mazhobe: Mahjong para dois — regras da prateleira de 4 peças",
+  "desc": "Regras do Mazhobe: Mahjong para dois: peças livres, prateleira de 4 lugares, pares, gelo, cadeados e mistérios, duelos online, Dueto e nível do dia. Dicas para vencer.",
+  "h1": "Como jogar",
+  "intro": "Mazhobe é um mahjong solitaire com uma reviravolta: as peças não somem do tabuleiro em pares — elas vão para uma prateleira com quatro lugares. Aqui estão as regras, as mecânicas do tabuleiro e os modos para dois jogadores.",
+  "sections": [
+   [
+    "O objetivo",
+    [
+     "Limpar o tabuleiro: pegar todas as peças e combinar todas em pares na prateleira."
+    ]
+   ],
+   [
+    "Peças livres",
+    [
+     "Você só pode pegar uma peça livre: nada está em cima dela e pelo menos um lado, esquerdo ou direito, está aberto. As peças que ainda não dá para pegar ficam mais escuras.",
+     "A partir do nível 15, algumas peças estão viradas para baixo: o primeiro toque a vira, o seguinte a pega."
+    ]
+   ],
+   [
+    "A prateleira",
+    [
+     "Toque numa peça livre e ela voa para a prateleira. Quando duas peças iguais se encontram ali, o par some e rende bolotas.",
+     "A prateleira tem só quatro lugares. Encha os quatro com peças diferentes e o nível está perdido — por isso, antes de pegar uma peça, saiba onde está a gêmea dela."
+    ]
+   ],
+   [
+    "Estrelas, dicas e desfazer",
+    [
+     "Cada nível tem de uma a cinco estrelas de dificuldade. Cada distribuição é verificada: tem solução, e a dica leva exatamente até ela.",
+     "A dica mostra a próxima boa jogada, o desfazer volta a última. Quando acabam, você pode ganhar mais um assistindo a um anúncio curto — só se quiser."
+    ]
+   ],
+   [
+    "Gelo, cadeados e mistérios",
+    [
+     "Gelo: uma peça congelada não pode ser pega até as vizinhas serem removidas em pares — aí o gelo racha.",
+     "Cadeados: uma peça com cadeado abre quando você combina o par de chaves do mesmo metal — bronze, prata ou ouro.",
+     "Mistério: uma peça com ponto de interrogação esconde a imagem. Coloque-a na prateleira: se encontrar a gêmea, varre o tabuleiro inteiro de uma vez; se não, só ocupa um lugar."
+    ]
+   ],
+   [
+    "Duelo online",
+    [
+     "Dois jogadores, dois celulares, um tabuleiro e uma prateleira. Os dois tocam ao mesmo tempo; o par fica com quem o fechar, e vence quem tiver mais pares.",
+     "Se o seu toque encheria a prateleira com uma quarta peça diferente, ele é cancelado: a peça volta e você perde um ponto.",
+     "No duelo cronometrado vocês jogam em turnos, e uma barra mostra de quem é a vez.",
+     "Convide um amigo pelo ranking ou toque em “Encontrar adversário”. Depois da partida, mande um GG."
+    ]
+   ],
+   [
+    "Duelo com o Mazhobe",
+    [
+     "O mesmo duelo contra o sapo Mazhobe — ele fica atrás da prateleira, de olho nas suas peças. Três humores: Sonolento, Astuto e Ousado; quanto mais ousado ele é, mais bolotas uma vitória rende. Funciona sem conexão."
+    ]
+   ],
+   [
+    "Dueto",
+    [
+     "Limpem um tabuleiro juntos, com a prateleira compartilhada. Vocês vencem — ou enchem a prateleira — juntos."
+    ]
+   ],
+   [
+    "Nível do dia",
+    [
+     "Um nível para todos por dia. O fantasma do melhor jogador do dia joga ao seu lado; ultrapasse-o e ganhe um bônus."
+    ]
+   ],
+   [
+    "Dicas",
+    [
+     "Mantenha um lugar livre: três peças diferentes na prateleira não deixam margem para erro.",
+     "Pegue peças cuja gêmea você já está vendo.",
+     "Abra uma camada nova só quando houver espaço na prateleira — você não sabe o que há embaixo."
+    ]
+   ]
+  ],
+  "image_alt": "Gelo, cadeados e mistérios no tabuleiro"
+ },
+ "ui": {
+  "howto_link": "Como jogar",
+  "home": "Início",
+  "back_cta": "Pronto para experimentar?"
+ }
+}

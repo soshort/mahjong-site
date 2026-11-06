@@ -1,0 +1,92 @@
+{
+ "code": "es", "hreflang": "es", "og_locale": "es_ES", "play_hl": "es", "native": "Español", "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong para dos — duelos de mahjong en línea para Android",
+  "desc": "Mahjong gratis para dos en Android: duelo en línea con amigos en un tablero, contra el sapo Mazhobe o en Dúo. 3000 niveles, estante de 4 y nivel diario nuevo.",
+  "h1": "Mazhobe: Mahjong para dos",
+  "lead": "Duelos de mahjong en línea: con un amigo, un jugador al azar o Mazhobe, el sapo gruñón. ¿Prefieres tranquilidad? Te esperan 3000 niveles para jugar en solitario.",
+  "cta": "Disponible en Google Play",
+  "free": "Gratis · Android",
+  "try": "Pruébalo aquí mismo: toca fichas libres y forma parejas en el estante. Mazhobe te vigila.",
+  "demo": {
+   "win": "¡Victoria limpia!",
+   "win_text": "Eso fue solo el calentamiento. El juego tiene 3000 niveles y duelos en línea.",
+   "lose": "¡El estante está lleno!",
+   "lose_text": "Cuatro fichas distintas: Mazhobe está muy satisfecho consigo mismo.",
+   "again": "Jugar otra vez",
+   "hint": "Toca una ficha libre"
+  },
+  "trailer_h": "Tráiler",
+  "trailer_btn": "Ver el tráiler",
+  "video_name": "Mazhobe: Mahjong para dos — tráiler",
+  "feat_h": "Qué hay dentro",
+  "features": [
+   ["duel", "Duelos en línea", "Un tablero para dos: gana quien reúna más parejas. Invita a tus amigos desde la clasificación o deja que el juego te busque rival."],
+   ["mazhobe", "Duelo con Mazhobe", "¿Sin rival a mano o sin conexión? Juega contra el mismísimo Mazhobe: Dormilón, Astuto o Temerario. Cuanto más temerario es, más bellotas ganas."],
+   ["play", "Un estante de 4 huecos", "Las fichas no desaparecen del tablero: van a un estante de cuatro huecos. Dos iguales forman una pareja; cuatro distintas y pierdes. Piensa una jugada por delante."],
+   ["finisher", "Remates espectaculares", "14 remates para la última pareja: rayo, agujero negro, tinta, sakura y más; Mazhobe los vende todos a cambio de bellotas."],
+   ["mechanics", "Hielo, candados y misterios", "Fichas congeladas, candados de bronce, plata y oro, y una ficha misteriosa que hace volar todo el tablero."],
+   ["daily", "Nivel del día", "Un nivel para todos cada día. El fantasma del mejor jugador del día juega justo a tu lado: adelántalo y gana un bonus."]
+  ],
+  "how_h": "También en el juego",
+  "how": [
+   "Dúo: despejad un tablero entre los dos con un estante compartido",
+   "3000 niveles, 627 formas de 22 a 258 fichas",
+   "Clasificaciones, amigos, me gusta y títulos de Mazhobe",
+   "Logros de Google Play Juegos; el progreso se muda a un móvil nuevo",
+   "22 idiomas; los niveles y los duelos con Mazhobe funcionan sin conexión"
+  ],
+  "privacy": "Política de privacidad",
+  "delete": "Eliminación de datos",
+  "contact": "Contacto",
+  "alt_shot": "Captura de pantalla: "
+ },
+ "faq": {
+  "h": "Preguntas y respuestas",
+  "items": [
+   ["¿Cómo juego al mahjong con un amigo?", "Abre Dos jugadores → Duelo e invita a un amigo desde la clasificación, o toca «Buscar rival». Jugáis en línea en un mismo tablero, cada uno en su móvil. En Dúo despejáis un tablero entre los dos."],
+   ["¿Puedo jugar sin conexión?", "Sí: todos los niveles y el duelo con Mazhobe funcionan sin conexión. Los duelos en línea, las clasificaciones y la tienda la necesitan."],
+   ["¿El juego es gratis?", "Sí. No hay compras; cuando se acaban las pistas o los deshacer, puedes conseguir otro viendo un anuncio corto si quieres."],
+   ["¿En qué se diferencia del solitario de mahjong clásico?", "Las fichas no desaparecen del tablero por parejas: van a un estante de cuatro huecos, donde se encuentran las parejas. Si el estante se llena con cuatro fichas distintas, pierdes, así que hay que pensar una jugada por delante."],
+   ["¿Mi progreso se mudará a un móvil nuevo?", "Sí. El progreso se guarda de forma anónima, sin registro, y vuelve en un móvil nuevo a través de Google Play Juegos."],
+   ["¿Hay versión para iPhone?", "Todavía no: el juego está disponible en Android, en Google Play."],
+   ["¿Qué idiomas admite?", "22 idiomas, entre ellos inglés, ruso, español, alemán, francés, portugués, turco, japonés, coreano y chino."]
+  ]
+ },
+ "howto": {
+  "title": "Cómo jugar a Mazhobe: Mahjong para dos — reglas del estante de 4",
+  "desc": "Reglas de Mazhobe: Mahjong para dos: fichas libres, estante de 4 huecos, parejas, hielo, candados y misterio, duelos en línea, Dúo y nivel del día. Consejos para ganar.",
+  "h1": "Cómo se juega",
+  "intro": "Mazhobe es un solitario de mahjong con un giro: las fichas no desaparecen del tablero por parejas, sino que van a un estante de cuatro huecos. Aquí van las reglas, las mecánicas del tablero y los modos para dos.",
+  "sections": [
+   ["El objetivo", ["Despeja el tablero: coge todas las fichas y empareja todas en el estante."]],
+   ["Fichas libres", [
+    "Solo puedes coger una ficha libre: no tiene nada encima y al menos un lado, izquierdo o derecho, está despejado. Las fichas que aún no puedes coger se ven más oscuras.",
+    "Desde el nivel 15 algunas fichas están boca abajo: el primer toque la da la vuelta y el siguiente la coge."]],
+   ["El estante", [
+    "Toca una ficha libre y volará al estante. Cuando allí se juntan dos fichas iguales, la pareja desaparece y te da bellotas.",
+    "El estante tiene solo cuatro huecos. Si lo llenas con cuatro fichas distintas, pierdes el nivel; por eso, antes de coger una ficha, sabe dónde está su gemela."]],
+   ["Estrellas, pistas y deshacer", [
+    "Cada nivel tiene de una a cinco estrellas de dificultad. Cada reparto está comprobado: tiene solución, y la pista lleva justo a ella.",
+    "Una pista muestra la siguiente buena jugada y deshacer retira la última. Cuando se acaban, puedes conseguir otra viendo un anuncio corto, solo si quieres."]],
+   ["Hielo, candados y misterios", [
+    "Hielo: una ficha congelada no se puede coger hasta que se retiran sus vecinas por parejas; entonces el hielo se rompe.",
+    "Candados: una ficha con candado se abre cuando reúnes el par de llaves del mismo metal: bronce, plata u oro.",
+    "Misterio: una ficha con interrogación esconde su dibujo. Ponla en el estante: si se encuentra con su gemela, barre todo el tablero de golpe; si no, solo ocupa un hueco."]],
+   ["Duelo en línea", [
+    "Dos jugadores, dos móviles, un tablero y un estante. Ambos tocáis a la vez; la pareja es para quien la cierra, y gana quien tenga más parejas.",
+    "Si tu toque llenara el estante con una cuarta ficha distinta, se cancela: la ficha vuelve y pierdes un punto.",
+    "En el duelo a tiempo jugáis por turnos, y una barra muestra a quién le toca.",
+    "Invita a un amigo desde la clasificación o toca «Buscar rival». Tras la partida, di GG."]],
+   ["Duelo con Mazhobe", ["El mismo duelo contra el sapo Mazhobe: se sienta tras el estante y mira de reojo tus fichas. Tiene tres talantes: Dormilón, Astuto y Temerario; cuanto más temerario es, más bellotas da la victoria. Funciona sin conexión."]],
+   ["Dúo", ["Despejad un tablero entre los dos con un estante compartido. Ganáis, o llenáis el estante, juntos."]],
+   ["Nivel del día", ["Un nivel para todos cada día. El fantasma del mejor jugador del día juega a tu lado; adelántalo y gana un bonus."]],
+   ["Consejos", [
+    "Mantén un hueco libre: con tres fichas distintas en el estante no queda margen de error.",
+    "Coge fichas cuya gemela ya veas.",
+    "Abre una capa nueva solo cuando el estante tenga sitio: no sabes qué hay debajo."]]
+  ],
+  "image_alt": "Hielo, candados y misterios en el tablero"
+ },
+ "ui": {"howto_link": "Cómo se juega", "home": "Inicio", "back_cta": "¿Listo para probar?"}
+}

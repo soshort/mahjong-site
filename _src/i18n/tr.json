@@ -1,0 +1,190 @@
+{
+ "code": "tr",
+ "hreflang": "tr",
+ "og_locale": "tr_TR",
+ "play_hl": "tr",
+ "native": "Türkçe",
+ "shots": "en",
+ "main": {
+  "title": "Mazhobe: İki Kişilik Mahjong — Android için çevrim içi düello",
+  "desc": "Android'de ücretsiz iki kişilik mahjong: arkadaşlarınla çevrim içi düello yap, kurbağa Mazhobe'yi yen ya da Düet oyna. 3000 seviye, 4 taşlık raf, günlük seviye.",
+  "h1": "Mazhobe: İki Kişilik Mahjong",
+  "lead": "Çevrim içi mahjong düelloları — bir arkadaşla, rastgele bir oyuncuyla ya da somurtkan kurbağa Mazhobe ile. Sakin bir şeyler mi istiyorsun? 3000 tek kişilik seviye seni bekliyor.",
+  "cta": "Google Play'den alın",
+  "free": "Ücretsiz · Android",
+  "try": "Tam burada dene: serbest taşlara dokun, rafta çiftleri eşleştir. Mazhobe izliyor.",
+  "demo": {
+   "win": "Tertemiz galibiyet!",
+   "win_text": "Bu sadece ısınmaydı. Oyunda 3000 seviye ve çevrim içi düellolar var.",
+   "lose": "Raf doldu!",
+   "lose_text": "Dört farklı taş — Mazhobe kendinden çok memnun.",
+   "again": "Tekrar oyna",
+   "hint": "Serbest bir taşa dokun"
+  },
+  "trailer_h": "Fragman",
+  "trailer_btn": "Fragmanı oynat",
+  "video_name": "Mazhobe: İki Kişilik Mahjong — fragman",
+  "feat_h": "İçinde neler var",
+  "features": [
+   [
+    "duel",
+    "Çevrim içi düellolar",
+    "İki kişiye tek masa: en çok çifti toplayan kazanır. Arkadaşlarını liderler tablosundan davet et ya da oyun rakip bulsun."
+   ],
+   [
+    "mazhobe",
+    "Mazhobe ile düello",
+    "Yakında rakip yok ya da bağlantı mı yok? Doğrudan Mazhobe'ye karşı oyna — Uykulu, Kurnaz ya da Gözü kara. Ne kadar gözü karaysa, o kadar çok meşe palamudu kazanırsın."
+   ],
+   [
+    "play",
+    "4 taşlık raf",
+    "Taşlar masada kaybolmaz — dört yerlik bir rafa gider. Aynı iki taş çift olur, dört farklı taş olursa kaybedersin. Bir hamle ilerisini düşün."
+   ],
+   [
+    "finisher",
+    "Gösterişli bitirişler",
+    "Son çift için 14 bitiriş: yıldırım, kara delik, mürekkep, sakura ve dahası — Mazhobe hepsini meşe palamudu karşılığında satar."
+   ],
+   [
+    "mechanics",
+    "Buz, kilitler ve gizemler",
+    "Donmuş taşlar, bronz, gümüş ve altın kilitler ve bütün masayı havaya uçuran gizem taşı."
+   ],
+   [
+    "daily",
+    "Günün seviyesi",
+    "Her gün herkese tek seviye. Günün en iyi oyuncusunun hayaleti hemen yanında oynar — onu geç, bonus kazan."
+   ]
+  ],
+  "how_h": "Oyunda ayrıca",
+  "how": [
+   "Düet: ortak rafla tek bir masayı birlikte temizleyin",
+   "3000 seviye, 22 ila 258 taşlık 627 dizilim",
+   "Liderler tabloları, arkadaşlar, beğeniler ve Mazhobe'den unvanlar",
+   "Google Play Games başarıları; ilerleme yeni telefona taşınır",
+   "22 dil; seviyeler ve Mazhobe ile düellolar internetsiz de oynanır"
+  ],
+  "privacy": "Gizlilik Politikası",
+  "delete": "Veri silme",
+  "contact": "İletişim",
+  "alt_shot": "Ekran görüntüsü: "
+ },
+ "faq": {
+  "h": "Sorular ve cevaplar",
+  "items": [
+   [
+    "Bir arkadaşımla mahjong'u nasıl oynarım?",
+    "İki oyuncu → Düello'yu aç ve arkadaşını liderler tablosundan davet et ya da “Rakip bul”a dokun. Çevrim içi tek masada, herkes kendi telefonundan oynar. Düet'te tek bir masayı birlikte temizlersiniz."
+   ],
+   [
+    "İnternetsiz oynayabilir miyim?",
+    "Evet: tüm seviyeler ve Mazhobe ile düello bağlantı olmadan çalışır. Çevrim içi düellolar, liderler tablosu ve dükkân için bağlantı gerekir."
+   ],
+   [
+    "Oyun ücretsiz mi?",
+    "Evet. Satın alma yok; ipuçları ya da geri almalar bittiğinde, istersen kısa bir reklam izleyerek bir tane daha alabilirsin."
+   ],
+   [
+    "Klasik mahjong solitaire'den farkı ne?",
+    "Taşlar masadan çiftler halinde kaybolmaz — dört yerlik bir rafa gider, çiftler orada buluşur. Rafı dört farklı taşla doldurursan kaybedersin, bu yüzden bir hamle ilerisini düşünmelisin."
+   ],
+   [
+    "İlerlemem yeni telefona taşınır mı?",
+    "Evet. İlerleme anonim olarak, kayıt olmadan saklanır ve yeni telefonda Google Play Games üzerinden geri gelir."
+   ],
+   [
+    "iPhone sürümü var mı?",
+    "Henüz yok — oyun Google Play'de Android için mevcut."
+   ],
+   [
+    "Hangi dilleri destekliyor?",
+    "22 dil; İngilizce, Rusça, İspanyolca, Almanca, Fransızca, Portekizce, Türkçe, Japonca, Korece ve Çince dahil."
+   ]
+  ]
+ },
+ "howto": {
+  "title": "Mazhobe: İki Kişilik Mahjong nasıl oynanır — 4 taşlık rafın kuralları",
+  "desc": "Mazhobe: İki Kişilik Mahjong kuralları: serbest taşlar, 4 yerlik raf, çiftler, buz, kilitler ve gizemler, çevrim içi düellolar, Düet ve günün seviyesi. Kazanmak için ipuçları.",
+  "h1": "Nasıl oynanır",
+  "intro": "Mazhobe, bir farkı olan mahjong solitaire: taşlar masadan çiftler halinde kaybolmaz — dört yerlik bir rafa gider. İşte kurallar, masadaki mekanikler ve iki kişilik modlar.",
+  "sections": [
+   [
+    "Amaç",
+    [
+     "Masayı temizle: her taşı al ve hepsini rafta çiftler halinde eşleştir."
+    ]
+   ],
+   [
+    "Serbest taşlar",
+    [
+     "Yalnızca serbest bir taşı alabilirsin: üstünde hiçbir şey yoktur ve sol ya da sağ taraflardan en az biri açıktır. Henüz alamayacağın taşlar daha koyu görünür.",
+     "15. seviyeden itibaren bazı taşlar ters yatar: ilk dokunuş çevirir, sonraki dokunuş alır."
+    ]
+   ],
+   [
+    "Raf",
+    [
+     "Serbest bir taşa dokun, rafa uçsun. Orada aynı iki taş buluşunca çift kaybolur ve meşe palamudu kazandırır.",
+     "Rafta sadece dört yer var. Dördünü de farklı taşlarla doldurursan seviye kaybedilir — bu yüzden bir taşı almadan önce ikizinin nerede olduğunu bil."
+    ]
+   ],
+   [
+    "Yıldızlar, ipuçları ve geri alma",
+    [
+     "Her seviyenin zorluğu bir ila beş yıldızdır. Her dizilim doğrulanmıştır: çözümü vardır ve ipucu seni tam oraya götürür.",
+     "İpucu sıradaki iyi hamleyi gösterir, geri alma son hamleyi geri çeker. Bittiklerinde, istersen kısa bir reklam izleyerek bir tane daha alabilirsin."
+    ]
+   ],
+   [
+    "Buz, kilitler ve gizemler",
+    [
+     "Buz: donmuş bir taş, komşuları çiftler halinde kaldırılana kadar alınamaz — sonra buz çatlar.",
+     "Kilitler: kilitli bir taş, aynı metalden anahtar çiftini eşleştirdiğinde açılır — bronz, gümüş ya da altın.",
+     "Gizem: soru işaretli taş resmini saklar. Rafa koy: ikiziyle buluşursa bütün masayı tek seferde süpürür; buluşmazsa sadece bir yer kaplar."
+    ]
+   ],
+   [
+    "Çevrim içi düello",
+    [
+     "İki oyuncu, iki telefon, tek masa ve tek raf. İkiniz de aynı anda dokunursunuz; çift onu kapatanın olur, en çok çifti olan kazanır.",
+     "Dokunuşun rafı dördüncü farklı taşla dolduracaksa iptal edilir: taş yerine döner ve bir puan kaybedersin.",
+     "Süreli düelloda sırayla oynarsınız ve bir çubuk sıranın kimde olduğunu gösterir.",
+     "Arkadaşını liderler tablosundan davet et ya da “Rakip bul”a dokun. Maçtan sonra GG de."
+    ]
+   ],
+   [
+    "Mazhobe ile düello",
+    [
+     "Kurbağa Mazhobe'ye karşı aynı düello — o rafın arkasında oturur ve taşlarına göz atar. Üç ruh hali: Uykulu, Kurnaz ve Gözü kara; ne kadar gözü karaysa, galibiyet o kadar çok meşe palamudu getirir. Bağlantı olmadan çalışır."
+    ]
+   ],
+   [
+    "Düet",
+    [
+     "Ortak rafla tek bir masayı birlikte temizleyin. Birlikte kazanırsınız — ya da rafı birlikte doldurursunuz."
+    ]
+   ],
+   [
+    "Günün seviyesi",
+    [
+     "Her gün herkese tek seviye. Günün en iyi oyuncusunun hayaleti yanında oynar; onu geç, bonus kazan."
+    ]
+   ],
+   [
+    "İpuçları",
+    [
+     "Bir yeri boş tut: rafta üç farklı taş olunca hataya yer kalmaz.",
+     "İkizini zaten gördüğün taşları al.",
+     "Yeni bir katmanı yalnızca rafta yer varken aç — altında ne olduğunu bilmezsin."
+    ]
+   ]
+  ],
+  "image_alt": "Masada buz, kilitler ve gizemler"
+ },
+ "ui": {
+  "howto_link": "Nasıl oynanır",
+  "home": "Ana sayfa",
+  "back_cta": "Denemeye hazır mısın?"
+ }
+}

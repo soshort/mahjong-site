@@ -1,0 +1,190 @@
+{
+ "code": "vi",
+ "hreflang": "vi",
+ "og_locale": "vi_VN",
+ "play_hl": "vi",
+ "native": "Tiếng Việt",
+ "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mạt chược 2 người — đấu mạt chược online trên Android",
+  "desc": "Mạt chược miễn phí cho hai người trên Android: đấu online với bạn bè, thắng chú cóc Mazhobe hoặc cùng chơi Song tấu. 3000 màn, kệ 4 ô, màn mới mỗi ngày.",
+  "h1": "Mazhobe: Mạt chược 2 người",
+  "lead": "Đấu mạt chược online — với bạn bè, người chơi ngẫu nhiên hoặc Mazhobe, chú cóc cáu kỉnh. Muốn yên tĩnh một mình? 3000 màn chơi đơn đang chờ bạn.",
+  "cta": "Tải xuống trên Google Play",
+  "free": "Miễn phí · Android",
+  "try": "Thử ngay tại đây: chạm vào quân đang tự do, ghép cặp trên kệ. Mazhobe đang theo dõi.",
+  "demo": {
+   "win": "Thắng gọn!",
+   "win_text": "Đó mới chỉ là khởi động. Trò chơi có 3000 màn và đấu online.",
+   "lose": "Kệ đầy rồi!",
+   "lose_text": "Bốn quân khác nhau — Mazhobe rất hài lòng với bản thân.",
+   "again": "Chơi lại",
+   "hint": "Chạm vào quân đang tự do"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "Xem trailer",
+  "video_name": "Mazhobe: Mạt chược 2 người — trailer",
+  "feat_h": "Trong game có gì",
+  "features": [
+   [
+    "duel",
+    "Đấu online",
+    "Một bàn cho hai người: ai ghép được nhiều cặp hơn sẽ thắng. Mời bạn bè từ bảng xếp hạng hoặc để trò chơi tìm đối thủ."
+   ],
+   [
+    "mazhobe",
+    "Đấu với Mazhobe",
+    "Không có đối thủ hoặc mất mạng? Hãy chơi với chính Mazhobe — Buồn ngủ, Ranh mãnh hoặc Liều lĩnh. Chú càng liều lĩnh, bạn càng thắng được nhiều hạt sồi."
+   ],
+   [
+    "play",
+    "Kệ 4 ô",
+    "Quân không biến mất trên bàn — chúng đi vào kệ có bốn ô. Hai quân giống nhau thành một cặp, bốn quân khác nhau là bạn thua. Hãy nghĩ trước một nước."
+   ],
+   [
+    "finisher",
+    "Hiệu ứng kết liễu hoành tráng",
+    "14 hiệu ứng kết liễu cho cặp cuối: tia chớp, hố đen, mực, hoa anh đào và hơn thế nữa — Mazhobe bán tất cả để đổi lấy hạt sồi."
+   ],
+   [
+    "mechanics",
+    "Băng, khóa và bí ẩn",
+    "Quân đóng băng, khóa đồng, bạc và vàng, cùng quân bí ẩn làm cả bàn bay tung."
+   ],
+   [
+    "daily",
+    "Màn trong ngày",
+    "Mỗi ngày một màn chung cho tất cả. Bóng ma của người chơi giỏi nhất trong ngày chơi ngay bên cạnh bạn — vượt qua nó để nhận thưởng."
+   ]
+  ],
+  "how_h": "Còn có trong game",
+  "how": [
+   "Song tấu: cùng nhau dọn một bàn với kệ dùng chung",
+   "3000 màn, 627 kiểu xếp từ 22 đến 258 quân",
+   "Bảng xếp hạng, bạn bè, lượt thích và danh hiệu từ Mazhobe",
+   "Thành tích Google Play Games; tiến trình chuyển sang điện thoại mới",
+   "22 ngôn ngữ; các màn và trận đấu với Mazhobe chơi được khi không có mạng"
+  ],
+  "privacy": "Chính sách quyền riêng tư",
+  "delete": "Xóa dữ liệu",
+  "contact": "Liên hệ",
+  "alt_shot": "Ảnh chụp màn hình: "
+ },
+ "faq": {
+  "h": "Câu hỏi và trả lời",
+  "items": [
+   [
+    "Làm sao để chơi mạt chược với bạn bè?",
+    "Mở Hai người chơi → Đấu tay đôi rồi mời bạn từ bảng xếp hạng, hoặc bấm “Tìm đối thủ”. Hai bạn chơi online trên một bàn, mỗi người dùng điện thoại của mình. Trong Song tấu, hai bạn cùng dọn một bàn."
+   ],
+   [
+    "Tôi có thể chơi khi không có mạng không?",
+    "Có: mọi màn chơi và trận đấu với Mazhobe đều chạy mà không cần kết nối. Đấu online, bảng xếp hạng và cửa hàng cần có kết nối."
+   ],
+   [
+    "Trò chơi có miễn phí không?",
+    "Có. Không có mua hàng; khi gợi ý hoặc hoàn tác hết, bạn có thể nhận thêm một lượt bằng cách xem quảng cáo ngắn nếu muốn."
+   ],
+   [
+    "Nó khác gì mạt chược solitaire cổ điển?",
+    "Quân không biến mất khỏi bàn theo từng cặp — chúng đi vào kệ có bốn ô, nơi các cặp gặp nhau. Nếu kệ đầy bốn quân khác nhau là bạn thua, nên phải nghĩ trước một nước."
+   ],
+   [
+    "Tiến trình của tôi có chuyển sang điện thoại mới không?",
+    "Có. Tiến trình được lưu ẩn danh, không cần đăng ký, và quay lại trên điện thoại mới qua Google Play Games."
+   ],
+   [
+    "Có phiên bản iPhone không?",
+    "Chưa có — trò chơi hiện có trên Android tại Google Play."
+   ],
+   [
+    "Trò chơi hỗ trợ những ngôn ngữ nào?",
+    "22 ngôn ngữ, gồm tiếng Anh, Nga, Tây Ban Nha, Đức, Pháp, Bồ Đào Nha, Thổ Nhĩ Kỳ, Nhật, Hàn và Trung."
+   ]
+  ]
+ },
+ "howto": {
+  "title": "Cách chơi Mazhobe: Mạt chược 2 người — luật kệ 4 ô",
+  "desc": "Luật chơi Mazhobe: Mạt chược 2 người: quân tự do, kệ 4 ô, cặp, băng, khóa và bí ẩn, đấu online, Song tấu và màn trong ngày. Mẹo để thắng.",
+  "h1": "Cách chơi",
+  "intro": "Mazhobe là mạt chược solitaire với một điểm khác biệt: quân không biến mất khỏi bàn theo từng cặp — chúng đi vào kệ có bốn ô. Dưới đây là luật chơi, cơ chế trên bàn và các chế độ hai người.",
+  "sections": [
+   [
+    "Mục tiêu",
+    [
+     "Dọn sạch bàn: lấy mọi quân và ghép tất cả thành cặp trên kệ."
+    ]
+   ],
+   [
+    "Quân tự do",
+    [
+     "Bạn chỉ lấy được quân tự do: không có gì đè lên và ít nhất một bên, trái hoặc phải, đang trống. Những quân chưa lấy được trông tối hơn.",
+     "Từ màn 15 có quân úp mặt xuống: lần chạm đầu lật nó lên, lần chạm sau lấy nó."
+    ]
+   ],
+   [
+    "Kệ",
+    [
+     "Chạm vào quân tự do, nó bay lên kệ. Khi hai quân giống nhau gặp nhau ở đó, cặp biến mất và cho bạn hạt sồi.",
+     "Kệ chỉ có bốn ô. Lấp đầy cả bốn bằng các quân khác nhau là thua màn — vì vậy trước khi lấy một quân, hãy biết quân song sinh của nó ở đâu."
+    ]
+   ],
+   [
+    "Sao, gợi ý và hoàn tác",
+    [
+     "Mỗi màn có độ khó từ một đến năm sao. Mỗi cách xếp đều được kiểm tra: có lời giải, và gợi ý dẫn đúng tới đó.",
+     "Gợi ý chỉ ra nước đi tốt tiếp theo, hoàn tác lấy lại nước vừa đi. Khi hết, bạn có thể nhận thêm một lượt bằng cách xem quảng cáo ngắn — chỉ khi bạn muốn."
+    ]
+   ],
+   [
+    "Băng, khóa và bí ẩn",
+    [
+     "Băng: quân bị đóng băng không lấy được cho đến khi các quân bên cạnh được dọn theo cặp — khi đó băng nứt ra.",
+     "Khóa: quân bị khóa sẽ mở khi bạn ghép cặp chìa cùng kim loại — đồng, bạc hoặc vàng.",
+     "Bí ẩn: quân có dấu hỏi giấu hình của nó. Đặt nó lên kệ: nếu gặp quân song sinh, nó quét sạch cả bàn cùng lúc; nếu không, nó chỉ chiếm một ô."
+    ]
+   ],
+   [
+    "Đấu online",
+    [
+     "Hai người chơi, hai điện thoại, một bàn và một kệ. Cả hai chạm cùng lúc; cặp thuộc về người hoàn thành nó, và ai có nhiều cặp hơn sẽ thắng.",
+     "Nếu lần chạm của bạn làm kệ đầy bởi quân khác nhau thứ tư, nó bị hủy: quân quay về chỗ cũ và bạn mất một điểm.",
+     "Trong đấu tính giờ, hai bên đi lần lượt, và một thanh cho biết đến lượt ai.",
+     "Mời bạn từ bảng xếp hạng hoặc bấm “Tìm đối thủ”. Sau trận, hãy gửi GG."
+    ]
+   ],
+   [
+    "Đấu với Mazhobe",
+    [
+     "Cùng kiểu đấu đó nhưng với chú cóc Mazhobe — chú ngồi sau kệ và liếc nhìn quân của bạn. Ba tâm trạng: Buồn ngủ, Ranh mãnh và Liều lĩnh; chú càng liều lĩnh thì thắng càng được nhiều hạt sồi. Chơi được khi không có mạng."
+    ]
+   ],
+   [
+    "Song tấu",
+    [
+     "Cùng nhau dọn một bàn với kệ dùng chung. Hai bạn thắng — hoặc làm đầy kệ — cùng nhau."
+    ]
+   ],
+   [
+    "Màn trong ngày",
+    [
+     "Mỗi ngày một màn chung cho tất cả. Bóng ma của người chơi giỏi nhất trong ngày chơi bên cạnh bạn; vượt qua nó để nhận thưởng."
+    ]
+   ],
+   [
+    "Mẹo",
+    [
+     "Giữ trống một ô: ba quân khác nhau trên kệ không còn chỗ cho sai lầm.",
+     "Lấy những quân mà bạn đã thấy quân song sinh của nó.",
+     "Chỉ mở tầng mới khi kệ còn chỗ — bạn không biết bên dưới có gì."
+    ]
+   ]
+  ],
+  "image_alt": "Băng, khóa và bí ẩn trên bàn"
+ },
+ "ui": {
+  "howto_link": "Cách chơi",
+  "home": "Trang chủ",
+  "back_cta": "Sẵn sàng thử chưa?"
+ }
+}

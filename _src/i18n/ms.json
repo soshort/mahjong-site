@@ -1,0 +1,190 @@
+{
+ "code": "ms",
+ "hreflang": "ms",
+ "og_locale": "ms_MY",
+ "play_hl": "ms",
+ "native": "Bahasa Melayu",
+ "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong untuk Dua — duel mahjong dalam talian untuk Android",
+  "desc": "Mahjong percuma untuk dua orang di Android: berduel dalam talian dengan kawan, kalahkan katak Mazhobe atau main Duet. 3000 tahap, rak 4 jubin, tahap harian.",
+  "h1": "Mazhobe: Mahjong untuk Dua",
+  "lead": "Duel mahjong dalam talian — dengan kawan, pemain rawak atau Mazhobe, katak perungut. Mahu bersantai? 3000 tahap solo sedang menanti.",
+  "cta": "Dapatkan di Google Play",
+  "free": "Percuma · Android",
+  "try": "Cuba terus di sini: ketik jubin yang bebas, padankan pasangan di rak. Mazhobe sedang memerhati.",
+  "demo": {
+   "win": "Menang bersih!",
+   "win_text": "Itu baru memanaskan badan. Permainan ini ada 3000 tahap dan duel dalam talian.",
+   "lose": "Rak sudah penuh!",
+   "lose_text": "Empat jubin berbeza — Mazhobe sangat berpuas hati.",
+   "again": "Main lagi",
+   "hint": "Ketik jubin yang bebas"
+  },
+  "trailer_h": "Treler",
+  "trailer_btn": "Mainkan treler",
+  "video_name": "Mazhobe: Mahjong untuk Dua — treler",
+  "feat_h": "Apa yang ada di dalam",
+  "features": [
+   [
+    "duel",
+    "Duel dalam talian",
+    "Satu papan untuk berdua: yang mengumpul lebih banyak pasangan menang. Jemput kawan dari papan kedudukan atau biar permainan mencari lawan."
+   ],
+   [
+    "mazhobe",
+    "Duel dengan Mazhobe",
+    "Tiada lawan, atau tiada sambungan? Main menentang Mazhobe sendiri — Mengantuk, Licik atau Nekad. Semakin nekad dia, semakin banyak biji oak yang kamu menangi."
+   ],
+   [
+    "play",
+    "Rak 4 jubin",
+    "Jubin tidak hilang di papan — ia masuk ke rak dengan empat slot. Dua yang sama jadi pasangan, empat yang berbeza dan kamu kalah. Fikir satu langkah ke hadapan."
+   ],
+   [
+    "finisher",
+    "Serangan penamat yang hebat",
+    "14 serangan penamat untuk pasangan terakhir: petir, lohong hitam, dakwat, sakura dan banyak lagi — Mazhobe menjual semuanya dengan harga biji oak."
+   ],
+   [
+    "mechanics",
+    "Ais, mangga dan misteri",
+    "Jubin beku, mangga gangsa, perak dan emas, serta jubin misteri yang meletupkan seluruh papan."
+   ],
+   [
+    "daily",
+    "Tahap harian",
+    "Satu tahap untuk semua orang setiap hari. Hantu pemain terbaik hari itu bermain tepat di sebelahmu — potong dia untuk dapatkan bonus."
+   ]
+  ],
+  "how_h": "Juga dalam permainan",
+  "how": [
+   "Duet: bersihkan satu papan bersama dengan rak yang dikongsi",
+   "3000 tahap, 627 susunan daripada 22 hingga 258 jubin",
+   "Papan kedudukan, kawan, suka dan gelaran daripada Mazhobe",
+   "Pencapaian Google Play Games; kemajuan berpindah ke telefon baharu",
+   "22 bahasa; tahap dan duel dengan Mazhobe boleh dimainkan luar talian"
+  ],
+  "privacy": "Dasar Privasi",
+  "delete": "Pemadaman data",
+  "contact": "Hubungi kami",
+  "alt_shot": "Tangkapan skrin: "
+ },
+ "faq": {
+  "h": "Soalan dan jawapan",
+  "items": [
+   [
+    "Bagaimana untuk bermain mahjong dengan kawan?",
+    "Buka Dua pemain → Duel dan jemput kawan dari papan kedudukan, atau ketik “Cari lawan”. Kamu bermain di satu papan dalam talian, masing-masing di telefon sendiri. Dalam Duet, kamu membersihkan satu papan bersama-sama."
+   ],
+   [
+    "Bolehkah saya bermain luar talian?",
+    "Ya: semua tahap dan duel dengan Mazhobe berfungsi tanpa sambungan. Duel dalam talian, papan kedudukan dan kedai memerlukan sambungan."
+   ],
+   [
+    "Adakah permainan ini percuma?",
+    "Ya. Tiada pembelian; apabila petunjuk atau batal langkah habis, kamu boleh mendapatkan satu lagi dengan menonton iklan pendek jika mahu."
+   ],
+   [
+    "Apa bezanya dengan mahjong solitaire klasik?",
+    "Jubin tidak hilang berpasangan dari papan — ia masuk ke rak dengan empat slot, tempat pasangan bertemu. Penuhkan rak dengan empat jubin berbeza dan kamu kalah, jadi kamu perlu berfikir satu langkah ke hadapan."
+   ],
+   [
+    "Adakah kemajuan saya akan berpindah ke telefon baharu?",
+    "Ya. Kemajuan disimpan tanpa nama, tanpa pendaftaran, dan dipulihkan di telefon baharu melalui Google Play Games."
+   ],
+   [
+    "Adakah versi iPhone?",
+    "Belum — permainan ini tersedia di Android dalam Google Play."
+   ],
+   [
+    "Bahasa apa yang disokong?",
+    "22 bahasa, termasuk Inggeris, Rusia, Sepanyol, Jerman, Perancis, Portugis, Turki, Jepun, Korea dan Cina."
+   ]
+  ]
+ },
+ "howto": {
+  "title": "Cara bermain Mazhobe: Mahjong untuk Dua — peraturan rak 4 jubin",
+  "desc": "Peraturan Mazhobe: Mahjong untuk Dua: jubin bebas, rak 4 slot, pasangan, ais, mangga dan jubin misteri, duel dalam talian, Duet dan tahap harian. Petua untuk menang.",
+  "h1": "Cara bermain",
+  "intro": "Mazhobe ialah mahjong solitaire dengan sentuhan baharu: jubin tidak hilang dari papan secara berpasangan — ia masuk ke rak dengan empat slot. Berikut peraturan, mekanik papan dan mod dua pemain.",
+  "sections": [
+   [
+    "Matlamat",
+    [
+     "Kosongkan papan: ambil setiap jubin dan padankan semuanya secara berpasangan di rak."
+    ]
+   ],
+   [
+    "Jubin bebas",
+    [
+     "Kamu hanya boleh mengambil jubin yang bebas: tiada apa-apa di atasnya dan sekurang-kurangnya satu sisi, kiri atau kanan, terbuka. Jubin yang belum boleh diambil kelihatan lebih gelap.",
+     "Dari tahap 15 sesetengah jubin terbalik: ketikan pertama membalikkannya, ketikan seterusnya mengambilnya."
+    ]
+   ],
+   [
+    "Rak",
+    [
+     "Ketik jubin yang bebas dan ia terbang ke rak. Apabila dua jubin yang sama bertemu di situ, pasangan itu hilang dan memberi biji oak.",
+     "Rak hanya ada empat slot. Penuhkan keempat-empatnya dengan jubin berbeza dan tahap itu kalah — jadi sebelum mengambil jubin, ketahui di mana kembarnya."
+    ]
+   ],
+   [
+    "Bintang, petunjuk dan batal langkah",
+    [
+     "Setiap tahap mempunyai satu hingga lima bintang kesukaran. Setiap agihan disemak: ada penyelesaiannya, dan petunjuk membawa tepat ke situ.",
+     "Petunjuk menunjukkan langkah baik seterusnya, batal langkah menarik balik yang terakhir. Apabila habis, kamu boleh mendapatkan satu lagi dengan menonton iklan pendek — hanya jika kamu mahu."
+    ]
+   ],
+   [
+    "Ais, mangga dan misteri",
+    [
+     "Ais: jubin beku tidak boleh diambil sehingga jirannya dibuang secara berpasangan — kemudian aisnya retak.",
+     "Mangga: jubin berkunci terbuka apabila kamu memadankan sepasang kunci logam yang sama — gangsa, perak atau emas.",
+     "Misteri: jubin bertanda soal menyembunyikan gambarnya. Letakkan di rak: jika bertemu kembarnya, ia menyapu seluruh papan sekali gus; jika tidak, ia hanya memenuhi satu slot."
+    ]
+   ],
+   [
+    "Duel dalam talian",
+    [
+     "Dua pemain, dua telefon, satu papan dan satu rak. Kedua-duanya mengetik serentak; pasangan menjadi milik yang menutupnya, dan yang mempunyai lebih banyak pasangan menang.",
+     "Jika ketikan kamu akan memenuhi rak dengan jubin keempat yang berbeza, ia dibatalkan: jubin dikembalikan dan kamu hilang satu mata.",
+     "Dalam duel bermasa, kamu bergilir-gilir, dan bar menunjukkan giliran siapa.",
+     "Jemput kawan dari papan kedudukan atau ketik “Cari lawan”. Selepas perlawanan, ucap GG."
+    ]
+   ],
+   [
+    "Duel dengan Mazhobe",
+    [
+     "Duel yang sama menentang katak Mazhobe — dia duduk di belakang rak dan menjeling jubin kamu. Tiga perangai: Mengantuk, Licik dan Nekad; semakin nekad dia, semakin banyak biji oak kemenangan membawa. Berfungsi tanpa sambungan."
+    ]
+   ],
+   [
+    "Duet",
+    [
+     "Bersihkan satu papan bersama dengan rak yang dikongsi. Kamu menang — atau memenuhkan rak — bersama-sama."
+    ]
+   ],
+   [
+    "Tahap harian",
+    [
+     "Satu tahap untuk semua orang setiap hari. Hantu pemain terbaik hari itu bermain di sebelahmu; potong dia untuk dapatkan bonus."
+    ]
+   ],
+   [
+    "Petua",
+    [
+     "Biarkan satu slot kosong: tiga jubin berbeza di rak tidak memberi ruang untuk kesilapan.",
+     "Ambil jubin yang kembarnya sudah kamu lihat.",
+     "Buka lapisan baharu hanya apabila rak ada ruang — kamu tidak tahu apa yang ada di bawahnya."
+    ]
+   ]
+  ],
+  "image_alt": "Ais, mangga dan misteri di papan"
+ },
+ "ui": {
+  "howto_link": "Cara bermain",
+  "home": "Laman utama",
+  "back_cta": "Sedia mencuba?"
+ }
+}

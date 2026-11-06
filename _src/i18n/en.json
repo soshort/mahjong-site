@@ -1,0 +1,190 @@
+{
+ "code": "en",
+ "hreflang": "en",
+ "og_locale": "en_US",
+ "play_hl": "en",
+ "native": "English",
+ "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong for Two — online mahjong duels for Android",
+  "desc": "Free mahjong for two on Android: duel friends online on one board, beat Mazhobe the toad, or team up in Duet. 3000 levels, a 4-tile shelf and a new daily level.",
+  "h1": "Mazhobe: Mahjong for Two",
+  "lead": "Mahjong duels online — with a friend, a random player or Mazhobe, the grumpy toad. Want some quiet? 3000 solo levels are waiting.",
+  "cta": "Get it on Google Play",
+  "free": "Free · Android",
+  "try": "Try it right here: tap free tiles, match pairs on the shelf. Mazhobe is watching.",
+  "demo": {
+   "win": "Clean win!",
+   "win_text": "That was a warm-up. The game has 3000 levels and online duels.",
+   "lose": "The shelf is full!",
+   "lose_text": "Four different tiles — Mazhobe is very pleased with himself.",
+   "again": "Play again",
+   "hint": "Tap a free tile"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "Play the trailer",
+  "video_name": "Mazhobe: Mahjong for Two — trailer",
+  "feat_h": "What's inside",
+  "features": [
+   [
+    "duel",
+    "Online duels",
+    "One board for two: whoever collects more pairs wins. Invite friends from the leaderboard or let the game find an opponent."
+   ],
+   [
+    "mazhobe",
+    "Duel Mazhobe",
+    "No opponent around, or no connection? Play Mazhobe himself — Sleepy, Sly or Reckless. The more reckless he is, the more acorns you win."
+   ],
+   [
+    "play",
+    "A 4-tile shelf",
+    "Tiles don't vanish on the board — they go to a shelf with four slots. Two alike make a pair, four different and you lose. Think one move ahead."
+   ],
+   [
+    "finisher",
+    "Spectacular finishers",
+    "14 finishers for the last pair: lightning, a black hole, ink, sakura and more — Mazhobe sells them all for acorns."
+   ],
+   [
+    "mechanics",
+    "Ice, locks and mysteries",
+    "Frozen tiles, bronze, silver and gold locks, and a mystery tile that blows the whole board apart."
+   ],
+   [
+    "daily",
+    "Daily level",
+    "One level for everyone each day. The ghost of the day's best player plays right beside you — overtake it for a bonus."
+   ]
+  ],
+  "how_h": "Also in the game",
+  "how": [
+   "Duet: clear one board together with a shared shelf",
+   "3000 levels, 627 layouts from 22 to 258 tiles",
+   "Leaderboards, friends, likes and titles from Mazhobe",
+   "Google Play Games achievements; progress moves to a new phone",
+   "22 languages; levels and duels with Mazhobe work offline"
+  ],
+  "privacy": "Privacy Policy",
+  "delete": "Data deletion",
+  "contact": "Contact",
+  "alt_shot": "Screenshot: "
+ },
+ "faq": {
+  "h": "Questions and answers",
+  "items": [
+   [
+    "How do I play mahjong with a friend?",
+    "Open Two players → Duel and invite a friend from the leaderboard, or tap “Find an opponent”. You play on one board online, each on your own phone. In Duet you clear one board together."
+   ],
+   [
+    "Can I play offline?",
+    "Yes: all levels and the duel with Mazhobe work without a connection. Online duels, leaderboards and the shop need one."
+   ],
+   [
+    "Is the game free?",
+    "Yes. There are no purchases; when hints or undos run out, you can get another by watching a short ad if you want to."
+   ],
+   [
+    "How is it different from classic mahjong solitaire?",
+    "Tiles don't vanish from the board in pairs — they go to a shelf with four slots, where pairs meet. Fill the shelf with four different tiles and you lose, so you have to think a move ahead."
+   ],
+   [
+    "Will my progress move to a new phone?",
+    "Yes. Progress is stored anonymously, without registration, and comes back on a new phone through Google Play Games."
+   ],
+   [
+    "Is there an iPhone version?",
+    "Not yet — the game is available on Android in Google Play."
+   ],
+   [
+    "Which languages does it support?",
+    "22 languages, including English, Russian, Spanish, German, French, Portuguese, Turkish, Japanese, Korean and Chinese."
+   ]
+  ]
+ },
+ "howto": {
+  "title": "How to play Mazhobe: Mahjong for Two — rules of the 4-tile shelf",
+  "desc": "Rules of Mazhobe: Mahjong for Two: free tiles, the 4-slot shelf, pairs, ice, locks and mystery tiles, online duels, Duet and the daily level. Tips for winning.",
+  "h1": "How to play",
+  "intro": "Mazhobe is mahjong solitaire with a twist: tiles don't disappear from the board in pairs — they go to a shelf with four slots. Here are the rules, the board mechanics and the two-player modes.",
+  "sections": [
+   [
+    "The goal",
+    [
+     "Clear the board: take every tile and match them all in pairs on the shelf."
+    ]
+   ],
+   [
+    "Free tiles",
+    [
+     "You can only take a free tile: nothing lies on top of it and at least one side, left or right, is open. Tiles you can't take yet look darker.",
+     "From level 15 some tiles lie face down: the first tap turns one over, the next one takes it."
+    ]
+   ],
+   [
+    "The shelf",
+    [
+     "Tap a free tile and it flies to the shelf. When two identical tiles meet there, the pair vanishes and earns acorns.",
+     "The shelf has only four slots. Fill all four with different tiles and the level is lost — so before taking a tile, know where its twin is."
+    ]
+   ],
+   [
+    "Stars, hints and undo",
+    [
+     "Each level has one to five stars of difficulty. Every deal is checked: it has a solution, and the hint leads exactly to it.",
+     "A hint shows the next good move, undo takes back the last one. When they run out, you can get one more by watching a short ad — only if you want to."
+    ]
+   ],
+   [
+    "Ice, locks and mysteries",
+    [
+     "Ice: a frozen tile can't be taken until its neighbours are cleared in pairs — then the ice cracks.",
+     "Locks: a locked tile opens once you match the pair of keys of the same metal — bronze, silver or gold.",
+     "Mystery: a tile with a question mark hides its picture. Put it on the shelf: if it meets its twin, it sweeps the whole board at once; if not, it just takes up a slot."
+    ]
+   ],
+   [
+    "Online duel",
+    [
+     "Two players, two phones, one board and one shelf. Both tap at the same time; the pair goes to whoever closes it, and the one with more pairs wins.",
+     "If your tap would fill the shelf with a fourth different tile, it is cancelled: the tile goes back and you lose a point.",
+     "In a timed duel you take turns, and a bar shows whose move it is.",
+     "Invite a friend from the leaderboard or tap “Find an opponent”. After the match, say GG."
+    ]
+   ],
+   [
+    "Duel with Mazhobe",
+    [
+     "The same duel against Mazhobe the toad — he sits behind the shelf and eyes your tiles. Three moods: Sleepy, Sly and Reckless; the more reckless he is, the more acorns a win brings. Works without a connection."
+    ]
+   ],
+   [
+    "Duet",
+    [
+     "Clear one board together with a shared shelf. You win — or fill the shelf — together."
+    ]
+   ],
+   [
+    "Daily level",
+    [
+     "One level for everyone each day. The ghost of the day's best player plays beside you; overtake it for a bonus."
+    ]
+   ],
+   [
+    "Tips",
+    [
+     "Keep a slot free: three different tiles on the shelf leave no room for a mistake.",
+     "Take tiles whose twin you can already see.",
+     "Open a new layer only when the shelf has room — you don't know what's underneath."
+    ]
+   ]
+  ],
+  "image_alt": "Ice, locks and mysteries on the board"
+ },
+ "ui": {
+  "howto_link": "How to play",
+  "home": "Home",
+  "back_cta": "Ready to try?"
+ }
+}

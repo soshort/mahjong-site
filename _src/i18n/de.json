@@ -1,0 +1,92 @@
+{
+ "code": "de", "hreflang": "de", "og_locale": "de_DE", "play_hl": "de", "native": "Deutsch", "shots": "en",
+ "main": {
+  "title": "Mazhobe: Mahjong zu zweit — Online-Mahjong-Duelle für Android",
+  "desc": "Kostenloses Mahjong zu zweit für Android: Duelle mit Freunden online auf einem Feld, gegen die Kröte Mazhobe oder im Duett. 3000 Level, 4er-Ablage, Tageslevel.",
+  "h1": "Mazhobe: Mahjong zu zweit",
+  "lead": "Mahjong-Duelle online – mit einem Freund, einem zufälligen Spieler oder Mazhobe, der grummeligen Kröte. Lust auf Ruhe? Dann warten 3000 Level zum Alleinspielen.",
+  "cta": "Jetzt bei Google Play",
+  "free": "Kostenlos · Android",
+  "try": "Probier es gleich hier: Tippe auf freie Steine und bilde auf der Ablage Paare. Mazhobe schaut zu.",
+  "demo": {
+   "win": "Sauberer Sieg!",
+   "win_text": "Das war nur das Aufwärmen. Das Spiel hat 3000 Level und Online-Duelle.",
+   "lose": "Die Ablage ist voll!",
+   "lose_text": "Vier verschiedene Steine – Mazhobe ist sehr zufrieden mit sich.",
+   "again": "Nochmal spielen",
+   "hint": "Tippe auf einen freien Stein"
+  },
+  "trailer_h": "Trailer",
+  "trailer_btn": "Trailer abspielen",
+  "video_name": "Mazhobe: Mahjong zu zweit – Trailer",
+  "feat_h": "Was drinsteckt",
+  "features": [
+   ["duel", "Online-Duelle", "Ein Feld für zwei: Wer mehr Paare sammelt, gewinnt. Lade Freunde aus der Bestenliste ein oder lass das Spiel einen Gegner finden."],
+   ["mazhobe", "Duell mit Mazhobe", "Kein Gegner da oder keine Verbindung? Spiel gegen Mazhobe persönlich – Verschlafen, Gerissen oder Wagemutig. Je wagemutiger er ist, desto mehr Eicheln gewinnst du."],
+   ["play", "Eine Ablage mit 4 Plätzen", "Steine verschwinden nicht einfach vom Feld – sie wandern auf eine Ablage mit vier Plätzen. Zwei gleiche bilden ein Paar, vier verschiedene und du verlierst. Denk einen Zug voraus."],
+   ["finisher", "Spektakuläre Finisher", "14 Finisher für das letzte Paar: Blitz, Schwarzes Loch, Tinte, Kirschblüte und mehr – Mazhobe verkauft sie alle gegen Eicheln."],
+   ["mechanics", "Eis, Schlösser und Rätsel", "Eingefrorene Steine, Schlösser aus Bronze, Silber und Gold und ein Rätselstein, der das ganze Feld auseinanderfliegen lässt."],
+   ["daily", "Tageslevel", "Jeden Tag ein Level für alle. Der Geist des besten Spielers des Tages spielt direkt neben dir – überhol ihn und hol dir einen Bonus."]
+  ],
+  "how_h": "Außerdem im Spiel",
+  "how": [
+   "Duett: ein Feld gemeinsam mit geteilter Ablage abräumen",
+   "3000 Level, 627 Formen von 22 bis 258 Steinen",
+   "Bestenlisten, Freunde, Likes und Titel von Mazhobe",
+   "Erfolge in Google Play Spiele; der Fortschritt zieht aufs neue Handy um",
+   "22 Sprachen; Level und Duelle mit Mazhobe laufen offline"
+  ],
+  "privacy": "Datenschutzerklärung",
+  "delete": "Datenlöschung",
+  "contact": "Kontakt",
+  "alt_shot": "Screenshot: "
+ },
+ "faq": {
+  "h": "Fragen und Antworten",
+  "items": [
+   ["Wie spiele ich Mahjong mit einem Freund?", "Öffne „Zwei Spieler“ → „Duell“ und lade einen Freund aus der Bestenliste ein oder tippe auf „Gegner finden“. Ihr spielt online auf einem Feld, jeder auf dem eigenen Handy. Im Duett räumt ihr ein Feld gemeinsam ab."],
+   ["Kann ich offline spielen?", "Ja: Alle Level und das Duell mit Mazhobe laufen ohne Verbindung. Online-Duelle, Bestenlisten und der Laden brauchen eine."],
+   ["Ist das Spiel kostenlos?", "Ja. Es gibt keine Käufe; wenn Tipps oder Rückgängig-Züge aufgebraucht sind, kannst du dir mit einem kurzen Werbevideo einen weiteren holen – wenn du magst."],
+   ["Was unterscheidet es von klassischem Mahjong-Solitär?", "Die Steine verschwinden nicht paarweise vom Feld – sie wandern auf eine Ablage mit vier Plätzen, wo sich die Paare treffen. Liegen dort vier verschiedene Steine, hast du verloren, also musst du einen Zug vorausdenken."],
+   ["Zieht mein Fortschritt aufs neue Handy um?", "Ja. Der Fortschritt wird anonym und ohne Registrierung gespeichert und kommt über Google Play Spiele aufs neue Handy zurück."],
+   ["Gibt es eine iPhone-Version?", "Noch nicht – das Spiel gibt es für Android bei Google Play."],
+   ["Welche Sprachen werden unterstützt?", "22 Sprachen, darunter Englisch, Russisch, Spanisch, Deutsch, Französisch, Portugiesisch, Türkisch, Japanisch, Koreanisch und Chinesisch."]
+  ]
+ },
+ "howto": {
+  "title": "So spielt man Mazhobe: Mahjong zu zweit – Regeln der 4er-Ablage",
+  "desc": "Regeln von Mazhobe: Mahjong zu zweit: freie Steine, Ablage mit 4 Plätzen, Paare, Eis, Schlösser und Rätselsteine, Online-Duelle, Duett und Tageslevel. Tipps zum Sieg.",
+  "h1": "So wird gespielt",
+  "intro": "Mazhobe ist Mahjong-Solitär mit einem Dreh: Die Steine verschwinden nicht paarweise vom Feld – sie wandern auf eine Ablage mit vier Plätzen. Hier findest du die Regeln, die Feldmechaniken und die Zweispielermodi.",
+  "sections": [
+   ["Das Ziel", ["Räum das Feld ab: Nimm jeden Stein und bring alle auf der Ablage paarweise zusammen."]],
+   ["Freie Steine", [
+    "Du kannst nur einen freien Stein nehmen: Nichts liegt darauf und mindestens eine Seite, links oder rechts, ist offen. Steine, die du noch nicht nehmen kannst, sehen dunkler aus.",
+    "Ab Level 15 liegen manche Steine verdeckt: Das erste Tippen dreht einen um, das nächste nimmt ihn."]],
+   ["Die Ablage", [
+    "Tippe auf einen freien Stein, und er fliegt auf die Ablage. Treffen dort zwei gleiche Steine aufeinander, verschwindet das Paar und bringt Eicheln.",
+    "Die Ablage hat nur vier Plätze. Füllst du alle vier mit verschiedenen Steinen, ist das Level verloren – wisse also vor jedem Zug, wo der Zwilling liegt."]],
+   ["Sterne, Tipps und Rückgängig", [
+    "Jedes Level hat einen bis fünf Schwierigkeitssterne. Jede Verteilung ist geprüft: Sie hat eine Lösung, und der Tipp führt genau zu ihr.",
+    "Ein Tipp zeigt den nächsten guten Zug, „Rückgängig“ nimmt den letzten zurück. Sind sie aufgebraucht, kannst du dir mit einem kurzen Werbevideo einen weiteren holen – nur wenn du willst."]],
+   ["Eis, Schlösser und Rätsel", [
+    "Eis: Ein gefrorener Stein lässt sich nicht nehmen, bis seine Nachbarn paarweise abgeräumt sind – dann bricht das Eis.",
+    "Schlösser: Ein verschlossener Stein öffnet sich, sobald du das Schlüsselpaar desselben Metalls zusammenbringst – Bronze, Silber oder Gold.",
+    "Rätsel: Ein Stein mit Fragezeichen verbirgt sein Bild. Leg ihn auf die Ablage: Trifft er seinen Zwilling, fegt er das ganze Feld auf einmal leer; wenn nicht, belegt er nur einen Platz."]],
+   ["Online-Duell", [
+    "Zwei Spieler, zwei Handys, ein Feld und eine Ablage. Beide tippen gleichzeitig; das Paar geht an den, der es schließt, und wer mehr Paare hat, gewinnt.",
+    "Würde dein Tippen die Ablage mit einem vierten verschiedenen Stein füllen, wird es abgebrochen: Der Stein geht zurück und du verlierst einen Punkt.",
+    "Im Duell auf Zeit seid ihr abwechselnd dran, und ein Balken zeigt, wer am Zug ist.",
+    "Lade einen Freund aus der Bestenliste ein oder tippe auf „Gegner finden“. Sag nach dem Match GG."]],
+   ["Duell mit Mazhobe", ["Dasselbe Duell gegen die Kröte Mazhobe – er sitzt hinter der Ablage und schielt auf deine Steine. Drei Launen: Verschlafen, Gerissen und Wagemutig; je wagemutiger er ist, desto mehr Eicheln bringt ein Sieg. Funktioniert ohne Verbindung."]],
+   ["Duett", ["Räumt ein Feld gemeinsam mit geteilter Ablage ab. Ihr gewinnt – oder füllt die Ablage – zusammen."]],
+   ["Tageslevel", ["Jeden Tag ein Level für alle. Der Geist des besten Spielers des Tages spielt neben dir; überhol ihn und hol dir einen Bonus."]],
+   ["Tipps", [
+    "Halte einen Platz frei: Drei verschiedene Steine auf der Ablage lassen keinen Raum für Fehler.",
+    "Nimm Steine, deren Zwilling du schon siehst.",
+    "Öffne eine neue Ebene nur, wenn die Ablage Platz hat – du weißt nicht, was darunter liegt."]]
+  ],
+  "image_alt": "Eis, Schlösser und Rätsel auf dem Feld"
+ },
+ "ui": {"howto_link": "So wird gespielt", "home": "Startseite", "back_cta": "Bereit zum Ausprobieren?"}
+}
