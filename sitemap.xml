@@ -13,6 +13,18 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/"/>
   </url>
   <url>
+    <loc>https://mahjong.stepanz.dev/how-to-play.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/how-to-play.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/how-to-play.html"/>
+  </url>
+  <url>
+    <loc>https://mahjong.stepanz.dev/ru/how-to-play.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/how-to-play.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mahjong.stepanz.dev/ru/how-to-play.html"/>
+  </url>
+  <url>
     <loc>https://mahjong.stepanz.dev/privacy.html</loc>
     <lastmod>2026-11-06</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://mahjong.stepanz.dev/privacy.html"/>

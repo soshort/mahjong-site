@@ -15,6 +15,8 @@ import json
 import sys
 from pathlib import Path
 
+from content import FAQ, HOWTO, UI
+
 SITE = "https://mahjong.stepanz.dev"
 PLAY = "https://play.google.com/store/apps/details?id=dev.stepanz.mahjong"
 YT = "HvKxJ-6F2d4"
@@ -43,6 +45,7 @@ T = {
                  "lose": "The shelf is full!", "lose_text": "Four different tiles — Mazhobe is very pleased with himself.",
                  "again": "Play again", "hint": "Tap a free tile"},
         "trailer_h": "Trailer", "trailer_btn": "Play the trailer",
+        "video_name": "Mazhobe: Mahjong for Two — trailer",
         "feat_h": "What's inside",
         "features": [
             ("duel", "Online duels", "One board for two: whoever collects more pairs wins. Invite friends from the "
@@ -80,6 +83,7 @@ T = {
                  "lose": "Полка забита!", "lose_text": "Четыре разных тайла — Мажобэ очень доволен собой.",
                  "again": "Ещё раз", "hint": "Тапни свободный тайл"},
         "trailer_h": "Ролик", "trailer_btn": "Смотреть ролик",
+        "video_name": "Мажобэ: Маджонг на двоих — ролик",
         "feat_h": "Что внутри",
         "features": [
             ("duel", "Дуэль онлайн", "Одно поле на двоих: кто собрал больше пар — тот и победил. Зови друзей из "
@@ -144,7 +148,17 @@ def page(lang: str) -> str:
           "alternateName": "Mazhobe Mahjong", "operatingSystem": "Android", "applicationCategory": "GameApplication",
           "description": t["desc"], "url": url, "image": SITE + "/img/feature.jpg", "inLanguage": lang,
           "installUrl": t["play"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-          "sameAs": [PLAY, "https://youtu.be/" + YT]}
+          "sameAs": [PLAY, "https://youtu.be/" + YT],
+          "author": {"@type": "Person", "name": "Stepan Z"},
+          "screenshot": [f"{SITE}/img/{lang}-{k}.webp" for k in SHOTS]}
+    video = {"@context": "https://schema.org", "@type": "VideoObject", "name": t["video_name"],
+             "description": t["desc"], "thumbnailUrl": SITE + "/img/trailer.jpg", "uploadDate": "2026-11-05",
+             "duration": "PT36S", "embedUrl": f"https://www.youtube.com/embed/{YT}",
+             "contentUrl": f"https://www.youtube.com/watch?v={YT}"}
+    faq_h, faq = FAQ[lang]
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}
+    faq_html = "\n".join(f"      <details><summary>{e(q)}</summary><p>{e(a)}</p></details>" for q, a in faq)
     eyes = (ROOT / "_src/eyes.json").read_text()
     demo = json.dumps({**t["demo"], "icons": DEMO_ICONS, "eyes": json.loads(eyes)}, ensure_ascii=False)
     rain = json.dumps(RAIN_ICONS)
@@ -171,6 +185,9 @@ def page(lang: str) -> str:
 <link rel="alternate" hreflang="ru" href="{SITE}/ru/">
 <link rel="alternate" hreflang="x-default" href="{SITE}/">
 <link rel="icon" href="/icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#17120d">
+<link rel="preload" href="/fonts/philosopher.woff2" as="font" type="font/woff2" crossorigin>
 <meta property="og:type" content="website">
 <meta property="og:title" content="{e(t['h1'])}">
 <meta property="og:description" content="{e(t['desc'])}">
@@ -183,6 +200,8 @@ def page(lang: str) -> str:
 <link rel="stylesheet" href="/style.css">
 <script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(video, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(faq_ld, ensure_ascii=False)}</script>
 </head>
 <body>
 <header class="top">
@@ -215,6 +234,11 @@ def page(lang: str) -> str:
 {feats}
     </div>
   </section>
+  <section class="wrap faq reveal">
+    <h2>{e(faq_h)}</h2>
+{faq_html}
+    <p class="center"><a href="{t['path']}{HOWTO[lang]['file']}">{e(UI[lang]['howto_link'])} →</a></p>
+  </section>
   <section class="wrap how reveal">
     <h2>{e(t['how_h'])}</h2>
     <ul>
@@ -227,10 +251,84 @@ def page(lang: str) -> str:
     <p class="center">{play_btn}</p>
   </section>
 </main>
-<footer class="wrap">
-  <a href="{t['path']}privacy.html">{e(t['privacy'])}</a> · <a href="{t['path']}delete.html">{e(t['delete'])}</a> · {e(t['contact'])}: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a>
-</footer>
+{footer(lang)}
 <script src="/site.js" defer></script>
+</body>
+</html>
+'''
+
+
+def footer(lang: str) -> str:
+    t, e = T[lang], html.escape
+    return f'''<footer class="wrap">
+  <a href="{t['path']}{HOWTO[lang]['file']}">{e(UI[lang]['howto_link'])}</a> · <a href="{t['path']}privacy.html">{e(t['privacy'])}</a> · <a href="{t['path']}delete.html">{e(t['delete'])}</a> · {e(t['contact'])}: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a>
+</footer>'''
+
+
+def howto(lang: str) -> str:
+    """Страница «Как играть»: правила полки, механики, режимы на двоих."""
+    t, h, e = T[lang], HOWTO[lang], html.escape
+    path = t["path"] + h["file"]
+    url = SITE + path
+    nav = "".join(f'<a href="{T[l]["path"]}{h["file"]}" hreflang="{l}"{" aria-current=\"page\"" if l == lang else ""}>'
+                  f'{l.upper()}</a>' for l in ("en", "ru"))
+    shot, alt = h["image"]
+    body = []
+    for i, (title, paras) in enumerate(h["sections"]):
+        body.append(f"<h2>{e(title)}</h2>")
+        if len(paras) > 2:
+            body.append("<ul>" + "".join(f"<li>{e(x)}</li>" for x in paras) + "</ul>")
+        else:
+            body.extend(f"<p>{e(x)}</p>" for x in paras)
+        if i == 4:
+            body.append(f'<img class="doc-shot" src="/img/{lang}-{shot}.webp" width="540" height="960" '
+                        f'loading="lazy" alt="{e(alt)}">')
+    steps = [{"@type": "HowToSection", "name": title, "itemListElement": [
+        {"@type": "HowToStep", "text": x} for x in paras]} for title, paras in h["sections"]]
+    ld = {"@context": "https://schema.org", "@type": "HowTo", "name": h["title"], "description": h["desc"],
+          "inLanguage": lang, "step": steps}
+    crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": t["h1"], "item": SITE + t["path"]},
+        {"@type": "ListItem", "position": 2, "name": h["h1"], "item": url}]}
+    newline = "\n"
+    return f'''<!doctype html>
+<html lang="{lang}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(h['title'])}</title>
+<meta name="description" content="{e(h['desc'])}">
+<link rel="canonical" href="{url}">
+<link rel="alternate" hreflang="en" href="{SITE}/{h['file']}">
+<link rel="alternate" hreflang="ru" href="{SITE}/ru/{h['file']}">
+<link rel="alternate" hreflang="x-default" href="{SITE}/{h['file']}">
+<link rel="icon" href="/icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#17120d">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{e(h['title'])}">
+<meta property="og:description" content="{e(h['desc'])}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{SITE}/img/feature.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(crumbs, ensure_ascii=False)}</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{t['path']}"><img src="/icon.png" alt="" width="36" height="36">Mazhobe</a>
+  <nav class="lang">{nav}</nav>
+</header>
+<main class="wrap doc">
+<p class="crumbs"><a href="{t['path']}">{e(UI[lang]['home'])}</a> › {e(h['h1'])}</p>
+<h1>{e(h['h1'])}</h1>
+<p class="lead">{e(h['intro'])}</p>
+{newline.join(body)}
+<h2>{e(UI[lang]['back_cta'])}</h2>
+<p><a class="play" href="{t['play']}">{PLAY_ICON}{e(t['cta'])}</a></p>
+</main>
+{footer(lang)}
 </body>
 </html>
 '''
@@ -245,7 +343,8 @@ def sitemap() -> str:
     <xhtml:link rel="alternate" hreflang="ru" href="{SITE}{ru}"/>
   </url>
 '''
-    pairs = [("/", "/ru/"), ("/privacy.html", "/ru/privacy.html"), ("/delete.html", "/ru/delete.html")]
+    pairs = [("/", "/ru/"), ("/how-to-play.html", "/ru/how-to-play.html"), ("/privacy.html", "/ru/privacy.html"),
+             ("/delete.html", "/ru/delete.html")]
     urls = "".join(entry(en, ru, en) + entry(en, ru, ru) for en, ru in pairs)
     return ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
             f'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n{urls}</urlset>\n')
@@ -256,6 +355,8 @@ def main() -> None:
         assets()
     (ROOT / "index.html").write_text(page("en"))
     (ROOT / "ru/index.html").write_text(page("ru"))
+    for lang in ("en", "ru"):
+        (ROOT / (T[lang]["path"].lstrip("/") + HOWTO[lang]["file"])).write_text(howto(lang))
     (ROOT / "sitemap.xml").write_text(sitemap())
     print("страницы собраны")
 

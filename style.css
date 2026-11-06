@@ -1,8 +1,9 @@
 /* Сайт игры: тёмное дерево и золото, как в игре. Шрифт заголовков —
-   Philosopher (тот же, что в игре; SIL OFL). */
+   Philosopher (тот же, что в игре; SIL OFL, fonts/OFL.txt) — подмножество:
+   латиница и кириллица (с казахскими и украинскими буквами), знаки. */
 @font-face {
   font-family: "Philosopher";
-  src: url("/fonts/Philosopher-Bold.ttf") format("truetype");
+  src: url("/fonts/philosopher.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
 }
@@ -174,3 +175,18 @@ footer a { margin: 0 8px; }
 .js .reveal.in .peek-head, .peek-head.perk { transform: none; }
 .reveal:not(.in) .peek-head { transform: translateY(45%); }
 .peek-pole { position: absolute; left: -4%; right: -4%; bottom: 0; height: 22%; background: url("/img/pole.webp") center / 100% 100%; }
+
+/* Вопросы и ответы: раскрывающиеся строки. */
+.faq { max-width: 760px; }
+.faq details { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; }
+.faq summary { cursor: pointer; padding: 14px 18px; font-weight: 600; list-style: none; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; float: right; color: var(--gold); font-size: 20px; line-height: 1; }
+.faq details[open] summary::after { content: "–"; }
+.faq details p { margin: 0; padding: 0 18px 16px; color: var(--text); }
+
+/* «Как играть»: хлебные крошки, картинка механик. */
+.crumbs { color: var(--muted); font-size: 15px; margin: 10px 0 0; }
+.doc .lead { font-size: 19px; }
+.doc-shot { width: min(300px, 70%); margin: 18px auto; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+.doc .play { margin-top: 6px; }
