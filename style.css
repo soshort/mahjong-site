@@ -173,7 +173,8 @@ footer .contact a { margin: 0; }
 @keyframes laugh { 50% { transform: translateY(-3%) rotate(-1deg); } }
 
 /* Мажобэ выглядывает из-за жерди над нижней кнопкой. */
-.peek { position: relative; width: min(440px, 92%); aspect-ratio: 3.6; margin: 34px auto 8px; overflow: hidden; }
+/* Высота — чтобы голова целиком (с макушкой) влезала над жердью. */
+.peek { position: relative; width: min(440px, 92%); aspect-ratio: 2.55; margin: 34px auto 8px; overflow: hidden; }
 .peek-head { position: absolute; left: 0; right: 0; bottom: -10%; transform: translateY(45%); transition: transform 1s cubic-bezier(.2,.9,.3,1.1) .3s; }
 .peek-head img { width: 100%; height: auto; }
 .js .reveal.in .peek-head, .peek-head.perk { transform: none; }
