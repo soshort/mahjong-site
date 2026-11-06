@@ -88,7 +88,8 @@ section h2 { font-family: "Philosopher", serif; color: var(--gold); font-size: c
 .center { text-align: center; }
 
 footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 15px; text-align: center; }
-footer a { margin: 0 8px; }
+footer a, footer .contact { margin: 0 8px; }
+footer .contact a { margin: 0; }
 
 /* Страницы-документы (политика, удаление данных): текст в одну колонку. */
 .doc { max-width: 760px; padding-bottom: 24px; }

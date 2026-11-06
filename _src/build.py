@@ -125,7 +125,7 @@ def ld(data: dict) -> str:
 def footer(lang: str) -> str:
     m, u = L[lang]["main"], L[lang]["ui"]
     return f'''<footer class="wrap">
-  <a href="{path(lang, HOWTO_FILE)}">{e(u['howto_link'])}</a> · <a href="{doc_path(lang, 'privacy.html')}">{e(m['privacy'])}</a> · <a href="{doc_path(lang, 'delete.html')}">{e(m['delete'])}</a> · {e(m['contact'])}: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a>
+  <a href="{path(lang, HOWTO_FILE)}">{e(u['howto_link'])}</a> · <a href="{doc_path(lang, 'privacy.html')}">{e(m['privacy'])}</a> · <a href="{doc_path(lang, 'delete.html')}">{e(m['delete'])}</a> · <span class="contact">{e(m['contact'])}: <a href="mailto:stepanz.dev@gmail.com">stepanz.dev@gmail.com</a></span>
 </footer>'''
 
 
