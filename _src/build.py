@@ -191,7 +191,7 @@ def page(lang: str) -> str:
   <section class="wrap faq reveal">
     <h2>{e(faq['h'])}</h2>
 {faq_html}
-    <p class="center"><a href="{path(lang, HOWTO_FILE)}">{e(d['ui']['howto_link'])} →</a></p>
+    <p class="center"><a class="more" href="{path(lang, HOWTO_FILE)}">{e(d['ui']['howto_link'])}<span aria-hidden="true">→</span></a></p>
   </section>
   <section class="wrap how reveal">
     <h2>{e(m['how_h'])}</h2>

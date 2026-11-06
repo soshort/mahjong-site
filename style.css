@@ -106,7 +106,10 @@ footer .contact a { margin: 0; }
 .js .reveal.in { opacity: 1; transform: none; }
 
 /* Падающие тайлы на первом экране. */
-.rain { position: absolute; inset: 0; pointer-events: none; }
+/* Тайлы тают к краям блока, а не обрезаются его границей. */
+.rain { position: absolute; inset: 0; pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 12%, #000 62%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 12%, #000 62%, transparent 100%); }
 .drop { position: absolute; top: -12%; background: #f1f3ec; border-radius: 12% / 10%;
   box-shadow: 2px 3px 0 #2b7c77; animation: fall linear infinite; }
 .drop img { width: 86%; height: auto; margin: 7%; }
@@ -204,3 +207,12 @@ footer .contact a { margin: 0; }
 .langs-list a { color: var(--text); text-decoration: none; padding: 6px 10px; border-radius: 8px; font-size: 15px; }
 .langs-list a:hover { background: var(--line); }
 .langs-list a[aria-current] { color: var(--gold); }
+
+/* Вторичная кнопка-ссылка («Как играть»): контур золотом, стрелка уезжает
+   вправо при наведении. */
+.more { display: inline-flex; align-items: center; gap: 10px; margin-top: 14px; padding: 11px 22px;
+  border: 1.5px solid var(--gold-deep); border-radius: 14px; color: var(--gold); text-decoration: none;
+  font-family: "Philosopher", serif; font-size: 19px; transition: background .2s, color .2s; }
+.more span { transition: transform .2s; }
+.more:hover { background: rgba(242, 201, 95, .1); }
+.more:hover span { transform: translateX(4px); }
