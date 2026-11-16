@@ -5,6 +5,7 @@
 
     python3 _src/build.py            — страницы и sitemap
     python3 _src/build.py --assets   — ещё и картинки из игры (img/)
+    python3 _src/build.py --icons    — ещё и значки (icon.png, apple-touch-icon.png) из игры
 
 Тексты — _src/i18n/<код>.json (en, ru — оригинал; остальные — переводы,
 названия режимов и кнопок — из строк игры и её страницы в Play). Пути:
@@ -94,8 +95,8 @@ def head(lang: str, file: str, title: str, desc: str, og_type: str, extra: str) 
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
 {alternates(file)}
-<link rel="icon" href="/icon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/icon.png?v={ver('icon.png')}">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v={ver('apple-touch-icon.png')}">
 <meta name="theme-color" content="#17120d">
 <link rel="preload" href="/fonts/philosopher.woff2" as="font" type="font/woff2" crossorigin>
 <meta property="og:type" content="{og_type}">
@@ -113,7 +114,7 @@ def head(lang: str, file: str, title: str, desc: str, og_type: str, extra: str) 
 </head>
 <body>
 <header class="top">
-  <a class="brand" href="{path(lang)}"><img src="/icon.png" alt="" width="36" height="36">Mazhobe</a>
+  <a class="brand" href="{path(lang)}"><img src="/icon.png?v={ver('icon.png')}" alt="" width="36" height="36">Mazhobe</a>
   {lang_menu(lang, file)}
 </header>'''
 
@@ -252,12 +253,14 @@ def howto(lang: str) -> str:
 
 
 def stamp_docs() -> None:
-    """Ручные страницы (политика, удаление) — та же метка версии стилей."""
+    """Ручные страницы (политика, удаление) — та же метка версии стилей и значков."""
     for doc in ("privacy.html", "delete.html", "ru/privacy.html", "ru/delete.html"):
         f = ROOT / doc
-        text, n = re.subn(r'href="/style\.css(\?v=[0-9a-f]+)?"', f'href="/style.css?v={ver("style.css")}"',
-                          f.read_text())
-        assert n == 1, doc
+        text = f.read_text()
+        for name, count in (("style.css", 1), ("icon.png", 2), ("apple-touch-icon.png", 1)):
+            text, n = re.subn(rf'(href|src)="/{re.escape(name)}(\?v=[0-9a-f]+)?"', rf'\1="/{name}?v={ver(name)}"',
+                              text)
+            assert n == count, (doc, name, n)
         f.write_text(text)
 
 
@@ -280,9 +283,19 @@ def sitemap() -> str:
             f'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n{group(["", HOWTO_FILE])}{docs}</urlset>\n')
 
 
-def assets() -> None:
-    """Картинки из игры → img/ (WebP)."""
+def icons() -> None:
+    """Значок сайта и apple-touch-icon — из значка приложения игры (сборщик
+    иконки в tools/art: shared/icon/icon_256.png, mobile/store/icon_1024.png)."""
     from PIL import Image
+    Image.open(GAME / "shared/icon/icon_256.png").save(ROOT / "icon.png", optimize=True)
+    Image.open(GAME / "mobile/store/icon_1024.png").convert("RGB").resize((180, 180), Image.LANCZOS).save(
+        ROOT / "apple-touch-icon.png", optimize=True)
+
+
+def assets() -> None:
+    """Картинки из игры → img/ (WebP) и значки."""
+    from PIL import Image
+    icons()
     img = ROOT / "img"
     (img / "tile").mkdir(parents=True, exist_ok=True)
     tiles = json.loads((GAME / "shared/tiles/tiles.json").read_text())
@@ -314,6 +327,8 @@ def assets() -> None:
 def main() -> None:
     if "--assets" in sys.argv:
         assets()
+    elif "--icons" in sys.argv:
+        icons()
     for lang in L:
         out = ROOT / path(lang).lstrip("/")
         out.mkdir(parents=True, exist_ok=True)
