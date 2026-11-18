@@ -126,13 +126,16 @@
       const s = t.el.style;
       s.left = `${r.x}px`; s.top = `${r.y}px`; s.width = `${r.w}px`; s.height = `${r.h}px`;
     }
-    function covered(t) {
-      return tiles.some((o) => o.on === "field" && o.l > t.l && Math.abs(o.c - t.c) < 1 && Math.abs(o.r - t.r) < 1);
+    // Закрыт — как в игре: сверху лежит тайл или заняты оба бока (слева и справа на том же слое).
+    function blocked(t) {
+      const on = (o) => o.on === "field" && o !== t;
+      const side = (d) => tiles.some((o) => on(o) && o.l === t.l && Math.abs(o.r - t.r) < 1 && Math.abs(o.c - t.c - d) < 0.5);
+      return tiles.some((o) => on(o) && o.l > t.l && Math.abs(o.c - t.c) < 1 && Math.abs(o.r - t.r) < 1) || (side(-1) && side(1));
     }
     function refresh() {
       const g = geom();
       tiles.forEach((t) => {
-        if (t.on === "field") { place(t, fieldRect(t, g)); t.el.classList.toggle("blocked", covered(t)); }
+        if (t.on === "field") { place(t, fieldRect(t, g)); t.el.classList.toggle("blocked", blocked(t)); }
       });
       shelf.forEach((t, i) => place(t, slotRect(i, g)));
     }
@@ -165,7 +168,7 @@
       });
     }
     function tap(t) {
-      if (over || t.on !== "field" || covered(t) || shelf.length >= SLOTS) return;
+      if (over || t.on !== "field" || blocked(t) || shelf.length >= SLOTS) return;
       hint.classList.add("gone");
       const b = t.el.getBoundingClientRect();
       lookAt(head, b.left + b.width / 2, b.top + b.height / 2);
