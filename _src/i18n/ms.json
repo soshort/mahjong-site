@@ -6,16 +6,16 @@
  "native": "Bahasa Melayu",
  "shots": "en",
  "main": {
-  "title": "Mazhobe: Mahjong untuk Dua — duel mahjong dalam talian untuk Android",
-  "desc": "Mahjong percuma untuk dua orang di Android: berduel dalam talian dengan kawan, kalahkan katak Mazhobe atau main Duet. 3000 tahap, rak 4 jubin, tahap harian.",
-  "h1": "Mazhobe: Mahjong untuk Dua",
-  "lead": "Duel mahjong dalam talian — dengan kawan, pemain rawak atau Mazhobe, katak perungut. Mahu bersantai? 3000 tahap solo sedang menanti.",
+  "title": "Mazhobe: Mahjong Solitaire — mahjong solitaire klasik untuk Android",
+  "desc": "Mahjong solitaire klasik percuma di Android: 3000 tahap dengan rak 4 jubin, tahap harian dengan hantu dan duel dalam talian dengan kawan atau katak Mazhobe.",
+  "h1": "Mazhobe: Mahjong Solitaire",
+  "lead": "Mahjong solitaire klasik: padankan pasangan jubin mengikut rentak sendiri — latihan otak untuk setiap masa lapang. Mahu berteman? Berduel dalam talian dengan kawan atau Mazhobe, katak perungut.",
   "cta": "Dapatkan di Google Play",
   "free": "Percuma · Android",
   "try": "Cuba terus di sini: ketik jubin yang bebas, padankan pasangan di rak. Mazhobe sedang memerhati.",
   "demo": {
    "win": "Menang bersih!",
-   "win_text": "Itu baru memanaskan badan. Permainan ini ada 3000 tahap dan duel dalam talian.",
+   "win_text": "Itu baru memanaskan badan. Permainan ini ada 3000 tahap, tahap harian dan duel dalam talian.",
    "lose": "Rak sudah penuh!",
    "lose_text": "Empat jubin berbeza — Mazhobe sangat berpuas hati.",
    "again": "Main lagi",
@@ -23,21 +23,16 @@
   },
   "trailer_h": "Treler",
   "trailer_btn": "Mainkan treler",
-  "video_name": "Mazhobe: Mahjong untuk Dua — treler",
+  "video_name": "Mazhobe: Mahjong Solitaire — treler",
   "feat_h": "Apa yang ada di dalam",
   "features": [
    [
-    "duel",
-    "Duel dalam talian",
-    "Satu papan untuk berdua: yang mengumpul lebih banyak pasangan menang. Jemput kawan dari papan kedudukan atau biar permainan mencari lawan."
+    "calm",
+    "Mahjong solitaire klasik",
+    "Padankan pasangan jubin mengikut rentak sendiri: 3000 tahap dan 627 susunan daripada 22 hingga 258 jubin. Setiap agihan disemak — sentiasa ada penyelesaian."
    ],
    [
-    "mazhobe",
-    "Duel dengan Mazhobe",
-    "Tiada lawan, atau tiada sambungan? Main menentang Mazhobe sendiri — Mengantuk, Licik atau Nekad. Semakin nekad dia, semakin banyak biji oak yang kamu menangi."
-   ],
-   [
-    "play",
+    "relax",
     "Rak 4 jubin",
     "Jubin tidak hilang di papan — ia masuk ke rak dengan empat slot. Dua yang sama jadi pasangan, empat yang berbeza dan kamu kalah. Fikir satu langkah ke hadapan."
    ],
@@ -55,12 +50,27 @@
     "daily",
     "Tahap harian",
     "Satu tahap untuk semua orang setiap hari. Hantu pemain terbaik hari itu bermain tepat di sebelahmu — potong dia untuk dapatkan bonus."
+   ],
+   [
+    "mazhobe",
+    "Duel dengan Mazhobe",
+    "Tiada lawan, atau tiada sambungan? Main menentang Mazhobe sendiri — Mengantuk, Licik atau Nekad. Semakin nekad dia, semakin banyak biji oak yang kamu menangi."
+   ],
+   [
+    "duel",
+    "Duel dalam talian",
+    "Satu papan untuk berdua: yang mengumpul lebih banyak pasangan menang. Jemput kawan dari papan kedudukan atau biar permainan mencari lawan."
+   ],
+   [
+    "streak",
+    "Siri melukis bentuk berus",
+    "Padankan pasangan berturut-turut dan serpihan jubin berpusar menjadi enso yang dilukis dengan berus — bulatan, hati, bintang, lingkaran dan banyak lagi."
    ]
   ],
   "how_h": "Juga dalam permainan",
   "how": [
    "Duet: bersihkan satu papan bersama dengan rak yang dikongsi",
-   "3000 tahap, 627 susunan daripada 22 hingga 258 jubin",
+   "Kedai Mazhobe: serangan penamat dan avatar dengan biji oak",
    "Papan kedudukan, kawan, suka dan gelaran daripada Mazhobe",
    "Pencapaian Google Play Games; kemajuan berpindah ke telefon baharu",
    "22 bahasa; tahap dan duel dengan Mazhobe boleh dimainkan luar talian"
@@ -104,8 +114,8 @@
   ]
  },
  "howto": {
-  "title": "Cara bermain Mazhobe: Mahjong untuk Dua — peraturan rak 4 jubin",
-  "desc": "Peraturan Mazhobe: Mahjong untuk Dua: jubin bebas, rak 4 slot, pasangan, ais, mangga dan jubin misteri, duel dalam talian, Duet dan tahap harian. Petua untuk menang.",
+  "title": "Cara bermain Mazhobe: Mahjong Solitaire — peraturan rak 4 jubin",
+  "desc": "Peraturan Mazhobe: Mahjong Solitaire: jubin bebas, rak 4 slot, pasangan, ais, mangga dan jubin misteri, tahap harian, duel dalam talian dan Duet. Petua untuk menang.",
   "h1": "Cara bermain",
   "intro": "Mazhobe ialah mahjong solitaire dengan sentuhan baharu: jubin tidak hilang dari papan secara berpasangan — ia masuk ke rak dengan empat slot. Berikut peraturan, mekanik papan dan mod dua pemain.",
   "sections": [

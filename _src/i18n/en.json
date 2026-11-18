@@ -6,16 +6,16 @@
  "native": "English",
  "shots": "en",
  "main": {
-  "title": "Mazhobe: Mahjong for Two — online mahjong duels for Android",
-  "desc": "Free mahjong for two on Android: duel friends online on one board, beat Mazhobe the toad, or team up in Duet. 3000 levels, a 4-tile shelf and a new daily level.",
-  "h1": "Mazhobe: Mahjong for Two",
-  "lead": "Mahjong duels online — with a friend, a random player or Mazhobe, the grumpy toad. Want some quiet? 3000 solo levels are waiting.",
+  "title": "Mazhobe: Mahjong Solitaire — classic tile matching for Android",
+  "desc": "Free classic mahjong solitaire for Android: 3000 levels with a 4-tile shelf, a daily level with a ghost, and online duels with friends or Mazhobe the toad.",
+  "h1": "Mazhobe: Mahjong Solitaire",
+  "lead": "Classic mahjong solitaire: match tile pairs at your own pace — a brain warm-up for any spare minute. Want some company? Duel a friend or Mazhobe, the grumpy toad, online.",
   "cta": "Get it on Google Play",
   "free": "Free · Android",
   "try": "Try it right here: tap free tiles, match pairs on the shelf. Mazhobe is watching.",
   "demo": {
    "win": "Clean win!",
-   "win_text": "That was a warm-up. The game has 3000 levels and online duels.",
+   "win_text": "That was a warm-up. The game has 3000 levels, a daily level and online duels.",
    "lose": "The shelf is full!",
    "lose_text": "Four different tiles — Mazhobe is very pleased with himself.",
    "again": "Play again",
@@ -23,21 +23,16 @@
   },
   "trailer_h": "Trailer",
   "trailer_btn": "Play the trailer",
-  "video_name": "Mazhobe: Mahjong for Two — trailer",
+  "video_name": "Mazhobe: Mahjong Solitaire — trailer",
   "feat_h": "What's inside",
   "features": [
    [
-    "duel",
-    "Online duels",
-    "One board for two: whoever collects more pairs wins. Invite friends from the leaderboard or let the game find an opponent."
+    "calm",
+    "Classic mahjong solitaire",
+    "Match tile pairs at your own pace: 3000 levels and 627 layouts from 22 to 258 tiles. Every deal is checked — it always has a solution."
    ],
    [
-    "mazhobe",
-    "Duel Mazhobe",
-    "No opponent around, or no connection? Play Mazhobe himself — Sleepy, Sly or Reckless. The more reckless he is, the more acorns you win."
-   ],
-   [
-    "play",
+    "relax",
     "A 4-tile shelf",
     "Tiles don't vanish on the board — they go to a shelf with four slots. Two alike make a pair, four different and you lose. Think one move ahead."
    ],
@@ -55,12 +50,27 @@
     "daily",
     "Daily level",
     "One level for everyone each day. The ghost of the day's best player plays right beside you — overtake it for a bonus."
+   ],
+   [
+    "mazhobe",
+    "Duel Mazhobe",
+    "No opponent around, or no connection? Play Mazhobe himself — Sleepy, Sly or Reckless. The more reckless he is, the more acorns you win."
+   ],
+   [
+    "duel",
+    "Online duels",
+    "One board for two: whoever collects more pairs wins. Invite friends from the leaderboard or let the game find an opponent."
+   ],
+   [
+    "streak",
+    "Streaks paint brush shapes",
+    "Match pairs one after another and the tile shards swirl into an enso painted with a brush — a circle, a heart, a star, a spiral and more."
    ]
   ],
   "how_h": "Also in the game",
   "how": [
    "Duet: clear one board together with a shared shelf",
-   "3000 levels, 627 layouts from 22 to 258 tiles",
+   "Mazhobe's shop: finishers and avatars for acorns",
    "Leaderboards, friends, likes and titles from Mazhobe",
    "Google Play Games achievements; progress moves to a new phone",
    "22 languages; levels and duels with Mazhobe work offline"
@@ -104,8 +114,8 @@
   ]
  },
  "howto": {
-  "title": "How to play Mazhobe: Mahjong for Two — rules of the 4-tile shelf",
-  "desc": "Rules of Mazhobe: Mahjong for Two: free tiles, the 4-slot shelf, pairs, ice, locks and mystery tiles, online duels, Duet and the daily level. Tips for winning.",
+  "title": "How to play Mazhobe: Mahjong Solitaire — rules of the 4-tile shelf",
+  "desc": "Rules of Mazhobe: Mahjong Solitaire: free tiles, the 4-slot shelf, pairs, ice, locks and mystery tiles, the daily level, online duels and Duet. Tips for winning.",
   "h1": "How to play",
   "intro": "Mazhobe is mahjong solitaire with a twist: tiles don't disappear from the board in pairs — they go to a shelf with four slots. Here are the rules, the board mechanics and the two-player modes.",
   "sections": [

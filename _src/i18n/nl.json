@@ -6,16 +6,16 @@
  "native": "Nederlands",
  "shots": "en",
  "main": {
-  "title": "Mazhobe: Mahjong voor twee — online mahjongduels voor Android",
-  "desc": "Gratis mahjong voor twee op Android: duel online met vrienden, versla Mazhobe de pad of speel Duet. 3000 levels, plank voor 4 tegels, dagelijks level.",
-  "h1": "Mazhobe: Mahjong voor twee",
-  "lead": "Online mahjongduels — met een vriend, een willekeurige speler of Mazhobe, de chagrijnige pad. Zin in rust? Dan wachten 3000 solo levels op je.",
+  "title": "Mazhobe: Mahjong Solitaire — klassiek mahjong solitaire voor Android",
+  "desc": "Gratis klassiek mahjong solitaire op Android: 3000 levels met een plank voor 4 tegels, een dagelijks level met een spook en online duels met vrienden of Mazhobe de pad.",
+  "h1": "Mazhobe: Mahjong Solitaire",
+  "lead": "Klassiek mahjong solitaire: koppel tegelparen in je eigen tempo — een warming-up voor je brein voor elk vrij moment. Zin in gezelschap? Duel online met een vriend of Mazhobe, de chagrijnige pad.",
   "cta": "Ontdek het op Google Play",
   "free": "Gratis · Android",
   "try": "Probeer het meteen hier: tik op vrije tegels en maak paren op de plank. Mazhobe kijkt mee.",
   "demo": {
    "win": "Zuivere winst!",
-   "win_text": "Dat was een warming-up. Het spel heeft 3000 levels en online duels.",
+   "win_text": "Dat was een warming-up. Het spel heeft 3000 levels, een dagelijks level en online duels.",
    "lose": "De plank is vol!",
    "lose_text": "Vier verschillende tegels — Mazhobe is erg tevreden met zichzelf.",
    "again": "Nog een keer",
@@ -23,21 +23,16 @@
   },
   "trailer_h": "Trailer",
   "trailer_btn": "Trailer afspelen",
-  "video_name": "Mazhobe: Mahjong voor twee — trailer",
+  "video_name": "Mazhobe: Mahjong Solitaire — trailer",
   "feat_h": "Wat zit erin",
   "features": [
    [
-    "duel",
-    "Online duels",
-    "Eén bord voor twee: wie de meeste paren verzamelt, wint. Nodig vrienden uit vanuit de ranglijst of laat het spel een tegenstander zoeken."
+    "calm",
+    "Klassiek mahjong solitaire",
+    "Koppel tegelparen in je eigen tempo: 3000 levels en 627 vormen van 22 tot 258 tegels. Elke deal is gecontroleerd — er is altijd een oplossing."
    ],
    [
-    "mazhobe",
-    "Duel met Mazhobe",
-    "Geen tegenstander in de buurt, of geen verbinding? Speel tegen Mazhobe zelf — Slaperig, Sluw of Roekeloos. Hoe roekelozer hij is, hoe meer eikels je wint."
-   ],
-   [
-    "play",
+    "relax",
     "Een plank voor 4 tegels",
     "Tegels verdwijnen niet van het bord — ze gaan naar een plank met vier plekken. Twee dezelfde vormen een paar, vier verschillende en je verliest. Denk een zet vooruit."
    ],
@@ -55,12 +50,27 @@
     "daily",
     "Level van de dag",
     "Eén level voor iedereen per dag. De geest van de beste speler van de dag speelt vlak naast je — haal hem in voor een bonus."
+   ],
+   [
+    "mazhobe",
+    "Duel met Mazhobe",
+    "Geen tegenstander in de buurt, of geen verbinding? Speel tegen Mazhobe zelf — Slaperig, Sluw of Roekeloos. Hoe roekelozer hij is, hoe meer eikels je wint."
+   ],
+   [
+    "duel",
+    "Online duels",
+    "Eén bord voor twee: wie de meeste paren verzamelt, wint. Nodig vrienden uit vanuit de ranglijst of laat het spel een tegenstander zoeken."
+   ],
+   [
+    "streak",
+    "Reeksen tekenen penseelvormen",
+    "Maak paren achter elkaar en de tegelscherven wervelen tot een enso, met een penseel geschilderd — een cirkel, een hart, een ster, een spiraal en meer."
    ]
   ],
   "how_h": "Ook in het spel",
   "how": [
    "Duet: speel samen één bord leeg met een gedeelde plank",
-   "3000 levels, 627 vormen van 22 tot 258 tegels",
+   "Mazhobes winkel: finishers en avatars voor eikels",
    "Ranglijsten, vrienden, likes en titels van Mazhobe",
    "Prestaties in Google Play Games; je voortgang verhuist mee naar een nieuwe telefoon",
    "22 talen; levels en duels met Mazhobe werken offline"
@@ -104,8 +114,8 @@
   ]
  },
  "howto": {
-  "title": "Mazhobe: Mahjong voor twee spelen — de regels van de plank voor 4 tegels",
-  "desc": "Regels van Mazhobe: Mahjong voor twee: vrije tegels, de plank met 4 plekken, paren, ijs, sloten en raadsels, online duels, Duet en het level van de dag. Tips om te winnen.",
+  "title": "Mazhobe: Mahjong Solitaire spelen — de regels van de plank voor 4 tegels",
+  "desc": "Regels van Mazhobe: Mahjong Solitaire: vrije tegels, de plank met 4 plekken, paren, ijs, sloten en raadsels, het level van de dag, online duels en Duet. Tips om te winnen.",
   "h1": "Zo speel je",
   "intro": "Mazhobe is mahjong solitaire met een twist: tegels verdwijnen niet in paren van het bord — ze gaan naar een plank met vier plekken. Hier zijn de regels, de mechaniek van het bord en de spelmodi voor twee.",
   "sections": [

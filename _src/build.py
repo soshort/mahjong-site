@@ -23,16 +23,16 @@ from pathlib import Path
 
 SITE = "https://mahjong.stepanz.dev"
 PLAY = "https://play.google.com/store/apps/details?id=dev.stepanz.mahjong"
-YT = "HvKxJ-6F2d4"
+YT = "EajhB3lz5TI"
 ROOT = Path(__file__).resolve().parent.parent
 GAME = ROOT.parent / "mahjong"
 HOWTO_FILE = "how-to-play.html"
-DATE = "2026-11-06"
+DATE = "2026-11-18"
 # Иконки мини-игры (пары) и падающих тайлов — номера в атласе игры
 # (shared/tiles/icons.png, tiles.json).
 DEMO_ICONS = [63, 79, 77, 68, 50, 49]
 RAIN_ICONS = [11, 12, 8, 18, 64, 84, 59, 41, 23, 21, 30, 93]
-SHOTS = ["finisher", "duel", "mazhobe", "play", "mechanics", "daily"]
+SHOTS = ["calm", "relax", "finisher", "mechanics", "daily", "mazhobe", "duel", "streak"]
 PLAY_ICON = ('<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" '
              'd="M4 3.5v17a1 1 0 0 0 1.5.86l14-8.5a1 1 0 0 0 0-1.72l-14-8.5A1 1 0 0 0 4 3.5z"/></svg>')
 e = html.escape
@@ -145,8 +145,8 @@ def page(lang: str) -> str:
            "sameAs": [PLAY, "https://youtu.be/" + YT], "author": {"@type": "Person", "name": "Stepan Z"},
            "screenshot": [f"{SITE}/img/{shots}-{k}.webp" for k in SHOTS]}
     video = {"@context": "https://schema.org", "@type": "VideoObject", "name": m["video_name"],
-             "description": m["desc"], "thumbnailUrl": SITE + "/img/trailer.jpg", "uploadDate": "2026-11-05",
-             "duration": "PT36S", "embedUrl": f"https://www.youtube.com/embed/{YT}",
+             "description": m["desc"], "thumbnailUrl": SITE + "/img/trailer.jpg", "uploadDate": "2026-11-18",
+             "duration": "PT35S", "embedUrl": f"https://www.youtube.com/embed/{YT}",
              "contentUrl": f"https://www.youtube.com/watch?v={YT}"}
     faq = d["faq"]
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [

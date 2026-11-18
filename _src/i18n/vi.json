@@ -6,16 +6,16 @@
  "native": "Tiếng Việt",
  "shots": "en",
  "main": {
-  "title": "Mazhobe: Mạt chược 2 người — đấu mạt chược online trên Android",
-  "desc": "Mạt chược miễn phí cho hai người trên Android: đấu online với bạn bè, thắng chú cóc Mazhobe hoặc cùng chơi Song tấu. 3000 màn, kệ 4 ô, màn mới mỗi ngày.",
-  "h1": "Mazhobe: Mạt chược 2 người",
-  "lead": "Đấu mạt chược online — với bạn bè, người chơi ngẫu nhiên hoặc Mazhobe, chú cóc cáu kỉnh. Muốn yên tĩnh một mình? 3000 màn chơi đơn đang chờ bạn.",
+  "title": "Mazhobe: Mạt chược Solitaire — mạt chược solitaire cổ điển cho Android",
+  "desc": "Mạt chược solitaire cổ điển miễn phí trên Android: 3000 màn với kệ 4 ô, màn trong ngày có bóng ma và đấu online với bạn bè hoặc chú cóc Mazhobe.",
+  "h1": "Mazhobe: Mạt chược Solitaire",
+  "lead": "Mạt chược solitaire cổ điển: ghép cặp quân theo nhịp của riêng bạn, bài khởi động cho trí não trong mọi phút rảnh. Muốn có bạn chơi cùng? Đấu online với bạn bè hoặc Mazhobe, chú cóc cáu kỉnh.",
   "cta": "Tải xuống trên Google Play",
   "free": "Miễn phí · Android",
   "try": "Thử ngay tại đây: chạm vào quân đang tự do, ghép cặp trên kệ. Mazhobe đang theo dõi.",
   "demo": {
    "win": "Thắng gọn!",
-   "win_text": "Đó mới chỉ là khởi động. Trò chơi có 3000 màn và đấu online.",
+   "win_text": "Đó mới chỉ là khởi động. Trò chơi có 3000 màn, màn trong ngày và đấu online.",
    "lose": "Kệ đầy rồi!",
    "lose_text": "Bốn quân khác nhau — Mazhobe rất hài lòng với bản thân.",
    "again": "Chơi lại",
@@ -23,21 +23,16 @@
   },
   "trailer_h": "Trailer",
   "trailer_btn": "Xem trailer",
-  "video_name": "Mazhobe: Mạt chược 2 người — trailer",
+  "video_name": "Mazhobe: Mạt chược Solitaire — trailer",
   "feat_h": "Trong game có gì",
   "features": [
    [
-    "duel",
-    "Đấu online",
-    "Một bàn cho hai người: ai ghép được nhiều cặp hơn sẽ thắng. Mời bạn bè từ bảng xếp hạng hoặc để trò chơi tìm đối thủ."
+    "calm",
+    "Mạt chược solitaire cổ điển",
+    "Ghép cặp quân theo nhịp của riêng bạn: 3000 màn và 627 kiểu xếp từ 22 đến 258 quân. Ván nào cũng được kiểm tra — luôn có lời giải."
    ],
    [
-    "mazhobe",
-    "Đấu với Mazhobe",
-    "Không có đối thủ hoặc mất mạng? Hãy chơi với chính Mazhobe — Buồn ngủ, Ranh mãnh hoặc Liều lĩnh. Chú càng liều lĩnh, bạn càng thắng được nhiều hạt sồi."
-   ],
-   [
-    "play",
+    "relax",
     "Kệ 4 ô",
     "Quân không biến mất trên bàn — chúng đi vào kệ có bốn ô. Hai quân giống nhau thành một cặp, bốn quân khác nhau là bạn thua. Hãy nghĩ trước một nước."
    ],
@@ -55,12 +50,27 @@
     "daily",
     "Màn trong ngày",
     "Mỗi ngày một màn chung cho tất cả. Bóng ma của người chơi giỏi nhất trong ngày chơi ngay bên cạnh bạn — vượt qua nó để nhận thưởng."
+   ],
+   [
+    "mazhobe",
+    "Đấu với Mazhobe",
+    "Không có đối thủ hoặc mất mạng? Hãy chơi với chính Mazhobe — Buồn ngủ, Ranh mãnh hoặc Liều lĩnh. Chú càng liều lĩnh, bạn càng thắng được nhiều hạt sồi."
+   ],
+   [
+    "duel",
+    "Đấu online",
+    "Một bàn cho hai người: ai ghép được nhiều cặp hơn sẽ thắng. Mời bạn bè từ bảng xếp hạng hoặc để trò chơi tìm đối thủ."
+   ],
+   [
+    "streak",
+    "Chuỗi ghép vẽ hình bằng cọ",
+    "Ghép cặp liên tiếp, mảnh vỡ quân bài xoáy thành một vòng enso vẽ bằng cọ — hình tròn, trái tim, ngôi sao, hình xoắn ốc và hơn thế nữa."
    ]
   ],
   "how_h": "Còn có trong game",
   "how": [
    "Song tấu: cùng nhau dọn một bàn với kệ dùng chung",
-   "3000 màn, 627 kiểu xếp từ 22 đến 258 quân",
+   "Cửa hàng của Mazhobe: hiệu ứng kết liễu và ảnh đại diện đổi bằng hạt sồi",
    "Bảng xếp hạng, bạn bè, lượt thích và danh hiệu từ Mazhobe",
    "Thành tích Google Play Games; tiến trình chuyển sang điện thoại mới",
    "22 ngôn ngữ; các màn và trận đấu với Mazhobe chơi được khi không có mạng"
@@ -104,8 +114,8 @@
   ]
  },
  "howto": {
-  "title": "Cách chơi Mazhobe: Mạt chược 2 người — luật kệ 4 ô",
-  "desc": "Luật chơi Mazhobe: Mạt chược 2 người: quân tự do, kệ 4 ô, cặp, băng, khóa và bí ẩn, đấu online, Song tấu và màn trong ngày. Mẹo để thắng.",
+  "title": "Cách chơi Mazhobe: Mạt chược Solitaire — luật kệ 4 ô",
+  "desc": "Luật chơi Mazhobe: Mạt chược Solitaire: quân tự do, kệ 4 ô, cặp, băng, khóa và bí ẩn, màn trong ngày, đấu online và Song tấu. Mẹo để thắng.",
   "h1": "Cách chơi",
   "intro": "Mazhobe là mạt chược solitaire với một điểm khác biệt: quân không biến mất khỏi bàn theo từng cặp — chúng đi vào kệ có bốn ô. Dưới đây là luật chơi, cơ chế trên bàn và các chế độ hai người.",
   "sections": [

@@ -6,16 +6,16 @@
  "native": "Português (Brasil)",
  "shots": "en",
  "main": {
-  "title": "Mazhobe: Mahjong para dois — duelos de mahjong online para Android",
-  "desc": "Mahjong grátis para dois no Android: duele online com amigos no mesmo tabuleiro, vença o sapo Mazhobe ou jogue o Dueto. 3000 níveis e um nível novo por dia.",
-  "h1": "Mazhobe: Mahjong para dois",
-  "lead": "Duelos de mahjong online — com um amigo, um jogador aleatório ou o Mazhobe, o sapo rabugento. Quer sossego? 3000 níveis solo esperam por você.",
+  "title": "Mazhobe: Mahjong Solitaire — mahjong solitaire clássico para Android",
+  "desc": "Mahjong solitaire clássico grátis para Android: 3000 níveis com prateleira de 4, nível do dia com fantasma e duelos online com amigos ou o sapo Mazhobe.",
+  "h1": "Mazhobe: Mahjong Solitaire",
+  "lead": "Mahjong solitaire clássico: combine pares de peças no seu ritmo, um aquecimento mental para qualquer minuto livre. Quer companhia? Duele online com um amigo ou o Mazhobe, o sapo rabugento.",
   "cta": "Disponível no Google Play",
   "free": "Grátis · Android",
   "try": "Experimente aqui mesmo: toque nas peças livres e forme pares na prateleira. O Mazhobe está de olho.",
   "demo": {
    "win": "Vitória limpa!",
-   "win_text": "Isso foi só o aquecimento. O jogo tem 3000 níveis e duelos online.",
+   "win_text": "Isso foi só o aquecimento. O jogo tem 3000 níveis, um nível do dia e duelos online.",
    "lose": "A prateleira encheu!",
    "lose_text": "Quatro peças diferentes — o Mazhobe está muito satisfeito consigo mesmo.",
    "again": "Jogar de novo",
@@ -23,21 +23,16 @@
   },
   "trailer_h": "Trailer",
   "trailer_btn": "Assistir ao trailer",
-  "video_name": "Mazhobe: Mahjong para dois — trailer",
+  "video_name": "Mazhobe: Mahjong Solitaire — trailer",
   "feat_h": "O que tem no jogo",
   "features": [
    [
-    "duel",
-    "Duelos online",
-    "Um tabuleiro para dois: vence quem juntar mais pares. Convide amigos pelo ranking ou deixe o jogo encontrar um adversário."
+    "calm",
+    "Mahjong solitaire clássico",
+    "Combine pares de peças no seu ritmo: 3000 níveis e 627 formatos de 22 a 258 peças. Toda distribuição é verificada — sempre tem solução."
    ],
    [
-    "mazhobe",
-    "Duelo com o Mazhobe",
-    "Sem adversário por perto, ou sem conexão? Jogue contra o próprio Mazhobe — Sonolento, Astuto ou Ousado. Quanto mais ousado ele é, mais bolotas você ganha."
-   ],
-   [
-    "play",
+    "relax",
     "Prateleira de 4 peças",
     "As peças não somem do tabuleiro — elas vão para uma prateleira com quatro lugares. Duas iguais formam um par, quatro diferentes e você perde. Pense uma jogada à frente."
    ],
@@ -55,12 +50,27 @@
     "daily",
     "Nível do dia",
     "Um nível para todos por dia. O fantasma do melhor jogador do dia joga bem ao seu lado — ultrapasse-o e ganhe um bônus."
+   ],
+   [
+    "mazhobe",
+    "Duelo com o Mazhobe",
+    "Sem adversário por perto, ou sem conexão? Jogue contra o próprio Mazhobe — Sonolento, Astuto ou Ousado. Quanto mais ousado ele é, mais bolotas você ganha."
+   ],
+   [
+    "duel",
+    "Duelos online",
+    "Um tabuleiro para dois: vence quem juntar mais pares. Convide amigos pelo ranking ou deixe o jogo encontrar um adversário."
+   ],
+   [
+    "streak",
+    "Sequências pintam formas a pincel",
+    "Faça pares um após o outro e os cacos das peças rodopiam num enso pintado a pincel — um círculo, um coração, uma estrela, uma espiral e mais."
    ]
   ],
   "how_h": "Também no jogo",
   "how": [
    "Dueto: limpem um tabuleiro juntos, com a prateleira compartilhada",
-   "3000 níveis, 627 formatos de 22 a 258 peças",
+   "Loja do Mazhobe: golpes finais e avatares por bolotas",
    "Rankings, amigos, curtidas e títulos dados pelo Mazhobe",
    "Conquistas do Google Play Games; o progresso vai para um celular novo",
    "22 idiomas; níveis e duelos com o Mazhobe funcionam offline"
@@ -104,8 +114,8 @@
   ]
  },
  "howto": {
-  "title": "Como jogar Mazhobe: Mahjong para dois — regras da prateleira de 4 peças",
-  "desc": "Regras do Mazhobe: Mahjong para dois: peças livres, prateleira de 4 lugares, pares, gelo, cadeados e mistérios, duelos online, Dueto e nível do dia. Dicas para vencer.",
+  "title": "Como jogar Mazhobe: Mahjong Solitaire — regras da prateleira de 4 peças",
+  "desc": "Regras do Mazhobe: Mahjong Solitaire: peças livres, prateleira de 4 lugares, pares, gelo, cadeados e mistérios, nível do dia, duelos online e Dueto. Dicas para vencer.",
   "h1": "Como jogar",
   "intro": "Mazhobe é um mahjong solitaire com uma reviravolta: as peças não somem do tabuleiro em pares — elas vão para uma prateleira com quatro lugares. Aqui estão as regras, as mecânicas do tabuleiro e os modos para dois jogadores.",
   "sections": [

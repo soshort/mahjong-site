@@ -6,16 +6,16 @@
  "native": "Türkçe",
  "shots": "en",
  "main": {
-  "title": "Mazhobe: İki Kişilik Mahjong — Android için çevrim içi düello",
-  "desc": "Android'de ücretsiz iki kişilik mahjong: arkadaşlarınla çevrim içi düello yap, kurbağa Mazhobe'yi yen ya da Düet oyna. 3000 seviye, 4 taşlık raf, günlük seviye.",
-  "h1": "Mazhobe: İki Kişilik Mahjong",
-  "lead": "Çevrim içi mahjong düelloları — bir arkadaşla, rastgele bir oyuncuyla ya da somurtkan kurbağa Mazhobe ile. Sakin bir şeyler mi istiyorsun? 3000 tek kişilik seviye seni bekliyor.",
+  "title": "Mazhobe: Mahjong Solitaire — Android için klasik mahjong solitaire",
+  "desc": "Android’de ücretsiz klasik mahjong solitaire: 4 taşlık raflı 3000 seviye, hayaletli günlük seviye ve arkadaşlarınla ya da kurbağa Mazhobe ile çevrim içi düello.",
+  "h1": "Mazhobe: Mahjong Solitaire",
+  "lead": "Klasik mahjong solitaire: kendi temponda taş çiftleri eşleştir — her boş dakika için zihin ısınması. Arkadaş mı istiyorsun? Çevrim içi olarak bir arkadaşınla ya da somurtkan kurbağa Mazhobe ile düello yap.",
   "cta": "Google Play'den alın",
   "free": "Ücretsiz · Android",
   "try": "Tam burada dene: serbest taşlara dokun, rafta çiftleri eşleştir. Mazhobe izliyor.",
   "demo": {
    "win": "Tertemiz galibiyet!",
-   "win_text": "Bu sadece ısınmaydı. Oyunda 3000 seviye ve çevrim içi düellolar var.",
+   "win_text": "Bu sadece ısınmaydı. Oyunda 3000 seviye, günlük seviye ve çevrim içi düellolar var.",
    "lose": "Raf doldu!",
    "lose_text": "Dört farklı taş — Mazhobe kendinden çok memnun.",
    "again": "Tekrar oyna",
@@ -23,21 +23,16 @@
   },
   "trailer_h": "Fragman",
   "trailer_btn": "Fragmanı oynat",
-  "video_name": "Mazhobe: İki Kişilik Mahjong — fragman",
+  "video_name": "Mazhobe: Mahjong Solitaire — fragman",
   "feat_h": "İçinde neler var",
   "features": [
    [
-    "duel",
-    "Çevrim içi düellolar",
-    "İki kişiye tek masa: en çok çifti toplayan kazanır. Arkadaşlarını liderler tablosundan davet et ya da oyun rakip bulsun."
+    "calm",
+    "Klasik mahjong solitaire",
+    "Kendi temponda taş çiftleri eşleştir: 3000 seviye ve 22 ila 258 taşlık 627 dizilim. Her dağıtım denetlenir — her zaman bir çözümü vardır."
    ],
    [
-    "mazhobe",
-    "Mazhobe ile düello",
-    "Yakında rakip yok ya da bağlantı mı yok? Doğrudan Mazhobe'ye karşı oyna — Uykulu, Kurnaz ya da Gözü kara. Ne kadar gözü karaysa, o kadar çok meşe palamudu kazanırsın."
-   ],
-   [
-    "play",
+    "relax",
     "4 taşlık raf",
     "Taşlar masada kaybolmaz — dört yerlik bir rafa gider. Aynı iki taş çift olur, dört farklı taş olursa kaybedersin. Bir hamle ilerisini düşün."
    ],
@@ -55,12 +50,27 @@
     "daily",
     "Günün seviyesi",
     "Her gün herkese tek seviye. Günün en iyi oyuncusunun hayaleti hemen yanında oynar — onu geç, bonus kazan."
+   ],
+   [
+    "mazhobe",
+    "Mazhobe ile düello",
+    "Yakında rakip yok ya da bağlantı mı yok? Doğrudan Mazhobe'ye karşı oyna — Uykulu, Kurnaz ya da Gözü kara. Ne kadar gözü karaysa, o kadar çok meşe palamudu kazanırsın."
+   ],
+   [
+    "duel",
+    "Çevrim içi düellolar",
+    "İki kişiye tek masa: en çok çifti toplayan kazanır. Arkadaşlarını liderler tablosundan davet et ya da oyun rakip bulsun."
+   ],
+   [
+    "streak",
+    "Seriler fırçayla şekil çizer",
+    "Çiftleri art arda eşleştir, taş parçaları fırçayla çizilmiş bir ensoya dönüşüp savrulur — daire, kalp, yıldız, spiral ve daha fazlası."
    ]
   ],
   "how_h": "Oyunda ayrıca",
   "how": [
    "Düet: ortak rafla tek bir masayı birlikte temizleyin",
-   "3000 seviye, 22 ila 258 taşlık 627 dizilim",
+   "Mazhobe’nin dükkânı: bitirişler ve avatarlar meşe palamudu karşılığında",
    "Liderler tabloları, arkadaşlar, beğeniler ve Mazhobe'den unvanlar",
    "Google Play Games başarıları; ilerleme yeni telefona taşınır",
    "22 dil; seviyeler ve Mazhobe ile düellolar internetsiz de oynanır"
@@ -104,8 +114,8 @@
   ]
  },
  "howto": {
-  "title": "Mazhobe: İki Kişilik Mahjong nasıl oynanır — 4 taşlık rafın kuralları",
-  "desc": "Mazhobe: İki Kişilik Mahjong kuralları: serbest taşlar, 4 yerlik raf, çiftler, buz, kilitler ve gizemler, çevrim içi düellolar, Düet ve günün seviyesi. Kazanmak için ipuçları.",
+  "title": "Mazhobe: Mahjong Solitaire nasıl oynanır — 4 taşlık rafın kuralları",
+  "desc": "Mazhobe: Mahjong Solitaire kuralları: serbest taşlar, 4 yerlik raf, çiftler, buz, kilitler ve gizemler, günün seviyesi, çevrim içi düellolar ve Düet. Kazanmak için ipuçları.",
   "h1": "Nasıl oynanır",
   "intro": "Mazhobe, bir farkı olan mahjong solitaire: taşlar masadan çiftler halinde kaybolmaz — dört yerlik bir rafa gider. İşte kurallar, masadaki mekanikler ve iki kişilik modlar.",
   "sections": [
