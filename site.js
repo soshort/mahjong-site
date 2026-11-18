@@ -150,7 +150,8 @@
         t.el.className = "tile";
         // Слой — главнее порядка: верхний тайл всегда рисуется поверх
         // нижних (иначе последний нижний вставал вровень с верхним).
-        t.el.style.zIndex = 10 + l * 50 + i;
+        // Правее и ниже — поверх: их грань накрывает бок соседа слева-сверху, как в игре.
+        t.el.style.zIndex = 10 + l * 50 + r * 8 + c * 2;
         t.el.dataset.layer = l;
         t.el.innerHTML = `<img src="${tileUrl(t.icon)}" alt="" draggable="false">`;
         t.el.addEventListener("click", () => tap(t));
