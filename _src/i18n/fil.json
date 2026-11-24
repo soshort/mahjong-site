@@ -29,7 +29,7 @@
    [
     "calm",
     "Klasikong mahjong solitaire",
-    "Magpares ng tile sa sarili mong bilis: 3000 level at 627 ayos mula 22 hanggang 258 tile. Sinuri ang bawat deal — palaging may solusyon."
+    "Magpares ng tile sa sarili mong bilis: 3000 level at 1018 ayos mula 22 hanggang 258 tile. Sinuri ang bawat deal — palaging may solusyon."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Yelo, kandado at misteryo",
-    "Mga nagyeyelong tile, kandadong tanso, pilak at ginto, at isang misteryosong tile na nagpapalipad sa buong board."
+    "Yelo, kandado, misteryo at singsing",
+    "Mga nagyeyelong tile, kandadong tanso, pilak at ginto, isang misteryosong tile na nagpapalipad sa buong board, at isang singsing ng mga tile na umiikot sa bawat galaw. Sa mga level na patong-patong, nagsasama-sama silang lahat sa iisang board."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Nasa laro rin",
   "how": [
    "Duet: magkasamang linisin ang isang board gamit ang iisang estante",
+   "Limang tema ng tile na may sariling background — dagat, matamis, musika, kalawakan at kuwento — na nabubuksan habang naglalaro",
    "Tindahan ni Mazhobe: mga finisher at avatar kapalit ng acorn",
    "Mga leaderboard, kaibigan, likes at mga titulo mula kay Mazhobe",
    "Mga achievement ng Google Play Games; lumilipat ang progreso sa bagong phone",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Paano laruin ang Mazhobe: Mahjong Solitaire — mga patakaran ng estante",
-  "desc": "Mga patakaran ng Mazhobe: Mahjong Solitaire: libreng tile, estanteng may 4 na puwesto, pares, yelo, kandado at misteryo, level ng araw, online na duwelo at Duet. May tips.",
+  "desc": "Mga patakaran ng Mazhobe: Mahjong Solitaire: libreng tile, estanteng may 4 na puwesto, pares, yelo, kandado, misteryo at singsing, level ng araw, online na duwelo at Duet. May tips.",
   "h1": "Paano maglaro",
   "intro": "Ang Mazhobe ay mahjong solitaire na may twist: hindi nawawala ang mga tile sa board nang magkapares — napupunta sila sa estanteng may apat na puwesto. Narito ang mga patakaran, mekanika ng board at mga mode para sa dalawa.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Yelo, kandado at misteryo",
+    "Yelo, kandado, misteryo at singsing",
     [
      "Yelo: hindi makukuha ang nagyeyelong tile hangga't hindi naaalis nang pares ang mga kapitbahay nito — saka mababasag ang yelo.",
      "Kandado: bubukas ang kinandadong tile kapag nakumpleto mo ang pares ng susi ng parehong metal — tanso, pilak o ginto.",
-     "Misteryo: itinatago ng tile na may tandang pananong ang larawan nito. Ilagay ito sa estante: kapag nakatagpo nito ang kambal, wawalisin nito ang buong board nang sabay-sabay; kung hindi, uukupa lang ito ng isang puwesto."
+     "Misteryo: itinatago ng tile na may tandang pananong ang larawan nito. Ilagay ito sa estante: kapag nakatagpo nito ang kambal, wawalisin nito ang buong board nang sabay-sabay; kung hindi, uukupa lang ito ng isang puwesto.",
+     "Singsing: bawat tile na ipinapadala mo sa estante ay iikot ang singsing nang isang hakbang — ang mga tile nito ay dumudulas sa ilalim ng itaas na patong at lumalabas sa mga puwang.",
+     "Mula level 21, ang mga level ay binubuo ng mga patong: ang singsing, yelo, kandado at misteryo ay maaaring magsama sa iisang board."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Yelo, kandado at misteryo sa board"
+  "image_alt": "Yelo, kandado, misteryo at singsing sa board"
  },
  "ui": {
   "howto_link": "Paano maglaro",

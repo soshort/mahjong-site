@@ -29,7 +29,7 @@
    [
     "calm",
     "Mahjong solitaire klasik",
-    "Cocokkan pasangan ubin dengan ritme sendiri: 3000 level dan 627 susunan dari 22 hingga 258 ubin. Setiap pembagian diperiksa — selalu ada jalan keluarnya."
+    "Cocokkan pasangan ubin dengan ritme sendiri: 3000 level dan 1018 susunan dari 22 hingga 258 ubin. Setiap pembagian diperiksa — selalu ada jalan keluarnya."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Es, gembok, dan misteri",
-    "Ubin beku, gembok perunggu, perak, dan emas, serta ubin misteri yang menerbangkan seluruh papan."
+    "Es, gembok, misteri, dan cincin",
+    "Ubin beku, gembok perunggu, perak, dan emas, ubin misteri yang menerbangkan seluruh papan, serta cincin ubin yang berputar setiap langkah. Di level berlapis, semuanya bertemu di satu papan."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Juga di dalam game",
   "how": [
    "Duet: bersihkan satu papan bersama dengan rak yang dipakai bersama",
+   "Lima tema ubin dengan latar sendiri — laut, permen, musik, luar angkasa, dan dongeng — terbuka seiring kamu bermain",
    "Toko Mazhobe: jurus pamungkas dan avatar dengan biji ek",
    "Papan peringkat, teman, suka, dan gelar dari Mazhobe",
    "Pencapaian Google Play Game; progres ikut pindah ke ponsel baru",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Cara main Mazhobe: Mahjong Solitaire — aturan rak 4 ubin",
-  "desc": "Aturan Mazhobe: Mahjong Solitaire: ubin bebas, rak 4 slot, pasangan, es, gembok, dan ubin misteri, level harian, duel online, dan Duet. Tips untuk menang.",
+  "desc": "Aturan Mazhobe: Mahjong Solitaire: ubin bebas, rak 4 slot, pasangan, es, gembok, ubin misteri, dan cincin, level harian, duel online, dan Duet. Tips untuk menang.",
   "h1": "Cara bermain",
   "intro": "Mazhobe adalah mahjong solitaire dengan sentuhan berbeda: ubin tidak hilang dari papan secara berpasangan — ubin masuk ke rak dengan empat slot. Berikut aturan, mekanik papan, dan mode untuk dua pemain.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Es, gembok, dan misteri",
+    "Es, gembok, misteri, dan cincin",
     [
      "Es: ubin beku tidak bisa diambil sampai tetangganya disingkirkan berpasangan — lalu esnya pecah.",
      "Gembok: ubin yang digembok terbuka setelah kamu mengumpulkan sepasang kunci dari logam yang sama — perunggu, perak, atau emas.",
-     "Misteri: ubin bertanda tanya menyembunyikan gambarnya. Taruh di rak: kalau bertemu kembarannya, seluruh papan tersapu sekaligus; kalau tidak, ia hanya memakan satu slot."
+     "Misteri: ubin bertanda tanya menyembunyikan gambarnya. Taruh di rak: kalau bertemu kembarannya, seluruh papan tersapu sekaligus; kalau tidak, ia hanya memakan satu slot.",
+     "Cincin: setiap ubin yang kamu kirim ke rak memutar cincin satu langkah — ubin-ubinnya meluncur ke bawah lapisan atas lalu keluar lewat celah.",
+     "Mulai level 21, level dibangun berlapis: cincin, es, gembok, dan misteri bisa bertemu di satu papan."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Es, gembok, dan misteri di papan"
+  "image_alt": "Es, gembok, misteri, dan cincin di papan"
  },
  "ui": {
   "howto_link": "Cara bermain",

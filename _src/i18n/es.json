@@ -29,7 +29,7 @@
    [
     "calm",
     "Mahjong solitario clásico",
-    "Empareja fichas a tu ritmo: 3000 niveles y 627 formas de 22 a 258 fichas. Cada reparto está comprobado: siempre tiene solución."
+    "Empareja fichas a tu ritmo: 3000 niveles y 1018 formas de 22 a 258 fichas. Cada reparto está comprobado: siempre tiene solución."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Hielo, candados y misterios",
-    "Fichas congeladas, candados de bronce, plata y oro, y una ficha misteriosa que hace volar todo el tablero."
+    "Hielo, candados, misterios y el anillo",
+    "Fichas congeladas, candados de bronce, plata y oro, una ficha misteriosa que hace volar todo el tablero y un anillo de fichas que gira con cada jugada. En los niveles por capas, todo se junta en un mismo tablero."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "También en el juego",
   "how": [
    "Dúo: despejad un tablero entre los dos con un estante compartido",
+   "Cinco temas de fichas con fondos propios —mar, dulces, música, espacio y cuento— que se abren a medida que juegas",
    "La tienda de Mazhobe: remates y avatares por bellotas",
    "Clasificaciones, amigos, me gusta y títulos de Mazhobe",
    "Logros de Google Play Juegos; el progreso se muda a un móvil nuevo",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Cómo jugar a Mazhobe: Mahjong Solitario — reglas del estante de 4",
-  "desc": "Reglas de Mazhobe: Mahjong Solitario: fichas libres, estante de 4 huecos, parejas, hielo, candados y misterio, nivel del día, duelos en línea y Dúo. Consejos para ganar.",
+  "desc": "Reglas de Mazhobe: Mahjong Solitario: fichas libres, estante de 4 huecos, parejas, hielo, candados, misterio y anillo, nivel del día, duelos en línea y Dúo. Consejos para ganar.",
   "h1": "Cómo se juega",
   "intro": "Mazhobe es un solitario de mahjong con un giro: las fichas no desaparecen del tablero por parejas, sino que van a un estante de cuatro huecos. Aquí van las reglas, las mecánicas del tablero y los modos para dos.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Hielo, candados y misterios",
+    "Hielo, candados, misterios y el anillo",
     [
      "Hielo: una ficha congelada no se puede coger hasta que se retiran sus vecinas por parejas; entonces el hielo se rompe.",
      "Candados: una ficha con candado se abre cuando reúnes el par de llaves del mismo metal: bronce, plata u oro.",
-     "Misterio: una ficha con interrogación esconde su dibujo. Ponla en el estante: si se encuentra con su gemela, barre todo el tablero de golpe; si no, solo ocupa un hueco."
+     "Misterio: una ficha con interrogación esconde su dibujo. Ponla en el estante: si se encuentra con su gemela, barre todo el tablero de golpe; si no, solo ocupa un hueco.",
+     "Anillo: cada ficha que mandas al estante mueve el anillo un paso: sus fichas se deslizan bajo la capa superior y salen por los huecos.",
+     "Desde el nivel 21, los niveles se construyen por capas: el anillo, el hielo, los candados y los misterios pueden coincidir en un mismo tablero."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Hielo, candados y misterios en el tablero"
+  "image_alt": "Hielo, candados, misterios y anillo en el tablero"
  },
  "ui": {
   "howto_link": "Cómo se juega",

@@ -29,7 +29,7 @@
    [
     "calm",
     "Klassiek mahjong solitaire",
-    "Koppel tegelparen in je eigen tempo: 3000 levels en 627 vormen van 22 tot 258 tegels. Elke deal is gecontroleerd — er is altijd een oplossing."
+    "Koppel tegelparen in je eigen tempo: 3000 levels en 1018 vormen van 22 tot 258 tegels. Elke deal is gecontroleerd — er is altijd een oplossing."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "IJs, sloten en raadsels",
-    "Bevroren tegels, bronzen, zilveren en gouden sloten, en een raadseltegel die het hele bord laat ontploffen."
+    "IJs, sloten, raadsels en de ring",
+    "Bevroren tegels, bronzen, zilveren en gouden sloten, een raadseltegel die het hele bord laat ontploffen en een ring van tegels die met elke zet draait. Op levels met lagen komen ze allemaal op één bord samen."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Ook in het spel",
   "how": [
    "Duet: speel samen één bord leeg met een gedeelde plank",
+   "Vijf tegelthema's met eigen achtergronden — zee, snoep, muziek, ruimte en sprookje — gaan open terwijl je speelt",
    "Mazhobes winkel: finishers en avatars voor eikels",
    "Ranglijsten, vrienden, likes en titels van Mazhobe",
    "Prestaties in Google Play Games; je voortgang verhuist mee naar een nieuwe telefoon",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Mazhobe: Mahjong Solitaire spelen — de regels van de plank voor 4 tegels",
-  "desc": "Regels van Mazhobe: Mahjong Solitaire: vrije tegels, de plank met 4 plekken, paren, ijs, sloten en raadsels, het level van de dag, online duels en Duet. Tips om te winnen.",
+  "desc": "Regels van Mazhobe: Mahjong Solitaire: vrije tegels, de plank met 4 plekken, paren, ijs, sloten, raadsels en de ring, het level van de dag, online duels en Duet. Tips om te winnen.",
   "h1": "Zo speel je",
   "intro": "Mazhobe is mahjong solitaire met een twist: tegels verdwijnen niet in paren van het bord — ze gaan naar een plank met vier plekken. Hier zijn de regels, de mechaniek van het bord en de spelmodi voor twee.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "IJs, sloten en raadsels",
+    "IJs, sloten, raadsels en de ring",
     [
      "IJs: een bevroren tegel kun je niet pakken voordat de buren in paren zijn weggehaald — dan barst het ijs.",
      "Sloten: een tegel met een slot gaat open als je het sleutelpaar van hetzelfde metaal koppelt — brons, zilver of goud.",
-     "Raadsel: een tegel met een vraagteken verbergt zijn plaatje. Leg hem op de plank: ontmoet hij zijn tweeling, dan veegt hij in één keer het hele bord leeg; zo niet, dan neemt hij gewoon een plek in."
+     "Raadsel: een tegel met een vraagteken verbergt zijn plaatje. Leg hem op de plank: ontmoet hij zijn tweeling, dan veegt hij in één keer het hele bord leeg; zo niet, dan neemt hij gewoon een plek in.",
+     "Ring: elke tegel die je naar de plank stuurt, draait de ring één stap — zijn tegels schuiven onder de bovenste laag en komen in de openingen weer tevoorschijn.",
+     "Vanaf level 21 zijn levels in lagen opgebouwd: de ring, ijs, sloten en raadsels kunnen allemaal op één bord samenkomen."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "IJs, sloten en raadsels op het bord"
+  "image_alt": "IJs, sloten, raadsels en de ring op het bord"
  },
  "ui": {
   "howto_link": "Zo speel je",

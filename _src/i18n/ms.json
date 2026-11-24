@@ -29,7 +29,7 @@
    [
     "calm",
     "Mahjong solitaire klasik",
-    "Padankan pasangan jubin mengikut rentak sendiri: 3000 tahap dan 627 susunan daripada 22 hingga 258 jubin. Setiap agihan disemak — sentiasa ada penyelesaian."
+    "Padankan pasangan jubin mengikut rentak sendiri: 3000 tahap dan 1018 susunan daripada 22 hingga 258 jubin. Setiap agihan disemak — sentiasa ada penyelesaian."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Ais, mangga dan misteri",
-    "Jubin beku, mangga gangsa, perak dan emas, serta jubin misteri yang meletupkan seluruh papan."
+    "Ais, mangga, misteri dan gelang",
+    "Jubin beku, mangga gangsa, perak dan emas, jubin misteri yang meletupkan seluruh papan, serta gelang jubin yang berputar setiap langkah. Pada tahap berlapis, semuanya bertemu di satu papan."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Juga dalam permainan",
   "how": [
    "Duet: bersihkan satu papan bersama dengan rak yang dikongsi",
+   "Lima tema jubin dengan latar sendiri — laut, gula-gula, muzik, angkasa dan dongeng — dibuka semasa kamu bermain",
    "Kedai Mazhobe: serangan penamat dan avatar dengan biji oak",
    "Papan kedudukan, kawan, suka dan gelaran daripada Mazhobe",
    "Pencapaian Google Play Games; kemajuan berpindah ke telefon baharu",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Cara bermain Mazhobe: Mahjong Solitaire — peraturan rak 4 jubin",
-  "desc": "Peraturan Mazhobe: Mahjong Solitaire: jubin bebas, rak 4 slot, pasangan, ais, mangga dan jubin misteri, tahap harian, duel dalam talian dan Duet. Petua untuk menang.",
+  "desc": "Peraturan Mazhobe: Mahjong Solitaire: jubin bebas, rak 4 slot, pasangan, ais, mangga, jubin misteri dan gelang, tahap harian, duel dalam talian dan Duet. Petua untuk menang.",
   "h1": "Cara bermain",
   "intro": "Mazhobe ialah mahjong solitaire dengan sentuhan baharu: jubin tidak hilang dari papan secara berpasangan — ia masuk ke rak dengan empat slot. Berikut peraturan, mekanik papan dan mod dua pemain.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Ais, mangga dan misteri",
+    "Ais, mangga, misteri dan gelang",
     [
      "Ais: jubin beku tidak boleh diambil sehingga jirannya dibuang secara berpasangan — kemudian aisnya retak.",
      "Mangga: jubin berkunci terbuka apabila kamu memadankan sepasang kunci logam yang sama — gangsa, perak atau emas.",
-     "Misteri: jubin bertanda soal menyembunyikan gambarnya. Letakkan di rak: jika bertemu kembarnya, ia menyapu seluruh papan sekali gus; jika tidak, ia hanya memenuhi satu slot."
+     "Misteri: jubin bertanda soal menyembunyikan gambarnya. Letakkan di rak: jika bertemu kembarnya, ia menyapu seluruh papan sekali gus; jika tidak, ia hanya memenuhi satu slot.",
+     "Gelang: setiap jubin yang kamu hantar ke rak memutarkan gelang satu langkah — jubinnya menyelit di bawah lapisan atas dan keluar melalui celah.",
+     "Dari tahap 21, tahap dibina berlapis: gelang, ais, mangga dan misteri boleh bertemu di satu papan."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Ais, mangga dan misteri di papan"
+  "image_alt": "Ais, mangga, misteri dan gelang di papan"
  },
  "ui": {
   "howto_link": "Cara bermain",

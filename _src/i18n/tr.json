@@ -29,7 +29,7 @@
    [
     "calm",
     "Klasik mahjong solitaire",
-    "Kendi temponda taş çiftleri eşleştir: 3000 seviye ve 22 ila 258 taşlık 627 dizilim. Her dağıtım denetlenir — her zaman bir çözümü vardır."
+    "Kendi temponda taş çiftleri eşleştir: 3000 seviye ve 22 ila 258 taşlık 1018 dizilim. Her dağıtım denetlenir — her zaman bir çözümü vardır."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Buz, kilitler ve gizemler",
-    "Donmuş taşlar, bronz, gümüş ve altın kilitler ve bütün masayı havaya uçuran gizem taşı."
+    "Buz, kilitler, gizemler ve halka",
+    "Donmuş taşlar, bronz, gümüş ve altın kilitler, bütün masayı havaya uçuran gizem taşı ve her hamlede dönen bir taş halkası. Katmanlı seviyelerde hepsi aynı masada buluşur."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Oyunda ayrıca",
   "how": [
    "Düet: ortak rafla tek bir masayı birlikte temizleyin",
+   "Kendi arka planlarıyla beş taş teması — deniz, tatlılar, müzik, uzay ve masal — oynadıkça açılır",
    "Mazhobe’nin dükkânı: bitirişler ve avatarlar meşe palamudu karşılığında",
    "Liderler tabloları, arkadaşlar, beğeniler ve Mazhobe'den unvanlar",
    "Google Play Games başarıları; ilerleme yeni telefona taşınır",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Mazhobe: Mahjong Solitaire nasıl oynanır — 4 taşlık rafın kuralları",
-  "desc": "Mazhobe: Mahjong Solitaire kuralları: serbest taşlar, 4 yerlik raf, çiftler, buz, kilitler ve gizemler, günün seviyesi, çevrim içi düellolar ve Düet. Kazanmak için ipuçları.",
+  "desc": "Mazhobe: Mahjong Solitaire kuralları: serbest taşlar, 4 yerlik raf, çiftler, buz, kilitler, gizemler ve halka, günün seviyesi, çevrim içi düellolar ve Düet. Kazanmak için ipuçları.",
   "h1": "Nasıl oynanır",
   "intro": "Mazhobe, bir farkı olan mahjong solitaire: taşlar masadan çiftler halinde kaybolmaz — dört yerlik bir rafa gider. İşte kurallar, masadaki mekanikler ve iki kişilik modlar.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Buz, kilitler ve gizemler",
+    "Buz, kilitler, gizemler ve halka",
     [
      "Buz: donmuş bir taş, komşuları çiftler halinde kaldırılana kadar alınamaz — sonra buz çatlar.",
      "Kilitler: kilitli bir taş, aynı metalden anahtar çiftini eşleştirdiğinde açılır — bronz, gümüş ya da altın.",
-     "Gizem: soru işaretli taş resmini saklar. Rafa koy: ikiziyle buluşursa bütün masayı tek seferde süpürür; buluşmazsa sadece bir yer kaplar."
+     "Gizem: soru işaretli taş resmini saklar. Rafa koy: ikiziyle buluşursa bütün masayı tek seferde süpürür; buluşmazsa sadece bir yer kaplar.",
+     "Halka: rafa gönderdiğin her taş halkayı bir adım döndürür — halkanın taşları üst katmanın altına kayar, boşluklardan çıkar.",
+     "21. seviyeden itibaren seviyeler katmanlı kurulur: halka, buz, kilitler ve gizemler aynı masada buluşabilir."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Masada buz, kilitler ve gizemler"
+  "image_alt": "Masada buz, kilitler, gizemler ve halka"
  },
  "ui": {
   "howto_link": "Nasıl oynanır",

@@ -29,7 +29,7 @@
    [
     "calm",
     "Mahjong solitaire clássico",
-    "Combine pares de peças no seu ritmo: 3000 níveis e 627 formatos de 22 a 258 peças. Toda distribuição é verificada — sempre tem solução."
+    "Combine pares de peças no seu ritmo: 3000 níveis e 1018 formatos de 22 a 258 peças. Toda distribuição é verificada — sempre tem solução."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Gelo, cadeados e mistérios",
-    "Peças congeladas, cadeados de bronze, prata e ouro, e uma peça misteriosa que faz o tabuleiro inteiro voar pelos ares."
+    "Gelo, cadeados, mistérios e o anel",
+    "Peças congeladas, cadeados de bronze, prata e ouro, uma peça misteriosa que faz o tabuleiro inteiro voar pelos ares e um anel de peças que gira a cada jogada. Nos níveis em camadas, tudo isso se encontra no mesmo tabuleiro."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Também no jogo",
   "how": [
    "Dueto: limpem um tabuleiro juntos, com a prateleira compartilhada",
+   "Cinco temas de peças com fundos próprios — mar, doces, música, espaço e conto de fadas — vão sendo liberados conforme você joga",
    "Loja do Mazhobe: golpes finais e avatares por bolotas",
    "Rankings, amigos, curtidas e títulos dados pelo Mazhobe",
    "Conquistas do Google Play Games; o progresso vai para um celular novo",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Como jogar Mazhobe: Mahjong Solitaire — regras da prateleira de 4 peças",
-  "desc": "Regras do Mazhobe: Mahjong Solitaire: peças livres, prateleira de 4 lugares, pares, gelo, cadeados e mistérios, nível do dia, duelos online e Dueto. Dicas para vencer.",
+  "desc": "Regras do Mazhobe: Mahjong Solitaire: peças livres, prateleira de 4 lugares, pares, gelo, cadeados, mistérios e anel, nível do dia, duelos online e Dueto. Dicas para vencer.",
   "h1": "Como jogar",
   "intro": "Mazhobe é um mahjong solitaire com uma reviravolta: as peças não somem do tabuleiro em pares — elas vão para uma prateleira com quatro lugares. Aqui estão as regras, as mecânicas do tabuleiro e os modos para dois jogadores.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Gelo, cadeados e mistérios",
+    "Gelo, cadeados, mistérios e o anel",
     [
      "Gelo: uma peça congelada não pode ser pega até as vizinhas serem removidas em pares — aí o gelo racha.",
      "Cadeados: uma peça com cadeado abre quando você combina o par de chaves do mesmo metal — bronze, prata ou ouro.",
-     "Mistério: uma peça com ponto de interrogação esconde a imagem. Coloque-a na prateleira: se encontrar a gêmea, varre o tabuleiro inteiro de uma vez; se não, só ocupa um lugar."
+     "Mistério: uma peça com ponto de interrogação esconde a imagem. Coloque-a na prateleira: se encontrar a gêmea, varre o tabuleiro inteiro de uma vez; se não, só ocupa um lugar.",
+     "Anel: cada peça que você manda para a prateleira gira o anel um passo — as peças dele deslizam para baixo da camada de cima e saem pelos vãos.",
+     "A partir do nível 21, os níveis são montados em camadas: o anel, o gelo, os cadeados e os mistérios podem se encontrar no mesmo tabuleiro."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Gelo, cadeados e mistérios no tabuleiro"
+  "image_alt": "Gelo, cadeados, mistérios e anel no tabuleiro"
  },
  "ui": {
   "howto_link": "Como jogar",

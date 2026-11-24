@@ -29,7 +29,7 @@
    [
     "calm",
     "Mahjong solitaire classique",
-    "Assemble des paires de tuiles à ton rythme : 3000 niveaux et 627 formes de 22 à 258 tuiles. Chaque donne est vérifiée : elle a toujours une solution."
+    "Assemble des paires de tuiles à ton rythme : 3000 niveaux et 1018 formes de 22 à 258 tuiles. Chaque donne est vérifiée : elle a toujours une solution."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Glace, cadenas et mystères",
-    "Des tuiles gelées, des cadenas de bronze, d'argent et d'or, et une tuile mystère qui fait voler tout le plateau en éclats."
+    "Glace, cadenas, mystères et l'anneau",
+    "Des tuiles gelées, des cadenas de bronze, d'argent et d'or, une tuile mystère qui fait voler tout le plateau en éclats et un anneau de tuiles qui tourne à chaque coup. Sur les niveaux construits en couches, tout cela se retrouve sur un même plateau."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Aussi dans le jeu",
   "how": [
    "Duo : dégagez un plateau ensemble avec une étagère commune",
+   "Cinq thèmes de tuiles avec leurs propres fonds — mer, sucreries, musique, espace et conte — s'ouvrent au fil du jeu",
    "La boutique de Mazhobe : coups de grâce et avatars contre des glands",
    "Classements, amis, mentions J'aime et titres décernés par Mazhobe",
    "Succès Google Play Jeux ; la progression te suit sur un nouveau téléphone",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Comment jouer à Mazhobe : Mahjong Solitaire — règles de l'étagère de 4",
-  "desc": "Règles de Mazhobe : Mahjong Solitaire : tuiles libres, étagère de 4 places, paires, glace, cadenas et mystères, niveau du jour, duels en ligne et Duo. Conseils pour gagner.",
+  "desc": "Règles de Mazhobe : Mahjong Solitaire : tuiles libres, étagère de 4 places, paires, glace, cadenas, mystères et anneau, niveau du jour, duels en ligne et Duo. Conseils pour gagner.",
   "h1": "Comment jouer",
   "intro": "Mazhobe est un solitaire mahjong avec une particularité : les tuiles ne disparaissent pas du plateau par paires, elles vont sur une étagère à quatre places. Voici les règles, les mécaniques du plateau et les modes à deux.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Glace, cadenas et mystères",
+    "Glace, cadenas, mystères et l'anneau",
     [
      "Glace : une tuile gelée ne peut pas être prise tant que ses voisines ne sont pas retirées par paires ; alors la glace se brise.",
      "Cadenas : une tuile cadenassée s'ouvre quand tu réunis la paire de clés du même métal — bronze, argent ou or.",
-     "Mystère : une tuile marquée d'un point d'interrogation cache son image. Mets-la sur l'étagère : si elle y retrouve sa jumelle, elle balaie tout le plateau d'un coup ; sinon, elle occupe simplement une place."
+     "Mystère : une tuile marquée d'un point d'interrogation cache son image. Mets-la sur l'étagère : si elle y retrouve sa jumelle, elle balaie tout le plateau d'un coup ; sinon, elle occupe simplement une place.",
+     "Anneau : chaque tuile que tu envoies sur l'étagère fait avancer l'anneau d'un cran — ses tuiles glissent sous la couche du dessus et ressortent dans les trous.",
+     "Dès le niveau 21, les niveaux sont construits en couches : l'anneau, la glace, les cadenas et les mystères peuvent se retrouver sur un même plateau."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Glace, cadenas et mystères sur le plateau"
+  "image_alt": "Glace, cadenas, mystères et anneau sur le plateau"
  },
  "ui": {
   "howto_link": "Comment jouer",

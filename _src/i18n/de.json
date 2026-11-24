@@ -29,7 +29,7 @@
    [
     "calm",
     "Klassisches Mahjong-Solitär",
-    "Finde Steinpaare in deinem eigenen Tempo: 3000 Level und 627 Formen von 22 bis 258 Steinen. Jede Runde ist geprüft – sie hat immer eine Lösung."
+    "Finde Steinpaare in deinem eigenen Tempo: 3000 Level und 1018 Formen von 22 bis 258 Steinen. Jede Runde ist geprüft – sie hat immer eine Lösung."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Eis, Schlösser und Rätsel",
-    "Eingefrorene Steine, Schlösser aus Bronze, Silber und Gold und ein Rätselstein, der das ganze Feld auseinanderfliegen lässt."
+    "Eis, Schlösser, Rätsel und der Ring",
+    "Eingefrorene Steine, Schlösser aus Bronze, Silber und Gold, ein Rätselstein, der das ganze Feld auseinanderfliegen lässt, und ein Ring aus Steinen, der sich mit jedem Zug dreht. Auf Levels mit mehreren Ebenen treffen sie alle auf einem Feld zusammen."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Außerdem im Spiel",
   "how": [
    "Duett: ein Feld gemeinsam mit geteilter Ablage abräumen",
+   "Fünf Steinthemen mit eigenen Hintergründen – Meer, Süßigkeiten, Musik, Weltraum und Märchen – schaltest du beim Spielen frei",
    "Mazhobes Laden: Finisher und Avatare für Eicheln",
    "Bestenlisten, Freunde, Likes und Titel von Mazhobe",
    "Erfolge in Google Play Spiele; der Fortschritt zieht aufs neue Handy um",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "So spielt man Mazhobe: Mahjong Solitär – Regeln der 4er-Ablage",
-  "desc": "Regeln von Mazhobe: Mahjong Solitär: freie Steine, Ablage mit 4 Plätzen, Paare, Eis, Schlösser und Rätselsteine, Tageslevel, Online-Duelle und Duett. Tipps zum Sieg.",
+  "desc": "Regeln von Mazhobe: Mahjong Solitär: freie Steine, Ablage mit 4 Plätzen, Paare, Eis, Schlösser, Rätselsteine und der Ring, Tageslevel, Online-Duelle und Duett. Tipps zum Sieg.",
   "h1": "So wird gespielt",
   "intro": "Mazhobe ist Mahjong-Solitär mit einem Dreh: Die Steine verschwinden nicht paarweise vom Feld – sie wandern auf eine Ablage mit vier Plätzen. Hier findest du die Regeln, die Feldmechaniken und die Zweispielermodi.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Eis, Schlösser und Rätsel",
+    "Eis, Schlösser, Rätsel und der Ring",
     [
      "Eis: Ein gefrorener Stein lässt sich nicht nehmen, bis seine Nachbarn paarweise abgeräumt sind – dann bricht das Eis.",
      "Schlösser: Ein verschlossener Stein öffnet sich, sobald du das Schlüsselpaar desselben Metalls zusammenbringst – Bronze, Silber oder Gold.",
-     "Rätsel: Ein Stein mit Fragezeichen verbirgt sein Bild. Leg ihn auf die Ablage: Trifft er seinen Zwilling, fegt er das ganze Feld auf einmal leer; wenn nicht, belegt er nur einen Platz."
+     "Rätsel: Ein Stein mit Fragezeichen verbirgt sein Bild. Leg ihn auf die Ablage: Trifft er seinen Zwilling, fegt er das ganze Feld auf einmal leer; wenn nicht, belegt er nur einen Platz.",
+     "Ring: Jeder Stein, den du auf die Ablage schickst, dreht den Ring einen Schritt weiter – seine Steine schieben sich unter die obere Schicht und kommen in den Lücken wieder heraus.",
+     "Ab Level 21 sind die Level in Schichten aufgebaut: Ring, Eis, Schlösser und Rätsel können alle auf einem Feld zusammentreffen."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Eis, Schlösser und Rätsel auf dem Feld"
+  "image_alt": "Eis, Schlösser, Rätsel und der Ring auf dem Feld"
  },
  "ui": {
   "howto_link": "So wird gespielt",

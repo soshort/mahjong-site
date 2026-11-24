@@ -29,7 +29,7 @@
    [
     "calm",
     "Mahjong solitario classico",
-    "Abbina coppie di tessere con i tuoi tempi: 3000 livelli e 627 forme da 22 a 258 tessere. Ogni mano è controllata: ha sempre una soluzione."
+    "Abbina coppie di tessere con i tuoi tempi: 3000 livelli e 1018 forme da 22 a 258 tessere. Ogni mano è controllata: ha sempre una soluzione."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Ghiaccio, lucchetti e misteri",
-    "Tessere congelate, lucchetti di bronzo, d'argento e d'oro, e una tessera misteriosa che fa volare via tutto il tavolo."
+    "Ghiaccio, lucchetti, misteri e l'anello",
+    "Tessere congelate, lucchetti di bronzo, d'argento e d'oro, una tessera misteriosa che fa volare via tutto il tavolo e un anello di tessere che gira a ogni mossa. Nei livelli a strati si incontrano tutti sullo stesso tavolo."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Nel gioco c'è anche",
   "how": [
    "Duetto: liberate un tavolo insieme con una mensola in comune",
+   "Cinque temi per le tessere con sfondi tutti loro — mare, dolci, musica, spazio e fiaba — si aprono giocando",
    "Il negozio di Mazhobe: colpi finali e avatar in cambio di ghiande",
    "Classifiche, amici, mi piace e titoli assegnati da Mazhobe",
    "Obiettivi di Google Play Giochi; i progressi ti seguono su un nuovo telefono",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Come si gioca a Mazhobe: Mahjong Solitario — regole della mensola da 4",
-  "desc": "Regole di Mazhobe: Mahjong Solitario: tessere libere, mensola da 4 posti, coppie, ghiaccio, lucchetti e misteri, livello del giorno, duelli online e Duetto. Consigli per vincere.",
+  "desc": "Regole di Mazhobe: Mahjong Solitario: tessere libere, mensola da 4 posti, coppie, ghiaccio, lucchetti, misteri e anello, livello del giorno, duelli online e Duetto. Consigli per vincere.",
   "h1": "Come si gioca",
   "intro": "Mazhobe è un solitario mahjong con una particolarità: le tessere non spariscono dal tavolo a coppie, ma finiscono su una mensola con quattro posti. Ecco le regole, le meccaniche del tavolo e le modalità per due.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Ghiaccio, lucchetti e misteri",
+    "Ghiaccio, lucchetti, misteri e l'anello",
     [
      "Ghiaccio: una tessera congelata non si può prendere finché le sue vicine non sono state tolte a coppie; allora il ghiaccio si rompe.",
      "Lucchetti: una tessera con il lucchetto si apre quando riunisci la coppia di chiavi dello stesso metallo: bronzo, argento o oro.",
-     "Mistero: una tessera con il punto interrogativo nasconde il suo disegno. Mettila sulla mensola: se incontra la sua gemella, spazza via tutto il tavolo in un colpo; altrimenti occupa solo un posto."
+     "Mistero: una tessera con il punto interrogativo nasconde il suo disegno. Mettila sulla mensola: se incontra la sua gemella, spazza via tutto il tavolo in un colpo; altrimenti occupa solo un posto.",
+     "Anello: ogni tessera che mandi sulla mensola fa girare l'anello di un passo: le sue tessere scivolano sotto lo strato superiore e riemergono negli spazi liberi.",
+     "Dal livello 21 i livelli sono costruiti a strati: anello, ghiaccio, lucchetti e misteri possono incontrarsi sullo stesso tavolo."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Ghiaccio, lucchetti e misteri sul tavolo"
+  "image_alt": "Ghiaccio, lucchetti, misteri e anello sul tavolo"
  },
  "ui": {
   "howto_link": "Come si gioca",

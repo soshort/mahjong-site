@@ -29,7 +29,7 @@
    [
     "calm",
     "Mạt chược solitaire cổ điển",
-    "Ghép cặp quân theo nhịp của riêng bạn: 3000 màn và 627 kiểu xếp từ 22 đến 258 quân. Ván nào cũng được kiểm tra — luôn có lời giải."
+    "Ghép cặp quân theo nhịp của riêng bạn: 3000 màn và 1018 kiểu xếp từ 22 đến 258 quân. Ván nào cũng được kiểm tra — luôn có lời giải."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Băng, khóa và bí ẩn",
-    "Quân đóng băng, khóa đồng, bạc và vàng, cùng quân bí ẩn làm cả bàn bay tung."
+    "Băng, khóa, bí ẩn và vòng",
+    "Quân đóng băng, khóa đồng, bạc và vàng, quân bí ẩn làm cả bàn bay tung, và một vòng quân xoay theo từng nước đi. Ở các màn xếp theo lớp, tất cả gặp nhau trên cùng một bàn."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Còn có trong game",
   "how": [
    "Song tấu: cùng nhau dọn một bàn với kệ dùng chung",
+   "Năm chủ đề quân với nền riêng — biển, kẹo ngọt, âm nhạc, vũ trụ và cổ tích — mở dần khi bạn chơi",
    "Cửa hàng của Mazhobe: hiệu ứng kết liễu và ảnh đại diện đổi bằng hạt sồi",
    "Bảng xếp hạng, bạn bè, lượt thích và danh hiệu từ Mazhobe",
    "Thành tích Google Play Games; tiến trình chuyển sang điện thoại mới",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "Cách chơi Mazhobe: Mạt chược Solitaire — luật kệ 4 ô",
-  "desc": "Luật chơi Mazhobe: Mạt chược Solitaire: quân tự do, kệ 4 ô, cặp, băng, khóa và bí ẩn, màn trong ngày, đấu online và Song tấu. Mẹo để thắng.",
+  "desc": "Luật chơi Mazhobe: Mạt chược Solitaire: quân tự do, kệ 4 ô, cặp, băng, khóa, bí ẩn và vòng, màn trong ngày, đấu online và Song tấu. Mẹo để thắng.",
   "h1": "Cách chơi",
   "intro": "Mazhobe là mạt chược solitaire với một điểm khác biệt: quân không biến mất khỏi bàn theo từng cặp — chúng đi vào kệ có bốn ô. Dưới đây là luật chơi, cơ chế trên bàn và các chế độ hai người.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Băng, khóa và bí ẩn",
+    "Băng, khóa, bí ẩn và vòng",
     [
      "Băng: quân bị đóng băng không lấy được cho đến khi các quân bên cạnh được dọn theo cặp — khi đó băng nứt ra.",
      "Khóa: quân bị khóa sẽ mở khi bạn ghép cặp chìa cùng kim loại — đồng, bạc hoặc vàng.",
-     "Bí ẩn: quân có dấu hỏi giấu hình của nó. Đặt nó lên kệ: nếu gặp quân song sinh, nó quét sạch cả bàn cùng lúc; nếu không, nó chỉ chiếm một ô."
+     "Bí ẩn: quân có dấu hỏi giấu hình của nó. Đặt nó lên kệ: nếu gặp quân song sinh, nó quét sạch cả bàn cùng lúc; nếu không, nó chỉ chiếm một ô.",
+     "Vòng: mỗi quân bạn đưa lên kệ làm vòng xoay một nấc — các quân của vòng trượt xuống dưới lớp trên rồi chui ra ở các khe hở.",
+     "Từ màn 21, các màn được xếp theo lớp: vòng, băng, khóa và bí ẩn có thể gặp nhau trên cùng một bàn."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Băng, khóa và bí ẩn trên bàn"
+  "image_alt": "Băng, khóa, bí ẩn và vòng trên bàn"
  },
  "ui": {
   "howto_link": "Cách chơi",

@@ -29,7 +29,7 @@
    [
     "calm",
     "Classic mahjong solitaire",
-    "Match tile pairs at your own pace: 3000 levels and 627 layouts from 22 to 258 tiles. Every deal is checked — it always has a solution."
+    "Match tile pairs at your own pace: 3000 levels and 1018 layouts from 22 to 258 tiles. Every deal is checked — it always has a solution."
    ],
    [
     "relax",
@@ -43,8 +43,8 @@
    ],
    [
     "mechanics",
-    "Ice, locks and mysteries",
-    "Frozen tiles, bronze, silver and gold locks, and a mystery tile that blows the whole board apart."
+    "Ice, locks, mysteries and the ring",
+    "Frozen tiles, bronze, silver and gold locks, a mystery tile that blows the whole board apart and a ring of tiles that turns with every move. On layered levels they all meet on one board."
    ],
    [
     "daily",
@@ -70,6 +70,7 @@
   "how_h": "Also in the game",
   "how": [
    "Duet: clear one board together with a shared shelf",
+   "Five tile themes with their own backgrounds — sea, sweets, music, space and fairy tale — open as you play",
    "Mazhobe's shop: finishers and avatars for acorns",
    "Leaderboards, friends, likes and titles from Mazhobe",
    "Google Play Games achievements; progress moves to a new phone",
@@ -115,7 +116,7 @@
  },
  "howto": {
   "title": "How to play Mazhobe: Mahjong Solitaire — rules of the 4-tile shelf",
-  "desc": "Rules of Mazhobe: Mahjong Solitaire: free tiles, the 4-slot shelf, pairs, ice, locks and mystery tiles, the daily level, online duels and Duet. Tips for winning.",
+  "desc": "Rules of Mazhobe: Mahjong Solitaire: free tiles, the 4-slot shelf, pairs, ice, locks, mystery tiles and the ring, the daily level, online duels and Duet. Tips for winning.",
   "h1": "How to play",
   "intro": "Mazhobe is mahjong solitaire with a twist: tiles don't disappear from the board in pairs — they go to a shelf with four slots. Here are the rules, the board mechanics and the two-player modes.",
   "sections": [
@@ -147,11 +148,13 @@
     ]
    ],
    [
-    "Ice, locks and mysteries",
+    "Ice, locks, mysteries and the ring",
     [
      "Ice: a frozen tile can't be taken until its neighbours are cleared in pairs — then the ice cracks.",
      "Locks: a locked tile opens once you match the pair of keys of the same metal — bronze, silver or gold.",
-     "Mystery: a tile with a question mark hides its picture. Put it on the shelf: if it meets its twin, it sweeps the whole board at once; if not, it just takes up a slot."
+     "Mystery: a tile with a question mark hides its picture. Put it on the shelf: if it meets its twin, it sweeps the whole board at once; if not, it just takes up a slot.",
+     "Ring: every tile you send to the shelf turns the ring one step — its tiles slide under the top layer and come out in the gaps.",
+     "From level 21 levels are built in layers: the ring, ice, locks and mysteries can all meet on one board."
     ]
    ],
    [
@@ -190,7 +193,7 @@
     ]
    ]
   ],
-  "image_alt": "Ice, locks and mysteries on the board"
+  "image_alt": "Ice, locks, mysteries and the ring on the board"
  },
  "ui": {
   "howto_link": "How to play",
