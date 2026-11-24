@@ -23,11 +23,11 @@ from pathlib import Path
 
 SITE = "https://mahjong.stepanz.dev"
 PLAY = "https://play.google.com/store/apps/details?id=dev.stepanz.mahjong"
-YT = "EajhB3lz5TI"
+YT = "jJtRhSpjbx8"
 ROOT = Path(__file__).resolve().parent.parent
 GAME = ROOT.parent / "mahjong"
 HOWTO_FILE = "how-to-play.html"
-DATE = "2026-11-18"
+DATE = "2026-11-24"
 # Иконки мини-игры (пары) и падающих тайлов — номера в атласе игры
 # (shared/tiles/icons.png, tiles.json).
 DEMO_ICONS = [63, 79, 77, 68, 50, 49]
@@ -145,8 +145,8 @@ def page(lang: str) -> str:
            "sameAs": [PLAY, "https://youtu.be/" + YT], "author": {"@type": "Person", "name": "Stepan Z"},
            "screenshot": [f"{SITE}/img/{shots}-{k}.webp" for k in SHOTS]}
     video = {"@context": "https://schema.org", "@type": "VideoObject", "name": m["video_name"],
-             "description": m["desc"], "thumbnailUrl": SITE + "/img/trailer.jpg", "uploadDate": "2026-11-18",
-             "duration": "PT35S", "embedUrl": f"https://www.youtube.com/embed/{YT}",
+             "description": m["desc"], "thumbnailUrl": SITE + "/img/trailer.jpg", "uploadDate": "2026-11-24",
+             "duration": "PT36S", "embedUrl": f"https://www.youtube.com/embed/{YT}",
              "contentUrl": f"https://www.youtube.com/watch?v={YT}"}
     faq = d["faq"]
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
